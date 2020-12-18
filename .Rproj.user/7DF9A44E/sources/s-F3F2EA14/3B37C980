@@ -1,0 +1,24 @@
+{
+    "id": "3B37C980",
+    "path": "~/Documents/GitHub/source/config.toml",
+    "project_path": "config.toml",
+    "type": "toml",
+    "hash": "2340814526",
+    "contents": "",
+    "dirty": false,
+    "created": 1608278282509.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "cursorPosition": "19,0",
+        "scrollLine": "8"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1608278753,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1608278753931,
+    "read_only": false,
+    "read_only_alternatives": []
+}

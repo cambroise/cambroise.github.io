@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://cambroise.github.io/sitemap.xml
