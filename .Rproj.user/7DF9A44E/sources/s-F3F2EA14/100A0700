@@ -1,0 +1,24 @@
+{
+    "id": "100A0700",
+    "path": "~/Documents/GitHub/source/config/_default/menus.toml",
+    "project_path": "config/_default/menus.toml",
+    "type": "toml",
+    "hash": "3537766721",
+    "contents": "",
+    "dirty": false,
+    "created": 1608304063934.0,
+    "source_on_save": false,
+    "relative_order": 24,
+    "properties": {
+        "cursorPosition": "6,15",
+        "scrollLine": "2"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1608304119,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1608304119856,
+    "read_only": false,
+    "read_only_alternatives": []
+}
