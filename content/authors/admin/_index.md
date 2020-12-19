@@ -1,49 +1,41 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: My research interests include machine learning, statistics in high-dimension and applications in medicine and genomics.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-email: ""
+  - course: PhD in applied statistics  from the University of Technology of Compiègne (France)
+    year: 1996
+  - course: Master of science from the Cranfield Institute of Technology (UK).
+    year: 1993
+  - course: Engineer from the University of Technology of Compiègne (UTC, France)
+    year: 1993
+email: "christophe.ambroise@univ-evry.fr"
 highlight_name: false
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Machine learning
+- Graphical models inference
+- Model based clustering
+- High-dimensional statistics
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: Univervisté d'Évry Val d'Essonne
+  url: https://www.univ-evry.fr/
+role: Professor of Statistics
 social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
 - icon: graduation-cap
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=t2SxgaEAAAAJ&hl=fr
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/cambroise
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/
 superuser: true
-title: Nelson Bighetti
+title: Christophe Ambroise
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am  professor of statistics at Univeristy of Evry val d'Essone. My research interests include machine learning, statistics in high-dimension and applications in medicine and genomics. I lead the Statistic and Genome groug of the Laboratory of mathematic and modeling of Evry val d'Essone.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
