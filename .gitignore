@@ -3,6 +3,5 @@
 
 # Hugo
 /resources/
-docs/
-.Rproj.user
+.Rproj.user/
 .Rhistory
