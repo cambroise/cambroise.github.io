@@ -1,16 +1,16 @@
 # Theme metadata
-name = "1950s"
+name = "2020s"
 
 # Is theme light or dark?
 light = true
 
 # Primary
-primary = "#EF525B"
+primary = "#b51922"
 
 # Menu
-menu_primary = "#1C6E73"
+menu_primary = "#10686e"
 menu_text = "#fff"
-menu_text_active = "#00828B"
+menu_text_active = "#EF525B"
 menu_title = "#fff"
 
 # Backgrounds
