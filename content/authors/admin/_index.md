@@ -41,5 +41,5 @@ title: Christophe Ambroise
 I am  professor of statistics at Univeristy of Evry val d'Essone. My research interests include machine learning, statistics in high-dimension and applications in medicine and genomics. I lead the Statistic and Genome group of the Laboratory of mathematic and modeling of Evry val d'Essone.
 
 
-
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume-cambroise.pdf" "newtab" >}}resumé{{< /staticref >}}.
+
