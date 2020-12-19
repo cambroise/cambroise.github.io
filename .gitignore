@@ -3,4 +3,6 @@
 
 # Hugo
 /resources/
-public/
+docs/
+.Rproj.user
+.Rhistory
