@@ -42,4 +42,4 @@ I am  professor of statistics at Univeristy of Evry val d'Essone. My research in
 
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume-cambroise.pdf" "newtab" >}}resumé{{< /staticref >}}.
