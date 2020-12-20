@@ -1,0 +1,18 @@
+# Theme metadata
+name = "2020s"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#2482b5"
+
+# Menu
+menu_primary = "#ab5300"
+menu_text = "#fff"
+menu_text_active = "#2482b5"
+menu_title = "#fff"
+
+# Backgrounds
+
+font = "rose"
