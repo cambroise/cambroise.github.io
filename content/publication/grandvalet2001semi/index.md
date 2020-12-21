@@ -1,8 +1,8 @@
 ---
 authors: 
-- "Grandvalet, Y."
-- "Ambroise, C."
-- "others, ."
+- Grandvalet Y 
+- Ambroise C 
+- others  
 date: 2001-01-01
 title: " Semi-supervised marginboost "
 publication_types:

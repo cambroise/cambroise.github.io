@@ -1,8 +1,8 @@
 ---
 authors: 
-- "Chiquet, J."
-- "Grandvalet, Y."
-- "Ambroise, C."
+- Chiquet J 
+- Grandvalet Y 
+- Ambroise C 
 date: 2011-01-01
 title: " Inferring multiple graphical structures "
 publication: " Statistics and Computing "

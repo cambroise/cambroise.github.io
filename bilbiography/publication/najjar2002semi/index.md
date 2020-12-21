@@ -1,8 +1,8 @@
 ---
 authors: 
-- "Najjar, M."
-- "Cocquerez, J."
-- "Ambroise, C."
+- Najjar M 
+- Cocquerez J 
+- Ambroise C 
 date: 2002-01-01
 title: " A Semi-supervised Learning Approach to Image Retrieval "
 publication_types:

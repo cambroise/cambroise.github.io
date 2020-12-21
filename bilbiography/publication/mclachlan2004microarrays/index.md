@@ -1,8 +1,8 @@
 ---
 authors: 
-- "McLachlan, G."
-- "Do, K."
-- "Ambroise, C."
+- McLachlan G 
+- Do K 
+- Ambroise C 
 date: 2004-01-01
 title: " Microarrays in gene expression studies "
 publication: " Analyzing Microarray Gene Expression Data "

@@ -1,7 +1,7 @@
 ---
 authors: 
-- "Ambroise, C."
-- "Grandvalet, Y."
+- Ambroise C 
+- Grandvalet Y 
 date: 2001-01-01
 title: " Prediction of ozone peaks by mixture models "
 publication: " Ecological modelling "

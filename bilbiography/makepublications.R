@@ -32,9 +32,9 @@ process.bibentry<-function(entry,path="./publication/"){
      write("authors: ",file=filename,append=T)
      authors<-unlist(lapply(entry$author,
                             function(x) 
-                              paste(x$family,", ",
-                                    str_sub(x$given[1],1,1),".",sep="")))
-     for (author in authors) write(paste("- ",'"',author,'"',sep=""),file=filename, append=T)
+                              paste(x$family," ",
+                                    str_sub(x$given[1],1,1)," ",sep="")))
+     for (author in authors) write(paste("- ",author,sep=""),file=filename, append=T)
    }
    
    if (!is.null(entry$year)) {

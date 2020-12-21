@@ -1,8 +1,8 @@
 ---
 authors: 
-- "Dehman, A."
-- "Ambroise, C."
-- "Neuvial, P."
+- Dehman A 
+- Ambroise C 
+- Neuvial P 
 date: 2013-01-01
 title: " Incorporating linkage disequilibrium blocks in Genome-Wide Association Studies "
 publication: " Volume PR{e}SENTATIONS ORALES "

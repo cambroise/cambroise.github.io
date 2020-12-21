@@ -1,7 +1,7 @@
 ---
 authors: 
-- "Ambroise, C."
-- "Govaert, G."
+- Ambroise C 
+- Govaert G 
 date: 2012-01-01
 title: " Clustering by maximizing a fuzzy "
 publication_types:

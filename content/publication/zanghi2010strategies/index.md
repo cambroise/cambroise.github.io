@@ -1,9 +1,9 @@
 ---
 authors: 
-- "Zanghi, H."
-- "Picard, F."
-- "Miele, V."
-- "Ambroise, C."
+- Zanghi H 
+- Picard F 
+- Miele V 
+- Ambroise C 
 date: 2010-01-01
 title: " Strategies for online inference of model-based clustering in large and growing networks "
 publication: " The Annals of Applied Statistics "

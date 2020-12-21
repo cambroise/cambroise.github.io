@@ -1,8 +1,8 @@
 ---
 authors: 
-- "d'Alche-Buc, F."
-- "Grandvalet, Y."
-- "Ambroise, C."
+- d'Alche-Buc F 
+- Grandvalet Y 
+- Ambroise C 
 date: 2001-01-01
 title: " Semi-supervised marginboost "
 publication: " Advances in neural information processing systems "

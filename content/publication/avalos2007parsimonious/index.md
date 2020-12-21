@@ -1,8 +1,8 @@
 ---
 authors: 
-- "Avalos, M."
-- "Grandvalet, Y."
-- "Ambroise, C."
+- Avalos M 
+- Grandvalet Y 
+- Ambroise C 
 date: 2007-01-01
 title: " Parsimonious additive models "
 publication: " Computational statistics & data analysis "

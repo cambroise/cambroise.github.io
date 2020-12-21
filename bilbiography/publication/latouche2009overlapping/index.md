@@ -1,8 +1,8 @@
 ---
 authors: 
-- "Latouche, P."
-- "Birmele, E."
-- "Ambroise, C."
+- Latouche P 
+- Birmele E 
+- Ambroise C 
 date: 2009-01-01
 title: " Overlapping stochastic block models "
 publication: " arXiv preprint arXiv:0910.2098 "
