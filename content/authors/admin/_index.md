@@ -18,7 +18,7 @@ interests:
 - Model based clustering
 - High-dimensional statistics
 organizations:
-- name: Univervisté d'Évry Val d'Essonne
+- name: Université d'Évry Val d'Essonne
   url: https://www.univ-evry.fr/
 role: Professor of Statistics
 social:

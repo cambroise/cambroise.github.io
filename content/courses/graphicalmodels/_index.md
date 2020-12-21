@@ -2,21 +2,32 @@
 date: "2018-09-09T00:00:00Z"
 draft: false
 lastmod: "2018-09-09T00:00:00Z"
-linktitle: An Example Course
+linktitle: Graphical Models
 menu:
-  example:
+  graphicalmodels:
     name: Overview
     weight: 1
-summary: Learn how to use Academic's docs layout for publishing online courses, software
-  documentation, and tutorials.
+summary: Introduction to graphical models (*in construction*)
 title: Overview
 toc: true
 type: docs
 weight: 1
 ---
 
-## Flexibility
+## Test a local link
+<!---
+{{< icon name="download" pack="fas" >}}  my {{< staticref "media/resume-cambroise.pdf" "newtab" >}}resumé{{< /staticref >}}.
+--->
 
+
+[Queens University](https://www.queensu.ca)
+
+<a   href="example1.md"> bibi </a>
+
+## Flexibility 
+http://127.0.0.1:4321/courses/graphicalmodels/example1.md
+http://127.0.0.1:4321/courses/graphicalmodels/example1/
+http://127.0.0.1:4321/courses/graphicalmodels/example1.md
 This feature can be used for publishing content such as:
 
 * **Online courses**

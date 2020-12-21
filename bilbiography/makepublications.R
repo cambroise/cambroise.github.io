@@ -2,7 +2,10 @@
 library(bibtex)
 library(hash)
 library(stringr)
-        
+##############################        
+# Just input bibentry to modify or add 
+#   in the bibfile
+#############################@
 bibfile.orig<-"google.bib"
 x <- readLines(bibfile.orig)
 y <- str_remove_all(x,"\\\\'" )
@@ -17,9 +20,9 @@ bibfile<-"google-clean.bib"
 #bibfile<-"test.bib"
 
 mypubs<-read.bib(bibfile)
-dir.create('publication')
+dir.create('../content/publication')
 
-process.bibentry<-function(entry,path="./publication/"){
+process.bibentry<-function(entry,path="../content/publication/"){
   # Get the key, associated dir and cite.bib
    key<-entry$key
    dir.create(paste(path,key,sep=""))
