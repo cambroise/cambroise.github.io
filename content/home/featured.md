@@ -2,14 +2,14 @@
 # An instance of the Featured widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: featured
-active: false
+active: true
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
-weight: 60
+weight: 45
 
-title: Preprint
+title: Preprints
 subtitle: ""
 
 content:
@@ -18,11 +18,8 @@ content:
   # Choose how many pages you would like to display (0 = all pages)
   count: 0
   # Filter on criteria
-  filters:
-    author: ""
-    category: ""
-    publication_type: ""
-    tag: ""
+  filter:
+    - publication_type: 3
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 
@@ -32,5 +29,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 3
+  view: 4
 ---

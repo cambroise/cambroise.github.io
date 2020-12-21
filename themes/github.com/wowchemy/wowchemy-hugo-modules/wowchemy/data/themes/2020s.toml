@@ -5,12 +5,12 @@ name = "2020s"
 light = true
 
 # Primary
-primary = "#EF525B"
+primary = "#de1520"
 
 # Menu
-menu_primary = "#10686e"
+menu_primary = "#09373b"
 menu_text = "#fff"
-menu_text_active = "#EF525B"
+menu_text_active = "#ddd"
 menu_title = "#fff"
 
 # Backgrounds
