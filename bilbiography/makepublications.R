@@ -1,9 +1,20 @@
 
 library(bibtex)
 library(hash)
+library(stringr)
+        
+bibfile.orig<-"google.bib"
+x <- readLines(bibfile.orig)
+y <- str_remove_all(x,"\\\\'" )
+y <- str_remove_all(y,"\\\\`" )
+y <- str_remove_all(y,'\\\\"' )
+y <- str_replace_all(y, '\\\\&','&' )
+#y <- str_remove_all(y, '\\H' )
 
-#bibfile<-"google.bib"
-bibfile<-"test.bib"
+
+cat(y, file="google-clean.bib", sep="\n")
+bibfile<-"google-clean.bib"
+#bibfile<-"test.bib"
 
 mypubs<-read.bib(bibfile)
 dir.create('publication')
@@ -19,16 +30,20 @@ process.bibentry<-function(entry,path="./publication/"){
    write("---", filename)
    if (!is.null(entry$author)) {
      write("authors: ",file=filename,append=T)
-     authors<-format(entry$author,style="text")
-     for (author in authors) write(paste("-",author),file=filename, append=T)
+     authors<-unlist(lapply(entry$author,
+                            function(x) 
+                              paste(x$family,", ",
+                                    str_sub(x$given[1],1,1),".",sep="")))
+     for (author in authors) write(paste("- ",'"',author,'"',sep=""),file=filename, append=T)
    }
    
    if (!is.null(entry$year)) {
+     
      write(paste("date: ",entry$year,"-01-01",sep=""),file=filename,append=T)
    }
    
    if (!is.null(entry$title)) {
-     write(paste("title:",entry$title),file=filename,append=T)
+     write(paste("title:",'"',entry$title,'"'),file=filename,append=T)
    }
    
    if (!is.null(entry$doi)) {
@@ -36,8 +51,8 @@ process.bibentry<-function(entry,path="./publication/"){
    }
    
    if (!is.null(entry$journal)) {
-     write(paste("publication:",entry$journal),file=filename,append=T)
-     if  (strsplit(entry$journal,' ')[[1]][1]=="arXiv") {
+     write(paste("publication:",'"',entry$journal,'"'),file=filename,append=T)
+     if  ((strsplit(entry$journal,' ')[[1]][1]=="arXiv")| (strsplit(entry$journal,' ')[[1]][1]=="bioRxiv")){
        if (abs(as.numeric(substring(date(),21,24))-as.numeric(entry$year))<3){
        write("featured: true",filename,append=T)}
      }
@@ -66,4 +81,4 @@ process.bibentry<-function(entry,path="./publication/"){
    
 }
 
-
+lapply(mypubs,process.bibentry)
