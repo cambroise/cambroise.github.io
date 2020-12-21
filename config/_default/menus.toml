@@ -23,6 +23,11 @@
   url = "courses/"
   weight = 60
 
+[[main]]
+  name = "Co-workers"
+  url = "co-workers/"
+  weight = 60
+
 
 #[[main]]
 #  name = "Posts"
