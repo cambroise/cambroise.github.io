@@ -46,5 +46,5 @@ I am  professor of statistics at University of Evry val d'Essone. My research in
 {{< icon name="download" pack="fas" >}}  my {{< staticref "media/resume-cambroise.pdf" "newtab" >}}resumé{{< /staticref >}}.
 -->
 
-{{< icon name="book-reader" pack="fas" >}}   {{< staticref "https://scholar.google.com/citations?user=t2SxgaEAAAAJ&hl=fr">}}  Google scholar{{< /staticref >}}.
+{{< icon name="google-scholar" pack="ai" >}}   {{< staticref "https://scholar.google.com/citations?user=t2SxgaEAAAAJ&hl=fr">}} my Google scholar{{< /staticref >}}.
 
