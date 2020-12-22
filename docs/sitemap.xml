@@ -3,18 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://cambroise.github.io/courses/graphicalmodels/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cambroise.github.io/courses/graphicalmodels/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cambroise.github.io/courses/graphicalmodels/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -342,11 +332,6 @@
   </url>
   
   <url>
-    <loc>https://cambroise.github.io/courses/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc></loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
@@ -494,6 +479,11 @@
   <url>
     <loc></loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cambroise.github.io/courses/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1439,6 +1429,10 @@
   <url>
     <loc>https://cambroise.github.io/publication-type/3/</loc>
     <lastmod>1996-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
   </url>
   
 </urlset>

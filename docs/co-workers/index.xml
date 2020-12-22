@@ -1,16 +1,99 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Co-Workers | Christophe Ambroise</title>
+    <title>Co-workers | Christophe Ambroise</title>
     <link>https://cambroise.github.io/co-workers/</link>
       <atom:link href="https://cambroise.github.io/co-workers/index.xml" rel="self" type="application/rss+xml" />
-    <description>Co-Workers</description>
+    <description>Co-workers</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
       <url>https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
-      <title>Co-Workers</title>
+      <title>Co-workers</title>
       <link>https://cambroise.github.io/co-workers/</link>
     </image>
+    
+    <item>
+      <title>Co-Workers</title>
+      <link>https://cambroise.github.io/co-workers/students/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/co-workers/students/</guid>
+      <description>&lt;h2 id=&#34;phd-students&#34;&gt;PhD Students&lt;/h2&gt;
+&lt;h3 id=&#34;present&#34;&gt;Present&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Edmond Sanou (2019- , co-sup. with Geneviève Robin)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;past&#34;&gt;Past&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/antoinebichat/?originalSubdomain=fr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antoine Bichat&lt;/a&gt; (cop-sup with Mahendra Mariadassou)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Arthur Frouin (with Edith LeFloch and Jean-François Deleuze)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Raphaelle Momal&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Florent Guinot (with Marie Szafranski)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Virginie Stanislas (with Cyril Dalmasso). 
+  &lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt;   &lt;a href=&#34;https://www.biblio.univ-evry.fr/theses/2017/2017SACLE040.pdf&#34;&gt;  PhD &lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Arthur Frouin en co-encadrement&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Micheline Najjar,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Marta Avalos,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Allou Samé,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nasser Charkaoui,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Karim Yousfi,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hugo Zanghi,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pierre Latouche (co-sup with Etienne Birmelé). 
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt;   &lt;a href=&#34;https://tel.archives-ouvertes.fr/tel-00623088/document&#34;&gt;  PhD &lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Camille Charbonnier,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Marine Jeanmougin,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Matthieu Bouaziz&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jonathan Plassais (co-sup. with Julien Chiquet)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Alia Dehman (with  Pierre Neuvial)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jean-Michel Bécu (with Yves Grandvalet)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://cambroise.github.io/co-workers/copyofexperience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/co-workers/copyofexperience/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
