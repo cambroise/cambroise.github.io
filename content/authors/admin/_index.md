@@ -40,7 +40,7 @@ authors: Christophe Ambroise
 user_groups: ["Researchers"] 
 ---
 
-I am  professor of statistics at University of Evry val d'Essone. My research interests include machine learning, statistics in high-dimension and applications in medicine and genomics. I lead the Statistic and Genome group of the Laboratory of mathematic and modeling of Evry val d'Essone.
+I am  professor of statistics at University of Evry val d'Essone. My research interests include machine learning, statistics in high-dimension and applications in medicine and genomics. I lead the [Statistic and Genome group](http://www.math-evry.cnrs.fr/sg/welcome) of the [LaMME](http://www.math-evry.cnrs.fr/doku.php) (Laboratory of Mathematic and Modeling of Evry val d'Essone).
 
 <!-- 
 {{< icon name="download" pack="fas" >}}  my {{< staticref "media/resume-cambroise.pdf" "newtab" >}}resumé{{< /staticref >}}.
