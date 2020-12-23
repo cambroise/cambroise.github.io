@@ -24,8 +24,17 @@ subtitle: Past and present
 ### Past
 
 - [Antoine Bichat](https://www.linkedin.com/in/antoinebichat/?originalSubdomain=fr), statistician at Servier (2017-2020,  with Mahendra Mariadassou)
+  * Prise en compte de l’organisation hiérarchique des espèces pour la découverte de signatures métagénomiques multi-échelles
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/co-workers/thesis/a-bichat-phd.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 - [Raphaelle Momal](https://rmomal.github.io/) (2017-2020 with Stéphane Robin)
   * Network inference from incomplete abundance data 
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/co-workers/thesis/r-momal-phd.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
   
 - Arthur Frouin (2016-2020 with  Edith Lefloch and  Jean-François Deleuze)
   * Apport des  méthodes statistiques multivariées  à la prédiction d'une
