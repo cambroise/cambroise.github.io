@@ -1,0 +1,45 @@
+Hi @damonlynch, I see you are making good progress on your website 👍🏻. Let me reply in two parts:
+
+1. Using external icon sets (e.g. Academicons)
+
+You simply need to include the respective stylesheet; in your case, that would be
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+in the <head>-tag of your site.
+
+To achieve this, you may create a layouts/partials/custom_head.html in your site's root directory containing this line:
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+With the stylesheet available you can then use the icons as it is described on their website, i.e., using <i>-tags like
+
+<i class="ai ai-google-scholar-square"></i>
+in your .html-content.
+
+If you want to use icons in .md-files, you could enable HTML-rendering via adding
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+to your config.toml.
+
+2. What's built-in?
+
+You are correct, this is a little bit of a hidden feature at the moment 😸, but as you already saw, there is an icon on the header of the start page. This theme currently includes font-awesome v4.0.3 for that purpose. You can check out https://fontawesome.com/v4.7.0/cheatsheet/ for a list of all icons.
+
+You can use all those icons in .html via <i>-tags <i class="fa fa-envelope"></i>. Again, if you want to use theme in .md-files, you need to enable unsafe-rendering for markdown, see above.
+
+2.5 😅 Future Work
+
+To make using icons in .md-files a lot nicer / user-friendly, we could introduce a shortcode. Then, you would not need to enable unsafe-rendering and could write something like
+
+{{< i class="fa fa-envelope">}} Mail me!
+in your usual .md-file.
+
+You can add this functionality locally by creating a layouts/shortcodes/i.html-file with the following content:
+
+{{ with .Get "class" }}<i class="{{ . }}"></i>{{ end }}
+I hope that helps 😄 . Let me know if this works for you.
+
+Kind regards,
+Jan
