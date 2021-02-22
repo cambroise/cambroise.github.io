@@ -41,6 +41,30 @@
     </item>
     
     <item>
+      <title> AI-based mobile application for antibiotic resistance testing </title>
+      <link>https://cambroise.github.io/publication/pascucci2021/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/pascucci2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> metaVaR: introducing metavariant species models for reference-free metagenomic-based population genomics </title>
+      <link>https://cambroise.github.io/publication/laso2020metavar/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/laso2020metavar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Tree-based Inference of Species Interaction Networks from Abundance Data </title>
+      <link>https://cambroise.github.io/publication/momal2020tree/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/momal2020tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title> Accounting for missing actors in interaction network inference from abundance data </title>
       <link>https://cambroise.github.io/publication/momal2020accounting/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -97,14 +121,6 @@
     </item>
     
     <item>
-      <title> The first AI-based mobile application for antibiotic resistance testing </title>
-      <link>https://cambroise.github.io/publication/pascucci2020first/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/pascucci2020first/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Writing technical content in Academic</title>
       <link>https://cambroise.github.io/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
@@ -132,7 +148,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-164293875&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-147296583&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -142,7 +158,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-164293875&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-147296583&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -582,26 +598,10 @@ Three
     </item>
     
     <item>
-      <title> Linking Allele-Specific Expression And Natural Selection In Wild Populations </title>
-      <link>https://cambroise.github.io/publication/laso2019linking/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/laso2019linking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title> Systematic analysis of TruSeq, SMARTer and SMARTer Ultra-Low RNA-seq kits for standard, low and ultra-low quantity samples </title>
       <link>https://cambroise.github.io/publication/palomares2019systematic/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://cambroise.github.io/publication/palomares2019systematic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Tree-based Inference of Species Interaction Network from Abundance Data </title>
-      <link>https://cambroise.github.io/publication/momal2019tree/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/momal2019tree/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,36 @@
     <link>https://cambroise.github.io/publication/</link>
       <atom:link href="https://cambroise.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://cambroise.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title> AI-based mobile application for antibiotic resistance testing </title>
+      <link>https://cambroise.github.io/publication/pascucci2021/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/pascucci2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> metaVaR: introducing metavariant species models for reference-free metagenomic-based population genomics </title>
+      <link>https://cambroise.github.io/publication/laso2020metavar/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/laso2020metavar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Tree-based Inference of Species Interaction Networks from Abundance Data </title>
+      <link>https://cambroise.github.io/publication/momal2020tree/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/momal2020tree/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title> Accounting for missing actors in interaction network inference from abundance data </title>
@@ -69,14 +93,6 @@
     </item>
     
     <item>
-      <title> The first AI-based mobile application for antibiotic resistance testing </title>
-      <link>https://cambroise.github.io/publication/pascucci2020first/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/pascucci2020first/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title> A generalized statistical framework to assess mixing ability from incomplete mixing designs using binary or higher order variety mixtures and application to wheat </title>
       <link>https://cambroise.github.io/publication/forst2019generalized/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -109,26 +125,10 @@
     </item>
     
     <item>
-      <title> Linking Allele-Specific Expression And Natural Selection In Wild Populations </title>
-      <link>https://cambroise.github.io/publication/laso2019linking/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/laso2019linking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title> Systematic analysis of TruSeq, SMARTer and SMARTer Ultra-Low RNA-seq kits for standard, low and ultra-low quantity samples </title>
       <link>https://cambroise.github.io/publication/palomares2019systematic/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://cambroise.github.io/publication/palomares2019systematic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Tree-based Inference of Species Interaction Network from Abundance Data </title>
-      <link>https://cambroise.github.io/publication/momal2019tree/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/momal2019tree/</guid>
       <description></description>
     </item>
     
