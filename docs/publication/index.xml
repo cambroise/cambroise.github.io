@@ -2,829 +2,829 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Christophe Ambroise</title>
-    <link>https://cambroise.github.io/publication/</link>
-      <atom:link href="https://cambroise.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication/</link>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
-      <link>https://cambroise.github.io/publication/</link>
+      <link>/publication/</link>
     </image>
     
     <item>
       <title> AI-based mobile application for antibiotic resistance testing </title>
-      <link>https://cambroise.github.io/publication/pascucci2021/</link>
+      <link>/publication/pascucci2021/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/pascucci2021/</guid>
+      <guid>/publication/pascucci2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hierarchical correction of p-values via a tree running Ornstein-Uhlenbeck process}, keywords={toappear  </title>
-      <link>https://cambroise.github.io/publication/bichat2021hierarchical/</link>
+      <link>/publication/bichat2021hierarchical/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/bichat2021hierarchical/</guid>
+      <guid>/publication/bichat2021hierarchical/</guid>
       <description></description>
     </item>
     
     <item>
       <title> metaVaR: introducing metavariant species models for reference-free metagenomic-based population genomics </title>
-      <link>https://cambroise.github.io/publication/laso2020metavar/</link>
+      <link>/publication/laso2020metavar/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/laso2020metavar/</guid>
+      <guid>/publication/laso2020metavar/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Tree-based Inference of Species Interaction Networks from Abundance Data </title>
-      <link>https://cambroise.github.io/publication/momal2020tree/</link>
+      <link>/publication/momal2020tree/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/momal2020tree/</guid>
+      <guid>/publication/momal2020tree/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Accounting for missing actors in interaction network inference from abundance data </title>
-      <link>https://cambroise.github.io/publication/momal2020accounting/</link>
+      <link>/publication/momal2020accounting/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/momal2020accounting/</guid>
+      <guid>/publication/momal2020accounting/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Exploring the link between additive heritability and prediction accuracy from a ridge regression perspective </title>
-      <link>https://cambroise.github.io/publication/frouin2020exploring/</link>
+      <link>/publication/frouin2020exploring/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/frouin2020exploring/</guid>
+      <guid>/publication/frouin2020exploring/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Fast computation of genome-metagenome interaction effects </title>
-      <link>https://cambroise.github.io/publication/guinot2020fast/</link>
+      <link>/publication/guinot2020fast/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/guinot2020fast/</guid>
+      <guid>/publication/guinot2020fast/</guid>
       <description></description>
     </item>
     
     <item>
       <title> High heritability does not imply accurate prediction under the small additive effects hypothesis </title>
-      <link>https://cambroise.github.io/publication/frouin2020high/</link>
+      <link>/publication/frouin2020high/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/frouin2020high/</guid>
+      <guid>/publication/frouin2020high/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Incorporating Phylogenetic Information in Microbiome Differential Abundance Studies Has No Effect on Detection Power and FDR Control </title>
-      <link>https://cambroise.github.io/publication/bichat2020incorporating/</link>
+      <link>/publication/bichat2020incorporating/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/bichat2020incorporating/</guid>
+      <guid>/publication/bichat2020incorporating/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Investigating population-scale allelic differential expression in wild populations of Oithona similis (Cyclopoida, Claus, 1866) </title>
-      <link>https://cambroise.github.io/publication/laso2020investigating/</link>
+      <link>/publication/laso2020investigating/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/laso2020investigating/</guid>
+      <guid>/publication/laso2020investigating/</guid>
       <description></description>
     </item>
     
     <item>
       <title> PPanGGOLiN: Depicting microbial diversity via a partitioned pangenome graph </title>
-      <link>https://cambroise.github.io/publication/gautreau2020ppanggolin/</link>
+      <link>/publication/gautreau2020ppanggolin/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/gautreau2020ppanggolin/</guid>
+      <guid>/publication/gautreau2020ppanggolin/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A generalized statistical framework to assess mixing ability from incomplete mixing designs using binary or higher order variety mixtures and application to wheat </title>
-      <link>https://cambroise.github.io/publication/forst2019generalized/</link>
+      <link>/publication/forst2019generalized/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/forst2019generalized/</guid>
+      <guid>/publication/forst2019generalized/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Adjacency-constrained hierarchical clustering of a band similarity matrix with application to genomics </title>
-      <link>https://cambroise.github.io/publication/ambroise2019adjacency/</link>
+      <link>/publication/ambroise2019adjacency/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2019adjacency/</guid>
+      <guid>/publication/ambroise2019adjacency/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Applications in Genomics </title>
-      <link>https://cambroise.github.io/publication/robin2019applications/</link>
+      <link>/publication/robin2019applications/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/robin2019applications/</guid>
+      <guid>/publication/robin2019applications/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Incomplete graphical model inference via latent tree aggregation </title>
-      <link>https://cambroise.github.io/publication/robin2019incomplete/</link>
+      <link>/publication/robin2019incomplete/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/robin2019incomplete/</guid>
+      <guid>/publication/robin2019incomplete/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Systematic analysis of TruSeq, SMARTer and SMARTer Ultra-Low RNA-seq kits for standard, low and ultra-low quantity samples </title>
-      <link>https://cambroise.github.io/publication/palomares2019systematic/</link>
+      <link>/publication/palomares2019systematic/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/palomares2019systematic/</guid>
+      <guid>/publication/palomares2019systematic/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clarifying the role of DNA methylation in tree phenotypic plasticity </title>
-      <link>https://cambroise.github.io/publication/sow2018clarifying/</link>
+      <link>/publication/sow2018clarifying/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/sow2018clarifying/</guid>
+      <guid>/publication/sow2018clarifying/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Epigenetics in forest trees: state of the art and potential implications for breeding and management in a context of climate change </title>
-      <link>https://cambroise.github.io/publication/sow2018epigenetics/</link>
+      <link>/publication/sow2018epigenetics/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/sow2018epigenetics/</guid>
+      <guid>/publication/sow2018epigenetics/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Estimation of mixing ability for variety mixtures: Statistical models and experimental results </title>
-      <link>https://cambroise.github.io/publication/forst2018estimation/</link>
+      <link>/publication/forst2018estimation/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/forst2018estimation/</guid>
+      <guid>/publication/forst2018estimation/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Learning the optimal scale for GWAS through hierarchical SNP aggregation </title>
-      <link>https://cambroise.github.io/publication/guinot2018learning/</link>
+      <link>/publication/guinot2018learning/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/guinot2018learning/</guid>
+      <guid>/publication/guinot2018learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Quantify Genomic Heritability Through a Prediction Measure </title>
-      <link>https://cambroise.github.io/publication/frouin2018quantify/</link>
+      <link>/publication/frouin2018quantify/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/frouin2018quantify/</guid>
+      <guid>/publication/frouin2018quantify/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Beyond support in two-stage variable selection </title>
-      <link>https://cambroise.github.io/publication/becu2017beyond/</link>
+      <link>/publication/becu2017beyond/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/becu2017beyond/</guid>
+      <guid>/publication/becu2017beyond/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Eigen-epistasis for detecting gene-gene interactions </title>
-      <link>https://cambroise.github.io/publication/stanislas2017eigen/</link>
+      <link>/publication/stanislas2017eigen/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/stanislas2017eigen/</guid>
+      <guid>/publication/stanislas2017eigen/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Estimating Narrow-Sense Heritability with Ridge Regression </title>
-      <link>https://cambroise.github.io/publication/frouin2017estimating/</link>
+      <link>/publication/frouin2017estimating/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/frouin2017estimating/</guid>
+      <guid>/publication/frouin2017estimating/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Quantify Genomic Heritability Through a Prediction Measure </title>
-      <link>https://cambroise.github.io/publication/frouin2017quantify/</link>
+      <link>/publication/frouin2017quantify/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/frouin2017quantify/</guid>
+      <guid>/publication/frouin2017quantify/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A greedy great approach to learn with complementary structured datasets </title>
-      <link>https://cambroise.github.io/publication/chiquet2015greedy/</link>
+      <link>/publication/chiquet2015greedy/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/chiquet2015greedy/</guid>
+      <guid>/publication/chiquet2015greedy/</guid>
       <description></description>
     </item>
     
     <item>
       <title> AB0004 Characterization of Putative Pre-RA Signatures by Transcriptome Analysis </title>
-      <link>https://cambroise.github.io/publication/petit2015ab0004/</link>
+      <link>/publication/petit2015ab0004/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/petit2015ab0004/</guid>
+      <guid>/publication/petit2015ab0004/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Performance of a blockwise approach in variable selection using linkage disequilibrium information </title>
-      <link>https://cambroise.github.io/publication/dehman2015performance/</link>
+      <link>/publication/dehman2015performance/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/dehman2015performance/</guid>
+      <guid>/publication/dehman2015performance/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Significance testing for variable selection in high-dimension </title>
-      <link>https://cambroise.github.io/publication/becu2015significance/</link>
+      <link>/publication/becu2015significance/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/becu2015significance/</guid>
+      <guid>/publication/becu2015significance/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Model selection in overlapping stochastic block models </title>
-      <link>https://cambroise.github.io/publication/latouche2014model/</link>
+      <link>/publication/latouche2014model/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/latouche2014model/</guid>
+      <guid>/publication/latouche2014model/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Overlapping clustering methods for networks </title>
-      <link>https://cambroise.github.io/publication/latouche2014overlapping/</link>
+      <link>/publication/latouche2014overlapping/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/latouche2014overlapping/</guid>
+      <guid>/publication/latouche2014overlapping/</guid>
       <description></description>
     </item>
     
     <item>
       <title> BP 529 F-60205 Compi{e}gne cedea-France </title>
-      <link>https://cambroise.github.io/publication/ambroise2013bp/</link>
+      <link>/publication/ambroise2013bp/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2013bp/</guid>
+      <guid>/publication/ambroise2013bp/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Incorporating linkage disequilibrium blocks in Genome-Wide Association Studies </title>
-      <link>https://cambroise.github.io/publication/dehman2013incorporating/</link>
+      <link>/publication/dehman2013incorporating/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/dehman2013incorporating/</guid>
+      <guid>/publication/dehman2013incorporating/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering by maximizing a fuzzy </title>
-      <link>https://cambroise.github.io/publication/ambroise2012clustering/</link>
+      <link>/publication/ambroise2012clustering/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2012clustering/</guid>
+      <guid>/publication/ambroise2012clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Discriminant analysis </title>
-      <link>https://cambroise.github.io/publication/mclachlan2012discriminant/</link>
+      <link>/publication/mclachlan2012discriminant/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/mclachlan2012discriminant/</guid>
+      <guid>/publication/mclachlan2012discriminant/</guid>
       <description></description>
     </item>
     
     <item>
       <title> SHIPS: spectral hierarchical clustering for the inference of population structure </title>
-      <link>https://cambroise.github.io/publication/bouaziz2012ships/</link>
+      <link>/publication/bouaziz2012ships/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/bouaziz2012ships/</guid>
+      <guid>/publication/bouaziz2012ships/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Sparsity by Worst-Case Penalties </title>
-      <link>https://cambroise.github.io/publication/grandvalet2012sparsity/</link>
+      <link>/publication/grandvalet2012sparsity/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/grandvalet2012sparsity/</guid>
+      <guid>/publication/grandvalet2012sparsity/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Variational Bayesian inference and complexity control for stochastic block models </title>
-      <link>https://cambroise.github.io/publication/latouche2012variational/</link>
+      <link>/publication/latouche2012variational/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/latouche2012variational/</guid>
+      <guid>/publication/latouche2012variational/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Accounting for population stratification in practice: a comparison of the main strategies dedicated to genome-wide association studies </title>
-      <link>https://cambroise.github.io/publication/bouaziz2011accounting/</link>
+      <link>/publication/bouaziz2011accounting/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/bouaziz2011accounting/</guid>
+      <guid>/publication/bouaziz2011accounting/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Defining a robust biological prior from pathway analysis to drive network inference </title>
-      <link>https://cambroise.github.io/publication/jeanmougin2011defining/</link>
+      <link>/publication/jeanmougin2011defining/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/jeanmougin2011defining/</guid>
+      <guid>/publication/jeanmougin2011defining/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Inferring multiple graphical structures </title>
-      <link>https://cambroise.github.io/publication/chiquet2011inferring/</link>
+      <link>/publication/chiquet2011inferring/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/chiquet2011inferring/</guid>
+      <guid>/publication/chiquet2011inferring/</guid>
       <description></description>
     </item>
     
     <item>
       <title> New consistent and asymptotically normal parameter estimates for random-graph mixture models </title>
-      <link>https://cambroise.github.io/publication/ambroise2011new/</link>
+      <link>/publication/ambroise2011new/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2011new/</guid>
+      <guid>/publication/ambroise2011new/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Overlapping stochastic block models with application to the french political blogosphere </title>
-      <link>https://cambroise.github.io/publication/latouche2011overlapping/</link>
+      <link>/publication/latouche2011overlapping/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/latouche2011overlapping/</guid>
+      <guid>/publication/latouche2011overlapping/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering based on random graph model embedding vertex features </title>
-      <link>https://cambroise.github.io/publication/zanghi2010clustering/</link>
+      <link>/publication/zanghi2010clustering/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/zanghi2010clustering/</guid>
+      <guid>/publication/zanghi2010clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> New consistent and asymptotically normal estimators for random graph mixture models </title>
-      <link>https://cambroise.github.io/publication/ambroise2010new/</link>
+      <link>/publication/ambroise2010new/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2010new/</guid>
+      <guid>/publication/ambroise2010new/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Strategies for online inference of model-based clustering in large and growing networks </title>
-      <link>https://cambroise.github.io/publication/zanghi2010strategies/</link>
+      <link>/publication/zanghi2010strategies/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/zanghi2010strategies/</guid>
+      <guid>/publication/zanghi2010strategies/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Weighted-LASSO for structured network inference from time course data </title>
-      <link>https://cambroise.github.io/publication/charbonnier2010weighted/</link>
+      <link>/publication/charbonnier2010weighted/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/charbonnier2010weighted/</guid>
+      <guid>/publication/charbonnier2010weighted/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Bayesian methods for graph clustering </title>
-      <link>https://cambroise.github.io/publication/latouche2009bayesian/</link>
+      <link>/publication/latouche2009bayesian/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/latouche2009bayesian/</guid>
+      <guid>/publication/latouche2009bayesian/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Inferring sparse Gaussian graphical models with latent structure </title>
-      <link>https://cambroise.github.io/publication/ambroise2009inferring/</link>
+      <link>/publication/ambroise2009inferring/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2009inferring/</guid>
+      <guid>/publication/ambroise2009inferring/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Overlapping stochastic block models </title>
-      <link>https://cambroise.github.io/publication/latouche2009overlapping/</link>
+      <link>/publication/latouche2009overlapping/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/latouche2009overlapping/</guid>
+      <guid>/publication/latouche2009overlapping/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Simone: Statistical inference for modular networks </title>
-      <link>https://cambroise.github.io/publication/chiquet2009simone/</link>
+      <link>/publication/chiquet2009simone/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/chiquet2009simone/</guid>
+      <guid>/publication/chiquet2009simone/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Spatial Data Clustering </title>
-      <link>https://cambroise.github.io/publication/ambroise2009spatial/</link>
+      <link>/publication/ambroise2009spatial/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2009spatial/</guid>
+      <guid>/publication/ambroise2009spatial/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Fast online graph clustering via Erdos--R{e}nyi mixture </title>
-      <link>https://cambroise.github.io/publication/zanghi2008fast/</link>
+      <link>/publication/zanghi2008fast/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/zanghi2008fast/</guid>
+      <guid>/publication/zanghi2008fast/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Identification of functional modules based on transcriptional regulation structure </title>
-      <link>https://cambroise.github.io/publication/birmele2008identification/</link>
+      <link>/publication/birmele2008identification/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/birmele2008identification/</guid>
+      <guid>/publication/birmele2008identification/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Strategies for online inference of network mixture </title>
-      <link>https://cambroise.github.io/publication/zanghi2008strategies/</link>
+      <link>/publication/zanghi2008strategies/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/zanghi2008strategies/</guid>
+      <guid>/publication/zanghi2008strategies/</guid>
       <description></description>
     </item>
     
     <item>
       <title> An online classification EM algorithm based on the mixture model </title>
-      <link>https://cambroise.github.io/publication/same2007online/</link>
+      <link>/publication/same2007online/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/same2007online/</guid>
+      <guid>/publication/same2007online/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Parsimonious additive models </title>
-      <link>https://cambroise.github.io/publication/avalos2007parsimonious/</link>
+      <link>/publication/avalos2007parsimonious/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/avalos2007parsimonious/</guid>
+      <guid>/publication/avalos2007parsimonious/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A classification EM algorithm for binned data </title>
-      <link>https://cambroise.github.io/publication/same2006classification/</link>
+      <link>/publication/same2006classification/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/same2006classification/</guid>
+      <guid>/publication/same2006classification/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A Content-Based Image Retrieval System for Osteo-Articular Applications </title>
-      <link>https://cambroise.github.io/publication/najjar2006content/</link>
+      <link>/publication/najjar2006content/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/najjar2006content/</guid>
+      <guid>/publication/najjar2006content/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Driving Hierarchy Construction via Supervised Learning: Application to Osteo-Articular Medical Images Database </title>
-      <link>https://cambroise.github.io/publication/yousfi2006driving/</link>
+      <link>/publication/yousfi2006driving/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/yousfi2006driving/</guid>
+      <guid>/publication/yousfi2006driving/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Feature selection in robust clustering based on Laplace mixture </title>
-      <link>https://cambroise.github.io/publication/cord2006feature/</link>
+      <link>/publication/cord2006feature/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/cord2006feature/</guid>
+      <guid>/publication/cord2006feature/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Selection bias in working with the top genes in supervised classification of tissue samples </title>
-      <link>https://cambroise.github.io/publication/zhu2006selection/</link>
+      <link>/publication/zhu2006selection/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/zhu2006selection/</guid>
+      <guid>/publication/zhu2006selection/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Supervised learning for guiding hierarchy construction: Application to osteo-articular medical images database </title>
-      <link>https://cambroise.github.io/publication/yousfi2006supervised/</link>
+      <link>/publication/yousfi2006supervised/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/yousfi2006supervised/</guid>
+      <guid>/publication/yousfi2006supervised/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A decision tree classifier for vehicle failure isolation </title>
-      <link>https://cambroise.github.io/publication/charkaoui2005decision/</link>
+      <link>/publication/charkaoui2005decision/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/charkaoui2005decision/</guid>
+      <guid>/publication/charkaoui2005decision/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A mixture model-based on-line CEM algorithm </title>
-      <link>https://cambroise.github.io/publication/same2005mixture/</link>
+      <link>/publication/same2005mixture/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/same2005mixture/</guid>
+      <guid>/publication/same2005mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Analyse de Donn{e}es et Data Mining </title>
-      <link>https://cambroise.github.io/publication/govaert2005analyse/</link>
+      <link>/publication/govaert2005analyse/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/govaert2005analyse/</guid>
+      <guid>/publication/govaert2005analyse/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Analyzing microarray gene expression data </title>
-      <link>https://cambroise.github.io/publication/mclachlan2005analyzing/</link>
+      <link>/publication/mclachlan2005analyzing/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/mclachlan2005analyzing/</guid>
+      <guid>/publication/mclachlan2005analyzing/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Books for review If you would like to review a book, and thereby to retain it for your collection, please contact the Book Reviews Editor, whose details can be found by clicking on &lt;U&#43;2018&gt;books currently available&lt;U&#43;2019&gt;in the information on the Royal Statistical Society&lt;U&#43;2019&gt;s Web site </title>
-      <link>https://cambroise.github.io/publication/chaumont2005books/</link>
+      <link>/publication/chaumont2005books/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/chaumont2005books/</guid>
+      <guid>/publication/chaumont2005books/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Data Analysis Tools for DNA Microarrays/Analyzing Microarray Gene Expression Data </title>
-      <link>https://cambroise.github.io/publication/ziegel2005data/</link>
+      <link>/publication/ziegel2005data/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ziegel2005data/</guid>
+      <guid>/publication/ziegel2005data/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Discrimination par mod{e}les additifs parcimonieux </title>
-      <link>https://cambroise.github.io/publication/avalos2005discrimination/</link>
+      <link>/publication/avalos2005discrimination/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/avalos2005discrimination/</guid>
+      <guid>/publication/avalos2005discrimination/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Model selection via penalization in the additive Cox model </title>
-      <link>https://cambroise.github.io/publication/avalos2005model/</link>
+      <link>/publication/avalos2005model/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/avalos2005model/</guid>
+      <guid>/publication/avalos2005model/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Pattern recognition method for off-board automotive vehicle failure isolation </title>
-      <link>https://cambroise.github.io/publication/charkaoui2005pattern/</link>
+      <link>/publication/charkaoui2005pattern/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/charkaoui2005pattern/</guid>
+      <guid>/publication/charkaoui2005pattern/</guid>
       <description></description>
     </item>
     
     <item>
       <title> P{e}nalisation l1 pour les MAG </title>
-      <link>https://cambroise.github.io/publication/avalos2005penalisation/</link>
+      <link>/publication/avalos2005penalisation/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/avalos2005penalisation/</guid>
+      <guid>/publication/avalos2005penalisation/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Use of Micro Array Data via Model-based Classification in the Study and Prediction of Survival from Lung Cancer </title>
-      <link>https://cambroise.github.io/publication/jones2005use/</link>
+      <link>/publication/jones2005use/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/jones2005use/</guid>
+      <guid>/publication/jones2005use/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A mixture model approach for on-line clustering </title>
-      <link>https://cambroise.github.io/publication/same2004mixture/</link>
+      <link>/publication/same2004mixture/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/same2004mixture/</guid>
+      <guid>/publication/same2004mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> G{e}n{e}ralisation du lasso aux modeles additifs </title>
-      <link>https://cambroise.github.io/publication/avalos2004generalisation/</link>
+      <link>/publication/avalos2004generalisation/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/avalos2004generalisation/</guid>
+      <guid>/publication/avalos2004generalisation/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Microarrays in gene expression studies </title>
-      <link>https://cambroise.github.io/publication/mclachlan2004microarrays/</link>
+      <link>/publication/mclachlan2004microarrays/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/mclachlan2004microarrays/</guid>
+      <guid>/publication/mclachlan2004microarrays/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Mixture model approach for acoustic emission control of pressure equipment </title>
-      <link>https://cambroise.github.io/publication/hamdan2004mixture/</link>
+      <link>/publication/hamdan2004mixture/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/hamdan2004mixture/</guid>
+      <guid>/publication/hamdan2004mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> On the simultaneous use of clinical and microarray expression data in the cluster analysis of tissue samples </title>
-      <link>https://cambroise.github.io/publication/mclachlan2004simultaneous/</link>
+      <link>/publication/mclachlan2004simultaneous/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/mclachlan2004simultaneous/</guid>
+      <guid>/publication/mclachlan2004simultaneous/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Penalized additive logistic regression for cardiovascular risk prediction </title>
-      <link>https://cambroise.github.io/publication/avalos2004penalized/</link>
+      <link>/publication/avalos2004penalized/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/avalos2004penalized/</guid>
+      <guid>/publication/avalos2004penalized/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A mixture model approach for binned data clustering </title>
-      <link>https://cambroise.github.io/publication/same2003mixture/</link>
+      <link>/publication/same2003mixture/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/same2003mixture/</guid>
+      <guid>/publication/same2003mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Feature selection for semisupervised learning applied to image retrieval </title>
-      <link>https://cambroise.github.io/publication/najjar2003feature/</link>
+      <link>/publication/najjar2003feature/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/najjar2003feature/</guid>
+      <guid>/publication/najjar2003feature/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Image retrieval using mixture models and em algorithm </title>
-      <link>https://cambroise.github.io/publication/najjar2003image/</link>
+      <link>/publication/najjar2003image/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/najjar2003image/</guid>
+      <guid>/publication/najjar2003image/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Regularization methods for additive models </title>
-      <link>https://cambroise.github.io/publication/avalos2003regularization/</link>
+      <link>/publication/avalos2003regularization/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/avalos2003regularization/</guid>
+      <guid>/publication/avalos2003regularization/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A Semi-supervised Learning Approach to Image Retrieval </title>
-      <link>https://cambroise.github.io/publication/najjar2002semi/</link>
+      <link>/publication/najjar2002semi/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/najjar2002semi/</guid>
+      <guid>/publication/najjar2002semi/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering and Models </title>
-      <link>https://cambroise.github.io/publication/ambroise2002clustering/</link>
+      <link>/publication/ambroise2002clustering/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2002clustering/</guid>
+      <guid>/publication/ambroise2002clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Selection bias in gene extraction on the basis of microarray gene-expression data </title>
-      <link>https://cambroise.github.io/publication/ambroise2002selection/</link>
+      <link>/publication/ambroise2002selection/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2002selection/</guid>
+      <guid>/publication/ambroise2002selection/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Boosting mixture models for semi-supervised learning </title>
-      <link>https://cambroise.github.io/publication/grandvalet2001boosting/</link>
+      <link>/publication/grandvalet2001boosting/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/grandvalet2001boosting/</guid>
+      <guid>/publication/grandvalet2001boosting/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Learning from an imprecise teacher: probabilistic and evidential approaches </title>
-      <link>https://cambroise.github.io/publication/ambroise2001learning/</link>
+      <link>/publication/ambroise2001learning/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2001learning/</guid>
+      <guid>/publication/ambroise2001learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Prediction of ozone peaks by mixture models </title>
-      <link>https://cambroise.github.io/publication/ambroise2001prediction/</link>
+      <link>/publication/ambroise2001prediction/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2001prediction/</guid>
+      <guid>/publication/ambroise2001prediction/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Semi-supervised marginboost </title>
-      <link>https://cambroise.github.io/publication/d2001semi/</link>
+      <link>/publication/d2001semi/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/d2001semi/</guid>
+      <guid>/publication/d2001semi/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Semi-supervised marginboost </title>
-      <link>https://cambroise.github.io/publication/grandvalet2001semi/</link>
+      <link>/publication/grandvalet2001semi/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/grandvalet2001semi/</guid>
+      <guid>/publication/grandvalet2001semi/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering by maximizing a fuzzy classification maximum likelihood criterion </title>
-      <link>https://cambroise.github.io/publication/ambroise2000clustering/</link>
+      <link>/publication/ambroise2000clustering/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2000clustering/</guid>
+      <guid>/publication/ambroise2000clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> EM algorithm for partially known labels </title>
-      <link>https://cambroise.github.io/publication/ambroise2000algorithm/</link>
+      <link>/publication/ambroise2000algorithm/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2000algorithm/</guid>
+      <guid>/publication/ambroise2000algorithm/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Hierarchical clustering of self-organizing maps for cloud classification </title>
-      <link>https://cambroise.github.io/publication/ambroise2000hierarchical/</link>
+      <link>/publication/ambroise2000hierarchical/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise2000hierarchical/</guid>
+      <guid>/publication/ambroise2000hierarchical/</guid>
       <description></description>
     </item>
     
     <item>
       <title> An iterative algorithm for spatial clustering </title>
-      <link>https://cambroise.github.io/publication/ambroise1998iterative/</link>
+      <link>/publication/ambroise1998iterative/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise1998iterative/</guid>
+      <guid>/publication/ambroise1998iterative/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Convergence of an EM-type algorithm for spatial clustering </title>
-      <link>https://cambroise.github.io/publication/ambroise1998convergence/</link>
+      <link>/publication/ambroise1998convergence/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise1998convergence/</guid>
+      <guid>/publication/ambroise1998convergence/</guid>
       <description></description>
     </item>
     
     <item>
       <title> The EM Algorithm and Extensions, by GM McLachlan and T. Krishnan </title>
-      <link>https://cambroise.github.io/publication/ambroise1998algorithm/</link>
+      <link>/publication/ambroise1998algorithm/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise1998algorithm/</guid>
+      <guid>/publication/ambroise1998algorithm/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering of spatial data by the EM algorithm </title>
-      <link>https://cambroise.github.io/publication/ambroise1997clustering/</link>
+      <link>/publication/ambroise1997clustering/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise1997clustering/</guid>
+      <guid>/publication/ambroise1997clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Analyzing dissimilarity matrices via Kohonen maps </title>
-      <link>https://cambroise.github.io/publication/ambroise1996analyzing/</link>
+      <link>/publication/ambroise1996analyzing/</link>
       <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise1996analyzing/</guid>
+      <guid>/publication/ambroise1996analyzing/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Approche probabiliste en classification automatique et contraintes de voisinage </title>
-      <link>https://cambroise.github.io/publication/ambroise1996approche/</link>
+      <link>/publication/ambroise1996approche/</link>
       <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise1996approche/</guid>
+      <guid>/publication/ambroise1996approche/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Constrained clustering and Kohonen self-organizing maps </title>
-      <link>https://cambroise.github.io/publication/ambroise1996constrained/</link>
+      <link>/publication/ambroise1996constrained/</link>
       <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/ambroise1996constrained/</guid>
+      <guid>/publication/ambroise1996constrained/</guid>
       <description></description>
     </item>
     
