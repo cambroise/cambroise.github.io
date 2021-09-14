@@ -1,1493 +1,906 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>/courses/graphicalmodels/introduction/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/graphicalmodels/</loc>
+    <loc>https://cambroise.github.io/courses/mad/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/graphicalmodels/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/co-workers/</loc>
-  </url>
-  
-  <url>
-    <loc>/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/courses/graphicalmodels/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cambroise.github.io/courses/unsupervised/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cambroise.github.io/co-workers/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/example/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/antibiogo/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/project/antibiogo/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/msf/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/tag/msf/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/project/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/tags/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/pascucci2021/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/pascucci2021/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication-type/2/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/2/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/adamek-j/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/ambroise-c/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/aristizabal-d/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/authors/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/bezzarga-a/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/blanche-l/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/boniface-chang-g/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/brunner-a/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/curel-c/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/dulac-arnold-g/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/fakhri-r/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/madoui-a/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/malou-n/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/nordon-c/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/pascucci-m/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication_types/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/royer-g/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/runge-v/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/samson-f/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/sebastian-e/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/soukieh-d/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/vert-jp/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/bichat-a/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/bichat2021hierarchical/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/bichat2021hierarchical/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/mariadassou-m/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/laso2020metavar/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/laso2020metavar/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/laso-jadart-r/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/madoui-m/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/peterlongo-p/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/momal2020tree/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/momal2020tree/</loc>
     <lastmod>2020-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/momal-r/</loc>
     <lastmod>2020-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/robin-s/</loc>
     <lastmod>2020-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/momal2020accounting/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/momal2020accounting/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/frouin2020exploring/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/frouin2020exploring/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/guinot2020fast/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/guinot2020fast/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/frouin2020high/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/frouin2020high/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/bichat2020incorporating/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/bichat2020incorporating/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/laso2020investigating/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/laso2020investigating/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/gautreau2020ppanggolin/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/gautreau2020ppanggolin/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/bazin-a/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/burlot-l/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/calteau-a/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/chiquet-j/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/cruveiller-s/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/dandine-roulland-c/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/deleuze-j/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/dubois-m/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/floch-e/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/frouin-a/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/gachet-m/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/gautreau-g/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/guinot-f/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/jamet-j/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/labadie-k/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/le-floch-e/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/le-signor-c/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/medigue-c/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/mougel-c/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/others/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/perrin-a/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/petit-e/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/pierre-jean-m/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/planel-r/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/plassais-j/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/sugier-k/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/szafranski-m/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/wincker-p/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/zancarini-a/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/writing-technical-content/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/christophe-ambroise/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/jupyter/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/example/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/forst2019generalized/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/forst2019generalized/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2019adjacency/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2019adjacency/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/robin2019applications/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/robin2019applications/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/robin2019incomplete/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/robin2019incomplete/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/palomares2019systematic/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/palomares2019systematic/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/6/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication-type/6/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/allard-v/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/battail-c/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/bonnet-e/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/brohard-julien-s/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/dalmasso-c/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/dehman-a/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/derbois-c/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/enjalbert-j/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/forst-e/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/goldringer-i/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/krissaane-i/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/mary-huard-t/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/neuvial-p/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/olaso-r/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/palomares-m/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/rigaill-g/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/robin-g/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/vialaneix-n/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/sow2018clarifying/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/courses/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/sow2018clarifying/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/sow2018epigenetics/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/sow2018epigenetics/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/forst2018estimation/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/forst2018estimation/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/guinot2018learning/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/guinot2018learning/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/frouin2018quantify/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/frouin2018quantify/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/1/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication-type/1/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/allona-i/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/conde-d/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/delaunay-a/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/fichot-r/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/gribkova-s/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/jorge-v/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/lanciano-s/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/le-flocch-e/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/le-gac-a/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/le-jan-i/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/le-provost-g/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/marry-huard-t/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/maury-s/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/mirouze-m/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/paques-l/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/placette-c/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/plomion-c/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/sow-m/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/tost-j/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/becu2017beyond/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/becu2017beyond/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/stanislas2017eigen/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/stanislas2017eigen/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/frouin2017estimating/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/frouin2017estimating/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/frouin2017quantify/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/frouin2017quantify/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/becu-j/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/grandvalet-y/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/stanislas-v/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/academic/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/categories/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/demo/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/category/demo/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/getting-started/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/%E5%BC%80%E6%BA%90/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/%E6%95%99%E7%A8%8B/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/chiquet2015greedy/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/post/2015-07-23-r-rmarkdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://cambroise.github.io/tag/plot/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://cambroise.github.io/category/r/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://cambroise.github.io/tag/r-markdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://cambroise.github.io/tag/regression/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/chiquet2015greedy/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/petit2015ab0004/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/petit2015ab0004/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/dehman2015performance/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/dehman2015performance/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/becu2015significance/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/becu2015significance/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/0/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication-type/0/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/cornelis-f/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/finckh-a/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/gabay-c/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/kilani-m/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/petit-teixeira-e/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/latouche2014model/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/latouche2014model/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/latouche2014overlapping/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/latouche2014overlapping/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/birmele-e/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/latouche-p/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2013bp/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2013bp/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/dehman2013incorporating/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/dehman2013incorporating/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/dang-m/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/govaert-g/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2012clustering/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2012clustering/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/mclachlan2012discriminant/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/mclachlan2012discriminant/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/bouaziz2012ships/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/bouaziz2012ships/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/grandvalet2012sparsity/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/grandvalet2012sparsity/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/latouche2012variational/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/latouche2012variational/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/bouaziz-m/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/mclachlan-g/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/bouaziz2011accounting/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/bouaziz2011accounting/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/jeanmougin2011defining/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/jeanmougin2011defining/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/chiquet2011inferring/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/chiquet2011inferring/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2011new/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2011new/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/latouche2011overlapping/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/latouche2011overlapping/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/guedj-m/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/jeanmougin-m/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/matias-c/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/zanghi2010clustering/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/zanghi2010clustering/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2010new/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2010new/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/zanghi2010strategies/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/zanghi2010strategies/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/charbonnier2010weighted/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/charbonnier2010weighted/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/charbonnier-c/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/miele-v/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/picard-f/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/volant-s/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/zanghi-h/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/latouche2009bayesian/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/latouche2009bayesian/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2009inferring/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2009inferring/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/latouche2009overlapping/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/latouche2009overlapping/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/chiquet2009simone/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/chiquet2009simone/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2009spatial/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2009spatial/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/grasseau-g/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/smith-a/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/zanghi2008fast/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/zanghi2008fast/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/birmele2008identification/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/birmele2008identification/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/zanghi2008strategies/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/zanghi2008strategies/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/elati-m/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/rouveirol-c/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/same2007online/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/same2007online/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/avalos2007parsimonious/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/avalos2007parsimonious/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/avalos-m/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/same-a/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/same2006classification/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/same2006classification/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/najjar2006content/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/najjar2006content/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/yousfi2006driving/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/yousfi2006driving/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/cord2006feature/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/cord2006feature/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/zhu2006selection/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/zhu2006selection/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/yousfi2006supervised/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/yousfi2006supervised/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/chevelu-j/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/cocquerez-j/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/cord-a/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/cotten-a/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/eltabach-m/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/najjar-m/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/yousfi-k/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/zhu-x/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/charkaoui2005decision/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/charkaoui2005decision/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/same2005mixture/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/same2005mixture/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/govaert2005analyse/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/govaert2005analyse/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/mclachlan2005analyzing/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/mclachlan2005analyzing/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/chaumont2005books/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/chaumont2005books/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ziegel2005data/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ziegel2005data/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/avalos2005discrimination/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/avalos2005discrimination/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/avalos2005model/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/avalos2005model/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/charkaoui2005pattern/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/charkaoui2005pattern/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/avalos2005penalisation/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/avalos2005penalisation/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/jones2005use/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/jones2005use/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/boatas-a/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/charkaoui-n/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/chaumont-l/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/do-k/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/dubuisson-b/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/finkenstadt-b/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/franke-j/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/gentle-j/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/hafner-c/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/hardle-w/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/jones-l/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/khan-n/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/millemann-s/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/monico-k/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/mori-y/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/muller-m/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/ng-s/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/rootzen-h/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/yor-m/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/ziegel-e/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/same2004mixture/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/same2004mixture/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/avalos2004generalisation/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/avalos2004generalisation/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/mclachlan2004microarrays/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/mclachlan2004microarrays/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hamdan2004mixture/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/hamdan2004mixture/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/mclachlan2004simultaneous/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/mclachlan2004simultaneous/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/avalos2004penalized/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/avalos2004penalized/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/chang-s/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/hamdan-h/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/herve-c/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/mar-j/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/same2003mixture/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/same2003mixture/</loc>
     <lastmod>2003-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/najjar2003feature/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/najjar2003feature/</loc>
     <lastmod>2003-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/najjar2003image/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/najjar2003image/</loc>
     <lastmod>2003-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/avalos2003regularization/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/avalos2003regularization/</loc>
     <lastmod>2003-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/najjar2002semi/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/najjar2002semi/</loc>
     <lastmod>2002-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2002clustering/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2002clustering/</loc>
     <lastmod>2002-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2002selection/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2002selection/</loc>
     <lastmod>2002-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/grandvalet2001boosting/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/grandvalet2001boosting/</loc>
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2001learning/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2001learning/</loc>
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2001prediction/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2001prediction/</loc>
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/d2001semi/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/d2001semi/</loc>
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/grandvalet2001semi/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/grandvalet2001semi/</loc>
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/dalche-buc-f/</loc>
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/du-2019alche-buc-f/</loc>
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/denoeux-t/</loc>
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/smets-p/</loc>
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2000clustering/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2000clustering/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2000algorithm/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2000algorithm/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise2000hierarchical/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise2000hierarchical/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/badran-f/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/seze-g/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+  </url><url>
+    <loc>https://cambroise.github.io/author/thiria-s/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise1998iterative/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise1998iterative/</loc>
     <lastmod>1998-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise1998convergence/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise1998convergence/</loc>
     <lastmod>1998-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise1998algorithm/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise1998algorithm/</loc>
     <lastmod>1998-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise1997clustering/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise1997clustering/</loc>
     <lastmod>1997-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise1996analyzing/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise1996analyzing/</loc>
     <lastmod>1996-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise1996approche/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise1996approche/</loc>
     <lastmod>1996-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ambroise1996constrained/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication/ambroise1996constrained/</loc>
     <lastmod>1996-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/3/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/publication-type/3/</loc>
     <lastmod>1996-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cambroise.github.io/author/catherine-matias/</loc>
   </url>
-  
-  <url>
-    <loc></loc>
-  </url>
-  
 </urlset>

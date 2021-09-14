@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grandvalet Y | Christophe Ambroise</title>
+    <link>https://cambroise.github.io/author/grandvalet-y/</link>
+      <atom:link href="https://cambroise.github.io/author/grandvalet-y/index.xml" rel="self" type="application/rss+xml" />
+    <description>Grandvalet Y</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Grandvalet Y</title>
+      <link>https://cambroise.github.io/author/grandvalet-y/</link>
+    </image>
+    
+    <item>
+      <title> Beyond support in two-stage variable selection </title>
+      <link>https://cambroise.github.io/publication/becu2017beyond/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/becu2017beyond/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Significance testing for variable selection in high-dimension </title>
+      <link>https://cambroise.github.io/publication/becu2015significance/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/becu2015significance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Sparsity by Worst-Case Penalties </title>
+      <link>https://cambroise.github.io/publication/grandvalet2012sparsity/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/grandvalet2012sparsity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Inferring multiple graphical structures </title>
+      <link>https://cambroise.github.io/publication/chiquet2011inferring/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/chiquet2011inferring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Parsimonious additive models </title>
+      <link>https://cambroise.github.io/publication/avalos2007parsimonious/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/avalos2007parsimonious/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Discrimination par mod{e}les additifs parcimonieux </title>
+      <link>https://cambroise.github.io/publication/avalos2005discrimination/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/avalos2005discrimination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Model selection via penalization in the additive Cox model </title>
+      <link>https://cambroise.github.io/publication/avalos2005model/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/avalos2005model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> P{e}nalisation l1 pour les MAG </title>
+      <link>https://cambroise.github.io/publication/avalos2005penalisation/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/avalos2005penalisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> G{e}n{e}ralisation du lasso aux modeles additifs </title>
+      <link>https://cambroise.github.io/publication/avalos2004generalisation/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/avalos2004generalisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Penalized additive logistic regression for cardiovascular risk prediction </title>
+      <link>https://cambroise.github.io/publication/avalos2004penalized/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/avalos2004penalized/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Regularization methods for additive models </title>
+      <link>https://cambroise.github.io/publication/avalos2003regularization/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/avalos2003regularization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Boosting mixture models for semi-supervised learning </title>
+      <link>https://cambroise.github.io/publication/grandvalet2001boosting/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/grandvalet2001boosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Prediction of ozone peaks by mixture models </title>
+      <link>https://cambroise.github.io/publication/ambroise2001prediction/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/ambroise2001prediction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Semi-supervised marginboost </title>
+      <link>https://cambroise.github.io/publication/d2001semi/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/d2001semi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Semi-supervised marginboost </title>
+      <link>https://cambroise.github.io/publication/grandvalet2001semi/</link>
+      <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/grandvalet2001semi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

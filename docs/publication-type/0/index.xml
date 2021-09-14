@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>0 | Christophe Ambroise</title>
-    <link>/publication-type/0/</link>
-      <atom:link href="/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://cambroise.github.io/publication-type/0/</link>
+      <atom:link href="https://cambroise.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>0</title>
-      <link>/publication-type/0/</link>
+      <link>https://cambroise.github.io/publication-type/0/</link>
     </image>
     
     <item>
       <title> AB0004 Characterization of Putative Pre-RA Signatures by Transcriptome Analysis </title>
-      <link>/publication/petit2015ab0004/</link>
+      <link>https://cambroise.github.io/publication/petit2015ab0004/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/petit2015ab0004/</guid>
+      <guid>https://cambroise.github.io/publication/petit2015ab0004/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Overlapping clustering methods for networks </title>
-      <link>/publication/latouche2014overlapping/</link>
+      <link>https://cambroise.github.io/publication/latouche2014overlapping/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/latouche2014overlapping/</guid>
+      <guid>https://cambroise.github.io/publication/latouche2014overlapping/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Analyzing microarray gene expression data </title>
-      <link>/publication/mclachlan2005analyzing/</link>
+      <link>https://cambroise.github.io/publication/mclachlan2005analyzing/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>/publication/mclachlan2005analyzing/</guid>
+      <guid>https://cambroise.github.io/publication/mclachlan2005analyzing/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Books for review If you would like to review a book, and thereby to retain it for your collection, please contact the Book Reviews Editor, whose details can be found by clicking on &lt;U&#43;2018&gt;books currently available&lt;U&#43;2019&gt;in the information on the Royal Statistical Society&lt;U&#43;2019&gt;s Web site </title>
-      <link>/publication/chaumont2005books/</link>
+      <link>https://cambroise.github.io/publication/chaumont2005books/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>/publication/chaumont2005books/</guid>
+      <guid>https://cambroise.github.io/publication/chaumont2005books/</guid>
       <description></description>
     </item>
     
     <item>
       <title> An iterative algorithm for spatial clustering </title>
-      <link>/publication/ambroise1998iterative/</link>
+      <link>https://cambroise.github.io/publication/ambroise1998iterative/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>/publication/ambroise1998iterative/</guid>
+      <guid>https://cambroise.github.io/publication/ambroise1998iterative/</guid>
       <description></description>
     </item>
     

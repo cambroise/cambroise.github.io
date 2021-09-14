@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cocquerez J | Christophe Ambroise</title>
+    <link>https://cambroise.github.io/author/cocquerez-j/</link>
+      <atom:link href="https://cambroise.github.io/author/cocquerez-j/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cocquerez J</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2006 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Cocquerez J</title>
+      <link>https://cambroise.github.io/author/cocquerez-j/</link>
+    </image>
+    
+    <item>
+      <title> A Content-Based Image Retrieval System for Osteo-Articular Applications </title>
+      <link>https://cambroise.github.io/publication/najjar2006content/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/najjar2006content/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Driving Hierarchy Construction via Supervised Learning: Application to Osteo-Articular Medical Images Database </title>
+      <link>https://cambroise.github.io/publication/yousfi2006driving/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/yousfi2006driving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Feature selection in robust clustering based on Laplace mixture </title>
+      <link>https://cambroise.github.io/publication/cord2006feature/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/cord2006feature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Supervised learning for guiding hierarchy construction: Application to osteo-articular medical images database </title>
+      <link>https://cambroise.github.io/publication/yousfi2006supervised/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/yousfi2006supervised/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Feature selection for semisupervised learning applied to image retrieval </title>
+      <link>https://cambroise.github.io/publication/najjar2003feature/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/najjar2003feature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Image retrieval using mixture models and em algorithm </title>
+      <link>https://cambroise.github.io/publication/najjar2003image/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/najjar2003image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> A Semi-supervised Learning Approach to Image Retrieval </title>
+      <link>https://cambroise.github.io/publication/najjar2002semi/</link>
+      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/najjar2002semi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deleuze J | Christophe Ambroise</title>
+    <link>https://cambroise.github.io/author/deleuze-j/</link>
+      <atom:link href="https://cambroise.github.io/author/deleuze-j/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deleuze J</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Deleuze J</title>
+      <link>https://cambroise.github.io/author/deleuze-j/</link>
+    </image>
+    
+    <item>
+      <title> Exploring the link between additive heritability and prediction accuracy from a ridge regression perspective </title>
+      <link>https://cambroise.github.io/publication/frouin2020exploring/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/frouin2020exploring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> High heritability does not imply accurate prediction under the small additive effects hypothesis </title>
+      <link>https://cambroise.github.io/publication/frouin2020high/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/frouin2020high/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Systematic analysis of TruSeq, SMARTer and SMARTer Ultra-Low RNA-seq kits for standard, low and ultra-low quantity samples </title>
+      <link>https://cambroise.github.io/publication/palomares2019systematic/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/palomares2019systematic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Estimating Narrow-Sense Heritability with Ridge Regression </title>
+      <link>https://cambroise.github.io/publication/frouin2017estimating/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/frouin2017estimating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> AB0004 Characterization of Putative Pre-RA Signatures by Transcriptome Analysis </title>
+      <link>https://cambroise.github.io/publication/petit2015ab0004/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/petit2015ab0004/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
