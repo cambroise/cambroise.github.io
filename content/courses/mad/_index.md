@@ -14,6 +14,13 @@ type: docs
 weight: 1
 ---
 
+# Reference document
+
+The lecture closely follows and largely borrows material from 
+"Machine Learning: A Probabilistic Perspective" (MLAPP) from
+Kevin P. Murphy, chapters:
+
+
 
 ## Lectures Notes
 

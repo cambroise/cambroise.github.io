@@ -5,7 +5,7 @@ lastmod: "2018-09-09T00:00:00Z"
 linktitle: Unsupervised Learning
 menu:
   mad:
-    name: Data Analysis
+    name: Unsupervised Learning
     weight: 1
 summary: Unsupervised Learning for M2 Data Science Evry
 title: Unsupervised Learning 
@@ -13,6 +13,26 @@ toc: true
 type: docs
 weight: 1
 ---
+
+
+## Outline
+
+1. Discrete latent factor 
+  - Hidden markov models (example in genetics)
+  - Variational EM (example of Stochastic block model)
+2.  Continuous Latent Variable 
+  - Independant Component Analysis
+
+
+## Reference document
+The lecture closely follows and largely borrows material from 
+"Machine Learning: A Probabilistic Perspective" (MLAPP) from
+Kevin P. Murphy, chapters:
+
+  - Chapter 17: Markov and hidden Markov models
+  - Chapter 21: Variational inference
+  - Chapter 12:  Latent Linear Models
+  - Chapter 13: Sparse Linear Models
 
 
 ## Lectures Notes

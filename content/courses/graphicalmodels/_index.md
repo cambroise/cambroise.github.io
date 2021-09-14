@@ -15,6 +15,7 @@ weight: 1
 ---
 
 ### Reference document
+
 The lecture closely follows and largely borrows material from 
 "Machine Learning: A Probabilistic Perspective" (MLAPP) from
 Kevin P. Murphy, chapters:
@@ -23,6 +24,7 @@ Kevin P. Murphy, chapters:
   - Chapter 19:  Undirected graphical models (Markov random fields)
   - Chapter 20:  Exact inference for graphical models
   - Chapter 26: Graphical model structure learning
+  
 ## Directed models
 
   - [Directed Graphical Models](directed_graphical_models.pdf)
