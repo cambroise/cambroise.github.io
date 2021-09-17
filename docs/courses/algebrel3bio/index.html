@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="Unsupervised Learning for M2 Data Science Evry">
+  <meta name="description" content="Algèbre linéaire pour comprendre les bases de l&#39;analyse de données">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://cambroise.github.io/courses/unsupervised/">
+  <link rel="alternate" hreflang="en-us" href="https://cambroise.github.io/courses/algebrel3bio/">
 
   
 
@@ -257,14 +257,14 @@
   
 
   
-  <link rel="alternate" href="/courses/unsupervised/index.xml" type="application/rss+xml" title="Christophe Ambroise">
+  <link rel="alternate" href="/courses/algebrel3bio/index.xml" type="application/rss+xml" title="Christophe Ambroise">
   
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://cambroise.github.io/courses/unsupervised/">
+  <link rel="canonical" href="https://cambroise.github.io/courses/algebrel3bio/">
 
   
   
@@ -280,9 +280,9 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Christophe Ambroise">
-  <meta property="og:url" content="https://cambroise.github.io/courses/unsupervised/">
-  <meta property="og:title" content="Unsupervised Learning | Christophe Ambroise">
-  <meta property="og:description" content="Unsupervised Learning for M2 Data Science Evry"><meta property="og:image" content="https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
+  <meta property="og:url" content="https://cambroise.github.io/courses/algebrel3bio/">
+  <meta property="og:title" content="Algèbre linéaire (L3 Bio) | Christophe Ambroise">
+  <meta property="og:description" content="Algèbre linéaire pour comprendre les bases de l&#39;analyse de données"><meta property="og:image" content="https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
   <meta property="twitter:image" content="https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2018-09-09T00:00:00&#43;00:00">
@@ -303,7 +303,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 
-  <title>Unsupervised Learning | Christophe Ambroise</title>
+  <title>Algèbre linéaire (L3 Bio) | Christophe Ambroise</title>
 
 </head>
 
@@ -714,7 +714,7 @@
   
 
   
-  <div class="docs-toc-item">
+  <div class="docs-toc-item active">
     <a class="docs-toc-link" href="/courses/algebrel3bio/">Algèbre linéaire</a>
 
   </div>
@@ -724,7 +724,7 @@
 
   </div>
   
-  <div class="docs-toc-item active">
+  <div class="docs-toc-item">
     <a class="docs-toc-link" href="/courses/unsupervised/">Unsupervised Learning</a>
 
   </div>
@@ -742,15 +742,8 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#outline">Outline</a></li>
-    <li><a href="#reference-document">Reference document</a></li>
-    <li><a href="#lectures-notes">Lectures Notes</a></li>
-    <li><a href="#exercices">Exercices</a>
-      <ul>
-        <li><a href="#unigrams-and-bigrams">Unigrams and bigrams</a></li>
-      </ul>
-    </li>
-    <li><a href="#document-and-links">Document and Links</a></li>
+    <li><a href="#plan">Plan</a></li>
+    <li><a href="#transparents">Transparents</a></li>
   </ul>
 </nav>
 
@@ -763,81 +756,52 @@
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Unsupervised Learning</h1>
+          <h1>Algèbre linéaire (L3 Bio)</h1>
 
           <div class="article-style">
-            <h2 id="outline">Outline</h2>
-<ol>
-<li>Discrete latent factor</li>
-</ol>
+            <h2 id="plan">Plan</h2>
 <ul>
-<li>Hidden markov models (example in genetics)</li>
-<li>Variational EM (example of Stochastic block model)</li>
-</ul>
-<ol start="2">
-<li>Continuous Latent Variable</li>
-</ol>
+<li>
+<p>Introduction</p>
+</li>
+<li>
+<p>Systèmes d’équations, pivot de gauss</p>
+</li>
+<li>
+<p>Notions d’espace vectoriel</p>
+</li>
+<li>
+<p>Equation de vecteur</p>
+</li>
+<li>
+<p>Calcul matriciel</p>
+</li>
+<li>
+<p>Application linéaire</p>
 <ul>
-<li>Independant Component Analysis</li>
+<li>Noyau</li>
+<li>Image</li>
 </ul>
-<h2 id="reference-document">Reference document</h2>
-<p>The lecture closely follows and largely borrows material from
-&ldquo;Machine Learning: A Probabilistic Perspective&rdquo; (MLAPP) from
-Kevin P. Murphy, chapters:</p>
+</li>
+<li>
+<p>Géométrie
+- Produit scalaire,
+- distance et norme Orthogonalité,
+- théorème de Pythagore
+- Projection orthogonale</p>
+</li>
+<li>
+<p>valeur propre - Vecteur propre</p>
+</li>
+<li>
+<p>Analyse en composantes principales</p>
+</li>
+</ul>
+<h2 id="transparents">Transparents</h2>
 <ul>
-<li>Chapter 17: Markov and hidden Markov models</li>
-<li>Chapter 21: Variational inference</li>
-<li>Chapter 12:  Latent Linear Models</li>
-<li>Chapter 13: Sparse Linear Models</li>
+<li><a href="media/partie1.pdf">Cours 1 et 2</a></li>
+<li><a href="media/partie2.pdf">Cours 3</a></li>
 </ul>
-<h2 id="lectures-notes">Lectures Notes</h2>
-<ul>
-<li><a href="media/unsupervised-M2-data-science.pdf">Lecture 1 (Hidden Markov Models)</a></li>
-</ul>
-<h2 id="exercices">Exercices</h2>
-<h3 id="unigrams-and-bigrams">Unigrams and bigrams</h3>
-<p>Using the song of Leonard Cohen <a href="media/suzanne-cohen-eng.txt">&lsquo;Suzanne&rsquo;</a> compute the unigrams  and bigrams considering the letters of the alphabet as the states of the chain.</p>
-<pre><code class="language-{r}">suzanne_eng &lt;- readLines(&quot;suzanne-cohen-eng.txt&quot;)
-unigrams &lt;- suzanne_eng %&gt;% paste(collapse=&quot; &quot;) %&gt;% 
-  # tokenize by character (strsplit returns a list, so unlist it)
-  strsplit(split=&quot;&quot;) %&gt;% unlist %&gt;% 
-  # remove instances of characters you don't care about
-  str_remove_all(&quot;[,.!'\&quot;]&quot;) %&gt;% 
-  str_to_lower() %&gt;%
-  # make a frequency table of the characters
-  table 
-letters_space&lt;-c(letters,&quot; &quot;)
-x&lt;-rep(0,27);names(x)&lt;-letters_space
-for (letter in letters_space) x[letter]&lt;-unigrams[letter]
-unigrams&lt;-x
-barplot(log(unigrams/sum(unigrams,na.rm=TRUE)+1))
-</code></pre>
-<pre><code class="language-{r}">suzanne1&lt;-c(&quot; &quot;,suzanne_eng) %&gt;% paste(collapse=&quot;&quot;) %&gt;% 
-  # tokenize by character (strsplit returns a list, so unlist it)
-  strsplit(split=&quot;&quot;) %&gt;% unlist %&gt;% 
-  # remove instances of characters you don't care about
-   str_remove_all(&quot;[,.!'\&quot;]&quot;)  %&gt;% 
-   str_to_lower()
-
-suzanne2&lt;-c(suzanne_eng,&quot; &quot;) %&gt;% paste(collapse=&quot;&quot;) %&gt;% 
-  # tokenize by character (strsplit returns a list, so unlist it)
-  strsplit(split=&quot;&quot;) %&gt;% unlist %&gt;% 
-  # remove instances of characters you don't care about
-  str_remove_all(&quot;[,.!'\&quot;]&quot;)  %&gt;% 
-  str_to_lower()
-
-bigrams&lt;-table(suzanne2,suzanne1)
-
-X&lt;-matrix(0,27,27)
-row.names(X)&lt;-letters_space
-colnames(X)&lt;-letters_space
-for (letteri in letters_space)
-  for (letterj in letters_space)
-    if ((letteri %in% row.names(bigrams))&amp;&amp;(letterj %in% row.names(bigrams))) X[letteri,letterj]&lt;-bigrams[letteri,letterj]
-
-bigrams&lt;-X
-</code></pre>
-<h2 id="document-and-links">Document and Links</h2>
 
           </div>
 
@@ -871,7 +835,7 @@ bigrams&lt;-X
   
 
 <p class="edit-page">
-  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses/unsupervised/_index.md">
+  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses/algebrel3bio/_index.md">
     <i class="fas fa-pen pr-2"></i>Edit this page
   </a>
 </p>
