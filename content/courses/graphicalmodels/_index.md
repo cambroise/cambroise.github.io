@@ -4,11 +4,11 @@ draft: false
 lastmod: "2018-09-09T00:00:00Z"
 linktitle: Graphical Models
 menu:
-  graphicalmodels:
-    name: Overview
+  mad:
+    name: Graphical models
     weight: 1
 summary: Introduction to graphical models
-title: Overview
+title: Graphical models
 toc: true
 type: docs
 weight: 1

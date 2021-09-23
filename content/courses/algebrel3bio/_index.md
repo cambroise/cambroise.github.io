@@ -37,6 +37,6 @@ weight: 1
 
 ## Transparents
 
-  - [Cours 1 et 2](media/partie1.pdf)  
-  - [Cours 3](media/partie2.pdf)  
+  - [Cours 1 et 2](media/partie1.pdf) 
+  - [Cours 3 et 4](media/partie2.pdf)  
 

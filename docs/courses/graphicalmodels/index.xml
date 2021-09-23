@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overview | Christophe Ambroise</title>
+    <title>Graphical models | Christophe Ambroise</title>
     <link>https://cambroise.github.io/courses/graphicalmodels/</link>
       <atom:link href="https://cambroise.github.io/courses/graphicalmodels/index.xml" rel="self" type="application/rss+xml" />
-    <description>Overview</description>
+    <description>Graphical models</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
-      <title>Overview</title>
+      <title>Graphical models</title>
       <link>https://cambroise.github.io/courses/graphicalmodels/</link>
     </image>
     
