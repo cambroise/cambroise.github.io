@@ -37,7 +37,9 @@ Kevin P. Murphy, chapters:
 
 ## Lectures Notes
 
-  - [Lecture 1 (Hidden Markov Models)](media/unsupervised-M2-data-science.pdf)   - [Bayesian Statistics introduction](media/Appendix-with-notes.pdf)
+  - [Lecture 1 (Hidden Markov Models)](media/unsupervised-M2-data-science.pdf)
+  
+  - [Bayesian Statistics introduction](media/Appendix-with-notes.pdf)
 
 
 ## Exercices
