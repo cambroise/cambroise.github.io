@@ -25,7 +25,8 @@ weight: 1
 ## Exercices
   - [Exercices multivariate normal](media/TD-multivariate.pdf)
   - [Exercices multivariate normal correction](media/TD-01-ENSIEE-correction.pdf)
-
+  - [Exercices clustering](media/TD-clustering.pdf)
+  - [TD à rendre sur l'algorithme EM](media/EM-MAD.html)
 
 ## Document and Links
 
