@@ -19,7 +19,8 @@ weight: 1
 
 ## Lectures Notes
 
-  - [Lecture 1](media/cours01-ENSIEE.pdf)  
+  - [Lecture 1 & 2](media/cours01-ENSIEE.pdf)  
+  - [Lecture 3](media/cours02-ENSIEE.pdf)  
 
 
 ## Exercices
