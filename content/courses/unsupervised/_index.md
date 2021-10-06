@@ -44,7 +44,8 @@ Kevin P. Murphy, chapters:
 
 ## Exercices
   - [Exercices about EM algorithm](media/TD_EM.html)
-  
+  - [Exercices about Markov Chain](media/TD-markov.html)
+
 ### Unigrams and bigrams
 
 Using the song of Leonard Cohen ['Suzanne'](media/suzanne-cohen-eng.txt) compute the unigrams  and bigrams considering the letters of the alphabet as the states of the chain. 
@@ -138,6 +139,9 @@ SimulationHMMgauss<-function(Pi,A,n){
 Hmmsimu<-SimulationHMMgauss(Pi,A,100)
 plot(Hmmsimu$X,col=Hmmsimu$Z)
 ```
+## Projet
+
+  - [Projet à rendre pour le 17 décembre 2021](media/Projet-Data-Analysis-2021.pdf)
 
 
 ## Document and Links
