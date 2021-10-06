@@ -753,6 +753,7 @@
     <li><a href="#exercices">Exercices</a>
       <ul>
         <li><a href="#unigrams-and-bigrams">Unigrams and bigrams</a></li>
+        <li><a href="#simulation-of-hmm">Simulation of HMM</a></li>
       </ul>
     </li>
     <li><a href="#document-and-links">Document and Links</a>
@@ -855,6 +856,49 @@ for (letteri in letters_space)
     if ((letteri %in% row.names(bigrams))&amp;&amp;(letterj %in% row.names(bigrams))) X[letteri,letterj]&lt;-bigrams[letteri,letterj]
 
 bigrams&lt;-X
+</code></pre>
+<h3 id="simulation-of-hmm">Simulation of HMM</h3>
+<pre><code class="language-{r}">A&lt;-matrix(c(0.3,0.7,0,0,0.9,0.1,0.6,0,0.4),3,3,byrow = TRUE)
+B&lt;-matrix(c(0.5,0.2,0.3,0,0,0,0,0,0,0.2,0.7,0.1,0,0,0,0,0,0.1,0,0.5,0.4),7,3)
+X&lt;-c(1,3,4,6)
+M&lt;-diag(rep(1,3))-A
+M[,3]&lt;-rep(1,3)
+Pi&lt;-solve(t(M),b=c(0,0,1))
+
+SimulationHMM&lt;-function(Pi,A,B,n){
+  Z&lt;-rep(0,n) # hidden states
+  X&lt;-rep(0,n) # emission (obs.)
+  K&lt;-length(Pi) # nb of hidden states
+  N&lt;-nrow(B)    # nb of modalities
+  Z[1]&lt;-sample(1:K,prob = Pi,size = 1,replace=TRUE)
+  X[1]&lt;-sample(1:N,prob=B[,Z[1]],size=1)
+  for (i in 2:n){
+    Z[i]&lt;- sample(1:K,prob=A[Z[i-1],],size=1)
+    X[i]&lt;- sample(1:N,prob=B[,Z[i]],size=1)
+  }
+  return(list(X=X,Z=Z))
+}
+
+
+Hmmsimu&lt;-SimulationHMM(Pi,A,B,100)
+plot(Hmmsimu$X,col=Hmmsimu$Z)
+
+SimulationHMMgauss&lt;-function(Pi,A,n){
+  Z&lt;-rep(0,n)
+  X&lt;-rep(0,n)
+  K&lt;-length(Pi)
+  N&lt;-nrow(B)
+  Z[1]&lt;-sample(1:K,prob = Pi,size = 1,replace=TRUE)
+  X[1]&lt;-rnorm(1,mean=2*Z[1])
+  for (i in 2:n){
+    Z[i]&lt;- sample(1:K,prob=A[Z[i-1],],size=1)
+    X[i]&lt;-rnorm(1,mean=2*Z[i])
+  }
+  return(list(X=X,Z=Z))
+}
+
+Hmmsimu&lt;-SimulationHMMgauss(Pi,A,100)
+plot(Hmmsimu$X,col=Hmmsimu$Z)
 </code></pre>
 <h2 id="document-and-links">Document and Links</h2>
 <h3 id="reference-books-about-machine-learning">Reference books about machine learning</h3>

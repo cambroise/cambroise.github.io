@@ -92,8 +92,52 @@ for (letteri in letters_space)
 bigrams<-X
 ```
 
+### Simulation of HMM
 
-  
+
+```{r}
+A<-matrix(c(0.3,0.7,0,0,0.9,0.1,0.6,0,0.4),3,3,byrow = TRUE)
+B<-matrix(c(0.5,0.2,0.3,0,0,0,0,0,0,0.2,0.7,0.1,0,0,0,0,0,0.1,0,0.5,0.4),7,3)
+X<-c(1,3,4,6)
+M<-diag(rep(1,3))-A
+M[,3]<-rep(1,3)
+Pi<-solve(t(M),b=c(0,0,1))
+
+SimulationHMM<-function(Pi,A,B,n){
+  Z<-rep(0,n) # hidden states
+  X<-rep(0,n) # emission (obs.)
+  K<-length(Pi) # nb of hidden states
+  N<-nrow(B)    # nb of modalities
+  Z[1]<-sample(1:K,prob = Pi,size = 1,replace=TRUE)
+  X[1]<-sample(1:N,prob=B[,Z[1]],size=1)
+  for (i in 2:n){
+    Z[i]<- sample(1:K,prob=A[Z[i-1],],size=1)
+    X[i]<- sample(1:N,prob=B[,Z[i]],size=1)
+  }
+  return(list(X=X,Z=Z))
+}
+
+
+Hmmsimu<-SimulationHMM(Pi,A,B,100)
+plot(Hmmsimu$X,col=Hmmsimu$Z)
+
+SimulationHMMgauss<-function(Pi,A,n){
+  Z<-rep(0,n)
+  X<-rep(0,n)
+  K<-length(Pi)
+  N<-nrow(B)
+  Z[1]<-sample(1:K,prob = Pi,size = 1,replace=TRUE)
+  X[1]<-rnorm(1,mean=2*Z[1])
+  for (i in 2:n){
+    Z[i]<- sample(1:K,prob=A[Z[i-1],],size=1)
+    X[i]<-rnorm(1,mean=2*Z[i])
+  }
+  return(list(X=X,Z=Z))
+}
+
+Hmmsimu<-SimulationHMMgauss(Pi,A,100)
+plot(Hmmsimu$X,col=Hmmsimu$Z)
+```
 
 
 ## Document and Links
