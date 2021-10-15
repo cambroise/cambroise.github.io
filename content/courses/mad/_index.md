@@ -21,6 +21,7 @@ weight: 1
 
   - [Lecture 1 & 2](media/cours01-ENSIEE.pdf)  
   - [Lecture 3](media/cours02-ENSIEE.pdf)  
+  - [Lecture 4](media/Algorithme-EM.pdf)  
 
 
 ## Exercices
