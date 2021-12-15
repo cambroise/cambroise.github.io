@@ -143,6 +143,8 @@ plot(Hmmsimu$X,col=Hmmsimu$Z)
 
   - [Projet à rendre pour le 17 décembre 2021](media/Projet-Data-Analysis-2021.pdf)
 
+ - [Projet  à rendre our le 30 janvier 2021](media/Projet-VAE.pdf)
+
 
 ## Document and Links
 

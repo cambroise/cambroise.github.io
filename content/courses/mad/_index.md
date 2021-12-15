@@ -22,6 +22,7 @@ weight: 1
   - [Lecture 1 & 2](media/cours01-ENSIEE.pdf)  
   - [Lecture 3](media/cours02-ENSIEE.pdf)  
   - [Lecture 4](media/Algorithme-EM.pdf)  
+  - [Lecture 5](media/cours03-ENSIEE.pdf)  
 
 
 ## Exercices
@@ -29,7 +30,7 @@ weight: 1
   - [Exercices multivariate normal correction](media/TD-01-ENSIEE-correction.pdf)
   - [Exercices clustering](media/TD-clustering.pdf)
   - [TD à rendre sur l'algorithme EM](media/EM-MAD.html)
-
+  - [Exercices sur les modèles de mélange](media/TD-mixture.pdf)
 ## Document and Links
 
 ### Reference books about machine learning
