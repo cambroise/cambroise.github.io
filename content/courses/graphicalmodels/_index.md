@@ -24,7 +24,11 @@ Kevin P. Murphy, chapters:
   - Chapter 19:  Undirected graphical models (Markov random fields)
   - Chapter 20:  Exact inference for graphical models
   - Chapter 26: Graphical model structure learning
-  
+
 ## Directed models
 
   - [Directed Graphical Models](directed_graphical_models.pdf)
+
+## Undirected models
+
+  - [Undirected Graphical Models](undirected_graphical_models.pdf)
