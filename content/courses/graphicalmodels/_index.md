@@ -31,4 +31,4 @@ Kevin P. Murphy, chapters:
 
 ## Undirected models
 
-  - [Undirected Graphical Models](undirected_graphical_models.pdf)
+  - [Undirected Graphical Models](undirected-graphical-models.pdf)
