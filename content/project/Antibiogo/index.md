@@ -9,7 +9,7 @@ summary: AI-based mobile application to fight antibiotic resistance
 tags:
 - MSF
 title: Antibiogo
-url_code: "https://github.com/mpascucci/AST-image-processing"
+url_code: "https://docs.google.com/forms/d/e/1FAIpQLSf7Rx1S5WwCdTxuUqt9bvKSnznwXVe5uHj7aPgNg8MuXI2-pw/viewform"
 url_pdf: "https://www.nature.com/articles/s41467-021-21187-3.pdf"
 url_slides: ""
 url_video: "https://www.youtube.com/watch?v=0hNr9zTu6ig&feature=youtu.be"
@@ -17,6 +17,10 @@ url_video: "https://www.youtube.com/watch?v=0hNr9zTu6ig&feature=youtu.be"
 ## Summary
 Engineers and researchers from the University of Évry, CEA, CNRS, APHP, CHU Henri Mondor and Google, in collaboration with the Médecins Sans Frontière (MSF) foundation, have developped a mobile application capable of  antibiotic resistance diagnostic, which can be used free of charge anywhere in the world. These results are the subject of a publication in the journal [Nature Communications]({{< ref "/publication/pascucci2021/index.md" >}}).
 For more details in french, see <a href= "https://dataanalyticspost.com/une-ia-qui-va-faire-reculer-lantibioresistance/">this article</a>.
+
+## Médecins sans frontière:  presentation of the project and code
+
+https://antibiogo.org/
 
 
 ## Project description
