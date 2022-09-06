@@ -17,11 +17,16 @@ weight: 1
 
 ## Outline
 
-1. Discrete latent factor 
-  - Hidden markov models (example in genetics)
-  - Variational EM (example of Stochastic block model)
-2.  Continuous Latent Variable 
-  - Independant Component Analysis
+1. Reminder about Bayesian Statistics
+2. Discrete Latent Variabless 
+  - Hidden markov models (HMM)
+  - Variational EM (VEM)
+  - Stochastic block model (SBM)
+
+3.  Continuous Latent Variables 
+  - Factor Analysis (FA)
+  - Independant Component Analysis (ICA)
+  - Variational Auto-encoder (VAE)
 
 
 ## Reference document
@@ -29,17 +34,15 @@ The lecture closely follows and largely borrows material from
 "Machine Learning: A Probabilistic Perspective" (MLAPP) from
 Kevin P. Murphy, chapters:
 
+  - Chapter 5 : Bayesian Statistics
   - Chapter 17: Markov and hidden Markov models
   - Chapter 21: Variational inference
-  - Chapter 12:  Latent Linear Models
-  - Chapter 13: Sparse Linear Models
 
 
 ## Lectures Notes
 
-  - [Lecture 1 (Hidden Markov Models)](media/unsupervised-M2-data-science.pdf)
+  - [Lecture notes about Discrete latent variables (in progress)](media/unsupervised-M2-data-science.pdf)
   
-  - [Bayesian Statistics introduction](media/Appendix-with-notes.pdf)
 
 
 ## Exercices
