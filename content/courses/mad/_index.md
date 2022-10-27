@@ -15,7 +15,10 @@ weight: 1
 ---
 
 
+## Projects
 
+  - [Follow up practical work on EM](media/EM-MAD.html)  
+  - [Projet Kmeans++](media/kmeans++.pdf) 
 
 ## Lectures Notes
 
@@ -29,7 +32,6 @@ weight: 1
   - [Exercices multivariate normal](media/TD-multivariate.pdf)
   - [Exercices multivariate normal correction](media/TD-01-ENSIEE-correction.pdf)
   - [Exercices clustering](media/TD-clustering.pdf)
-  - [TD à rendre sur l'algorithme EM](media/EM-MAD.html)
   - [Exercices sur les modèles de mélange](media/TD-mixture.pdf)
 ## Document and Links
 
