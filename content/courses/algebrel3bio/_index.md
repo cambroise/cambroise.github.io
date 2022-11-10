@@ -39,4 +39,6 @@ weight: 1
 
   - [Cours 1 et 2](media/partie1.pdf) 
   - [Cours 3 et 4](media/partie2.pdf)  
+  - [Géométrie ](media/partie4.pdf)
+  - [ACP](media/ACP-L3-2022.pdf)
 
