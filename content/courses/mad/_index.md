@@ -29,18 +29,32 @@ weight: 1
 
 
 ## Exercices
-  - [Exercices multivariate normal](media/TD-multivariate.pdf)
-  - [Exercices multivariate normal correction](media/TD-01-ENSIEE-correction.pdf)
-  - [Exercices clustering](media/TD-clustering.pdf)
-  - [Exercices sur les modèles de mélange](media/TD-mixture.pdf)
+
+  - [Exercices on multivariate normal](media/TD-multivariate.pdf)
+  - [Exercices on multivariate normal correction](media/TD-01-ENSIEE-correction.pdf)
+  - [Exercices on clustering](media/TD-clustering.pdf)
+  - [Exercices on mixture models](media/TD-mixture.pdf)
+  - [Exercices on PCA](media/TD-ACP.pdf)
+  - [Exercices on Kernels](media/TD-KPCA.pdf)
+
+
+
+
+
 ## Document and Links
 
 ### Reference books about machine learning
 
   - [Machine Learning: A Probabilistic Perspective
 ](http://noiselab.ucsd.edu/ECE228/Murphy_Machine_Learning.pdf) from Kevin P. Murphy
+    - Chapter 4: Gaussians models
+    - Chapter 11: Mixture Models and EM algo (with kmeans)
+    - Chapter 25: Clustering (HAC)
+    - Chapter 12: Latent Linear Models (PCA)
+    - Chapter 14: Kernels 
+    
   - [Pattern Recognition and Machine Learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf) from  Chris M Bishop 
-  
+
 
 ### R base
 
