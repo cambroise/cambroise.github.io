@@ -1,0 +1,22 @@
+HBA_CHICK Hemoglobin alpha-A chain - poulet (Oiseau)
+HBB_CHICK Hemoglobin beta chain - poulet (Oiseau)
+MYG_CHICK Myoglobin - poulet (Oiseau)
+HBA_PHYCA Hemoglobin alpha chain - Physeter catodon (cachalot) 
+HBB_PHYCA Hemoglobin beta-1/2 chain - Physeter catodon (cachalot) 
+MYG_PHYCA Myoglobin - Physeter catodon (cachalot) - Cetartiodactyle
+HBA_HUMAN Hemoglobin alpha chain humaine (Primate)
+HBB_HUMAN Hemoglobin beta chain humaine (Primate)
+MYG_HUMAN Myoglobin humaine (Primate)
+GLB3_MYXGL Globin-3 - Myxine 
+HBA_MOUSE Hemoglobin alpha chain - Souris (Rongeur)
+HBB1_MOUSE Hemoglobin beta-1 chain - Souris (Rongeur)
+MYG_MOUSE Myoglobin - Mus muculus - Souris (Rongeur)
+HBA_ALLMI Hemoglobin alpha chain - Alligator mississippiensis (Crocodilien)
+HBB_ALLMI Hemoglobin beta chain - Alligator mississippiensis (Crocodilien)
+MYG_ALLMI Myoglobin - Alligator mississippiensis (Crocodilien)
+HBA1_IGUIG Hemoglobin alpha-1 chain - Iguana iguana (Squamate)
+HBB1_IGUIG Hemoglobin beta-1 - Iguana iguana (Squamate)
+HBA_CHRPI Hemoglobin alpha-A chain - Chrysemys Picta (Tortue)
+HBB_CHRPI Hemoglobin beta chain - Chrysemys Picta (Tortue)
+MYG_CHEMY Myoglobin - Chelonia mydas (Tortue)
+

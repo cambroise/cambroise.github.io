@@ -38,6 +38,11 @@ weight: 1
   - [Exercices on Kernels](media/TD-KPCA.pdf)
 
 
+## Data files
+
+![arbre phylogénétique](media/arbre_phylogenetique.png)
+
+  - [Globines distances](media/neighbor_globin.dat)
 
 
 
