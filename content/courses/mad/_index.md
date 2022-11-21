@@ -43,6 +43,8 @@ weight: 1
 ![arbre phylogénétique](media/arbre_phylogenetique.png)
 
   - [Globines distances](media/neighbor_globin.dat)
+  - [Globines List](media/Globines_liste.txt)
+
 
 
 
