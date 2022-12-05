@@ -26,6 +26,10 @@ weight: 1
   - [Lecture 3](media/cours02-ENSIEE.pdf)  
   - [Lecture 4](media/Algorithme-EM.pdf)  
   - [Lecture 5](media/cours03-ENSIEE.pdf)  
+  - [Lecture 6](media/cours04-PCA.pdf)
+  - [Lecture 7](media/cours05-KPCA.pdf)  
+
+
 
 
 ## Exercices
