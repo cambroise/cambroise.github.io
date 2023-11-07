@@ -18,7 +18,9 @@ weight: 1
 ## Projects
 
   - [Follow up practical work on EM](media/EM-MAD.html)  
-  - [Projet Kmeans++](media/Projet-MAD-2022.pdf) With instructions !
+  - [Projet 2022 Kmeans++ ](media/Projet-MAD-2022.pdf) 
+  - [Projet 2023 Generalized Kmeans ](media/Projet-MAD-2023.pdf)
+
 
 ## Lectures Notes
 
