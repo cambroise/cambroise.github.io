@@ -34,7 +34,7 @@
   
     
   
-  <meta name="description" content="Unsupervised Learning for M2 Data Science Evry">
+  <meta name="description" content="Visualisation and dimension reduction for M2 Data Science Evry">
 
   
   <link rel="alternate" hreflang="en-us" href="https://cambroise.github.io/courses/unsupervised/">
@@ -281,8 +281,8 @@
   
   <meta property="og:site_name" content="Christophe Ambroise">
   <meta property="og:url" content="https://cambroise.github.io/courses/unsupervised/">
-  <meta property="og:title" content="Unsupervised Learning | Christophe Ambroise">
-  <meta property="og:description" content="Unsupervised Learning for M2 Data Science Evry"><meta property="og:image" content="https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
+  <meta property="og:title" content="Visualisation and dimension reduction | Christophe Ambroise">
+  <meta property="og:description" content="Visualisation and dimension reduction for M2 Data Science Evry"><meta property="og:image" content="https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
   <meta property="twitter:image" content="https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2018-09-09T00:00:00&#43;00:00">
@@ -303,7 +303,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 
-  <title>Unsupervised Learning | Christophe Ambroise</title>
+  <title>Visualisation and dimension reduction | Christophe Ambroise</title>
 
 </head>
 
@@ -730,7 +730,7 @@
   </div>
   
   <div class="docs-toc-item active">
-    <a class="docs-toc-link" href="/courses/unsupervised/">Unsupervised Learning</a>
+    <a class="docs-toc-link" href="/courses/unsupervised/">Visualisation and dimension reduction</a>
 
   </div>
   
@@ -750,13 +750,6 @@
     <li><a href="#outline">Outline</a></li>
     <li><a href="#reference-document">Reference document</a></li>
     <li><a href="#lectures-notes">Lectures Notes</a></li>
-    <li><a href="#exercices">Exercices</a>
-      <ul>
-        <li><a href="#unigrams-and-bigrams">Unigrams and bigrams</a></li>
-        <li><a href="#simulation-of-hmm">Simulation of HMM</a></li>
-      </ul>
-    </li>
-    <li><a href="#projet">Projet</a></li>
     <li><a href="#document-and-links">Document and Links</a>
       <ul>
         <li><a href="#reference-books-about-machine-learning">Reference books about machine learning</a></li>
@@ -776,138 +769,37 @@
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Unsupervised Learning</h1>
+          <h1>Visualisation and dimension reduction</h1>
 
           <div class="article-style">
             <h2 id="outline">Outline</h2>
 <ol>
-<li>Reminder about Bayesian Statistics</li>
-<li>Discrete Latent Variabless</li>
+<li>Factor Analysis</li>
+<li>Variational Auto-encoder</li>
 </ol>
 <ul>
-<li>Hidden markov models (HMM)</li>
+<li>Neurons</li>
 <li>Variational EM (VEM)</li>
-<li>Stochastic block model (SBM)</li>
 </ul>
 <ol start="3">
-<li>Continuous Latent Variables</li>
+<li>Visualisation</li>
 </ol>
 <ul>
-<li>Factor Analysis (FA)</li>
-<li>Independant Component Analysis (ICA)</li>
-<li>Variational Auto-encoder (VAE)</li>
+<li>SVD</li>
+<li>t-SNE</li>
+<li>UMAP</li>
 </ul>
+<ol start="4">
+<li>Introduction to NLP</li>
+</ol>
 <h2 id="reference-document">Reference document</h2>
 <p>The lecture closely follows and largely borrows material from
 &ldquo;Machine Learning: A Probabilistic Perspective&rdquo; (MLAPP) from
 Kevin P. Murphy, chapters:</p>
-<ul>
-<li>Chapter 5 : Bayesian Statistics</li>
-<li>Chapter 17: Markov and hidden Markov models</li>
-<li>Chapter 21: Variational inference</li>
-</ul>
 <h2 id="lectures-notes">Lectures Notes</h2>
 <ul>
-<li><a href="media/unsupervised-M2-data-science.pdf">Lecture notes about Discrete latent variables (in progress)</a></li>
-</ul>
-<h2 id="exercices">Exercices</h2>
-<ul>
-<li><a href="media/TD_EM.html">Exercices about EM algorithm</a></li>
-<li><a href="media/TD-markov.html">Exercices about Markov Chain</a></li>
-</ul>
-<h3 id="unigrams-and-bigrams">Unigrams and bigrams</h3>
-<p>Using the song of Leonard Cohen <a href="media/suzanne-cohen-eng.txt">&lsquo;Suzanne&rsquo;</a> compute the unigrams  and bigrams considering the letters of the alphabet as the states of the chain.</p>
-<pre><code class="language-{r}">suzanne_eng &lt;- readLines(&quot;suzanne-cohen-eng.txt&quot;)
-unigrams &lt;- suzanne_eng %&gt;% paste(collapse=&quot; &quot;) %&gt;% 
-  # tokenize by character (strsplit returns a list, so unlist it)
-  strsplit(split=&quot;&quot;) %&gt;% unlist %&gt;% 
-  # remove instances of characters you don't care about
-  str_remove_all(&quot;[,.!'\&quot;]&quot;) %&gt;% 
-  str_to_lower() %&gt;%
-  # make a frequency table of the characters
-  table 
-letters_space&lt;-c(letters,&quot; &quot;)
-x&lt;-rep(0,27);names(x)&lt;-letters_space
-for (letter in letters_space) x[letter]&lt;-unigrams[letter]
-unigrams&lt;-x
-barplot(log(unigrams/sum(unigrams,na.rm=TRUE)+1))
-</code></pre>
-<pre><code class="language-{r}">suzanne1&lt;-c(&quot; &quot;,suzanne_eng) %&gt;% paste(collapse=&quot;&quot;) %&gt;% 
-  # tokenize by character (strsplit returns a list, so unlist it)
-  strsplit(split=&quot;&quot;) %&gt;% unlist %&gt;% 
-  # remove instances of characters you don't care about
-   str_remove_all(&quot;[,.!'\&quot;]&quot;)  %&gt;% 
-   str_to_lower()
-
-suzanne2&lt;-c(suzanne_eng,&quot; &quot;) %&gt;% paste(collapse=&quot;&quot;) %&gt;% 
-  # tokenize by character (strsplit returns a list, so unlist it)
-  strsplit(split=&quot;&quot;) %&gt;% unlist %&gt;% 
-  # remove instances of characters you don't care about
-  str_remove_all(&quot;[,.!'\&quot;]&quot;)  %&gt;% 
-  str_to_lower()
-
-bigrams&lt;-table(suzanne2,suzanne1)
-
-X&lt;-matrix(0,27,27)
-row.names(X)&lt;-letters_space
-colnames(X)&lt;-letters_space
-for (letteri in letters_space)
-  for (letterj in letters_space)
-    if ((letteri %in% row.names(bigrams))&amp;&amp;(letterj %in% row.names(bigrams))) X[letteri,letterj]&lt;-bigrams[letteri,letterj]
-
-bigrams&lt;-X
-</code></pre>
-<h3 id="simulation-of-hmm">Simulation of HMM</h3>
-<pre><code class="language-{r}">A&lt;-matrix(c(0.3,0.7,0,0,0.9,0.1,0.6,0,0.4),3,3,byrow = TRUE)
-B&lt;-matrix(c(0.5,0.2,0.3,0,0,0,0,0,0,0.2,0.7,0.1,0,0,0,0,0,0.1,0,0.5,0.4),7,3)
-X&lt;-c(1,3,4,6)
-M&lt;-diag(rep(1,3))-A
-M[,3]&lt;-rep(1,3)
-Pi&lt;-solve(t(M),b=c(0,0,1))
-
-SimulationHMM&lt;-function(Pi,A,B,n){
-  Z&lt;-rep(0,n) # hidden states
-  X&lt;-rep(0,n) # emission (obs.)
-  K&lt;-length(Pi) # nb of hidden states
-  N&lt;-nrow(B)    # nb of modalities
-  Z[1]&lt;-sample(1:K,prob = Pi,size = 1,replace=TRUE)
-  X[1]&lt;-sample(1:N,prob=B[,Z[1]],size=1)
-  for (i in 2:n){
-    Z[i]&lt;- sample(1:K,prob=A[Z[i-1],],size=1)
-    X[i]&lt;- sample(1:N,prob=B[,Z[i]],size=1)
-  }
-  return(list(X=X,Z=Z))
-}
-
-
-Hmmsimu&lt;-SimulationHMM(Pi,A,B,100)
-plot(Hmmsimu$X,col=Hmmsimu$Z)
-
-SimulationHMMgauss&lt;-function(Pi,A,n){
-  Z&lt;-rep(0,n)
-  X&lt;-rep(0,n)
-  K&lt;-length(Pi)
-  N&lt;-nrow(B)
-  Z[1]&lt;-sample(1:K,prob = Pi,size = 1,replace=TRUE)
-  X[1]&lt;-rnorm(1,mean=2*Z[1])
-  for (i in 2:n){
-    Z[i]&lt;- sample(1:K,prob=A[Z[i-1],],size=1)
-    X[i]&lt;-rnorm(1,mean=2*Z[i])
-  }
-  return(list(X=X,Z=Z))
-}
-
-Hmmsimu&lt;-SimulationHMMgauss(Pi,A,100)
-plot(Hmmsimu$X,col=Hmmsimu$Z)
-</code></pre>
-<h2 id="projet">Projet</h2>
-<ul>
-<li>
-<p><a href="media/Projet-Data-Analysis-2021.pdf">Projet à rendre pour le 17 décembre 2021</a></p>
-</li>
-<li>
-<p><a href="media/Projet-VAE.pdf">Projet  à rendre our le 30 janvier 2021</a></p>
-</li>
+<li><a href="media/factor-analysis.pdf">Factor Analysis</a></li>
+<li><a href="media/neurons.pdf">Neurons</a></li>
 </ul>
 <h2 id="document-and-links">Document and Links</h2>
 <h3 id="reference-books-about-machine-learning">Reference books about machine learning</h3>
