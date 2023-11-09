@@ -27,7 +27,7 @@ Kevin P. Murphy, chapters:
 
 ## Directed models
 
-  - [Directed Graphical Models](directed_graphical_models.pdf)
+  - [Directed Graphical Models](directed-graphical-models.pdf)
 
 ## Undirected models
 
