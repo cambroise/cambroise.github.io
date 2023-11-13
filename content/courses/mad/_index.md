@@ -17,18 +17,21 @@ weight: 1
 
 ## Projects
 
-  - [Follow up practical work on EM](media/EM-MAD.html)  
   - [Projet 2022 Kmeans++ ](media/Projet-MAD-2022.pdf) 
   - [Projet 2023 Generalized Kmeans ](media/Projet-MAD-2023.pdf)
-
-
+  - EM Algorithm (2023)
+    - Implement the initialization of the EM algorithm
+    - Implement the E-step
+    - Implement the M-step
+    - Test your EM algorithm on the simulated data from Exercise 1 of the worksheet
+    
 ## Lectures Notes
 
   - [Lecture 1 & 2](media/cours01-ENSIEE.pdf)  
   - [Lecture 3](media/cours02-ENSIEE.pdf)  
-  - [Lecture 4](media/Algorithme-EM.pdf)  
-  - [Lecture 5](media/cours03-ENSIEE.pdf)  
-  - [Lecture 6](media/cours04-PCA.pdf)
+  - [Lecture 4](media/Expectation-Maximisation-algorithm.pdf) 
+  - [Lecture 5](media/model-selection.pdf)  
+  - [Lecture 6](media/pca.pdf)
   - [Lecture 7](media/cours05-KPCA.pdf)  
 
 
@@ -55,6 +58,10 @@ weight: 1
 
 
 ## Document and Links
+
+### Specific reference
+
+  - [BIC criterion derivation](media/Le_critere_BIC.pdf)
 
 ### Reference books about machine learning
 
