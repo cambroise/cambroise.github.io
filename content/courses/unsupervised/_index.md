@@ -38,6 +38,9 @@ Kevin P. Murphy, chapters:
 
   - [Factor Analysis](media/factor-analysis.pdf)
   - [Neurons](media/neurons.pdf)
+  - [Variational Auto Encoders](media/VAE.pdf)
+  - [Singular Value Decomposition](media/SVD.pdf)
+
 
 
 ## Document and Links
