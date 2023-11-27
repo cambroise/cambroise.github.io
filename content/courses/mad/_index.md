@@ -46,6 +46,8 @@ weight: 1
   - [Exercices on PCA](media/TD-ACP.pdf)
   - [Exercices on Kernels](media/TD-KPCA.pdf)
 
+## Elements of solution
+  - [Exercices on PCA](media/acp-ensiie-TD.pdf)
 
 ## Data files
 
