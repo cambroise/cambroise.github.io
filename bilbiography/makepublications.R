@@ -20,9 +20,9 @@ bibfile<-"google-clean.bib"
 #bibfile<-"test.bib"
 
 mypubs<-read.bib(bibfile)
-dir.create('../content/publication')
+#dir.create('../content/publication')
 
-process.bibentry<-function(entry,path="../content/publication/"){
+process.bibentry<-function(entry,path="publication/"){
   # Get the key, associated dir and cite.bib
    key<-entry$key
    dir.create(paste(path,key,sep=""))

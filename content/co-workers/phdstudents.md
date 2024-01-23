@@ -22,7 +22,7 @@ subtitle: Past and present
 - [Kylliann De Santiago](https://theorg.com/org/sensorion/org-chart/kylliann-de-santiago) (**2021-**, with Marie Szafranski).   Stratification de patients et analyse de biomarqueurs diagnostiques dans un espace de Hilbert à noyau consensus reproduisant : application au traumatisme sonore aigu.
 
 ### Past
-- [Edmond Sanou](https://desanou.github.io/) (**2019-2023** ,  with Geneviève Robin), Post-doc at CEA, * <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/co-workers/thesis/e-sanou-phd.pdf" target="_blank" rel="noopener">PDF
+- [Edmond Sanou](https://desanou.github.io/) (**2019-2023** ,  with Geneviève Robin), Post-doc at CEA,  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/co-workers/thesis/e-sanou-phd.pdf" target="_blank" rel="noopener">PDF
   </a> 	Integration of complex omics data through Multiscale Gaussian Graphical Models
 
 

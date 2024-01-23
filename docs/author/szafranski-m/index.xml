@@ -5,12 +5,36 @@
     <link>https://cambroise.github.io/author/szafranski-m/</link>
       <atom:link href="https://cambroise.github.io/author/szafranski-m/index.xml" rel="self" type="application/rss+xml" />
     <description>Szafranski M</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Szafranski M</title>
       <link>https://cambroise.github.io/author/szafranski-m/</link>
     </image>
+    
+    <item>
+      <title> Mixture of multilayer stochastic block models for multiview clustering </title>
+      <link>https://cambroise.github.io/publication/desantiago2024mixture/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/desantiago2024mixture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> A Sparse Mixture-of-Experts Model With Screening of Genetic Associations to Guide Disease Subtyping </title>
+      <link>https://cambroise.github.io/publication/courbariaux2022sparse/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/courbariaux2022sparse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Compression structur{e}e de l&#39;information g{e}n{e}tique et {e}tude d&#39;association pang{e}nomique par mod{e}les additifs </title>
+      <link>https://cambroise.github.io/publication/guinot2022compression/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/guinot2022compression/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title> Fast computation of genome-metagenome interaction effects </title>

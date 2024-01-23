@@ -41,6 +41,62 @@
     </item>
     
     <item>
+      <title> Epigenetic Variation in Tree Evolution: a case study in black poplar (Populus nigra) </title>
+      <link>https://cambroise.github.io/publication/sow2023epigenetic/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/sow2023epigenetic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Mixture of multilayer stochastic block models for multiview clustering </title>
+      <link>https://cambroise.github.io/publication/desantiago2024mixture/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/desantiago2024mixture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Holistic view of the seascape dynamics and environment impact on macro-scale genetic connectivity of marine plankton populations </title>
+      <link>https://cambroise.github.io/publication/laso2023holistic/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/laso2023holistic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Inference of Multiscale Gaussian Graphical Model </title>
+      <link>https://cambroise.github.io/publication/sanou2023inference/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/sanou2023inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> A Sparse Mixture-of-Experts Model With Screening of Genetic Associations to Guide Disease Subtyping </title>
+      <link>https://cambroise.github.io/publication/courbariaux2022sparse/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/courbariaux2022sparse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Compression structur{e}e de l&#39;information g{e}n{e}tique et {e}tude d&#39;association pang{e}nomique par mod{e}les additifs </title>
+      <link>https://cambroise.github.io/publication/guinot2022compression/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/guinot2022compression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Hierarchical correction of p-values via an ultrametric tree running Ornstein-Uhlenbeck process </title>
+      <link>https://cambroise.github.io/publication/bichat2022hierarchical/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/bichat2022hierarchical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Antibiogo</title>
       <link>https://cambroise.github.io/project/antibiogo/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
@@ -64,18 +120,18 @@ For more details in french, see &lt;a href= &#34;https://dataanalyticspost.com/u
     </item>
     
     <item>
-      <title>Hierarchical correction of p-values via a tree running Ornstein-Uhlenbeck process}, keywords={toappear  </title>
-      <link>https://cambroise.github.io/publication/bichat2021hierarchical/</link>
+      <title> Accounting for missing actors in interaction network inference from abundance data </title>
+      <link>https://cambroise.github.io/publication/momal2021accounting/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/bichat2021hierarchical/</guid>
+      <guid>https://cambroise.github.io/publication/momal2021accounting/</guid>
       <description></description>
     </item>
     
     <item>
-      <title> metaVaR: introducing metavariant species models for reference-free metagenomic-based population genomics </title>
-      <link>https://cambroise.github.io/publication/laso2020metavar/</link>
-      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/laso2020metavar/</guid>
+      <title> How marine currents and environment shape plankton genomic differentiation: a mosaic view from Tara oceans metagenomic data </title>
+      <link>https://cambroise.github.io/publication/laso2021marine/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/laso2021marine/</guid>
       <description></description>
     </item>
     
@@ -84,14 +140,6 @@ For more details in french, see &lt;a href= &#34;https://dataanalyticspost.com/u
       <link>https://cambroise.github.io/publication/momal2020tree/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://cambroise.github.io/publication/momal2020tree/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Accounting for missing actors in interaction network inference from abundance data </title>
-      <link>https://cambroise.github.io/publication/momal2020accounting/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/momal2020accounting/</guid>
       <description></description>
     </item>
     
@@ -120,7 +168,7 @@ For more details in french, see &lt;a href= &#34;https://dataanalyticspost.com/u
     </item>
     
     <item>
-      <title> Incorporating Phylogenetic Information in Microbiome Differential Abundance Studies Has No Effect on Detection Power and FDR Control </title>
+      <title> Incorporating phylogenetic information in microbiome differential abundance studies has no effect on detection power and FDR control </title>
       <link>https://cambroise.github.io/publication/bichat2020incorporating/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://cambroise.github.io/publication/bichat2020incorporating/</guid>
@@ -136,7 +184,15 @@ For more details in french, see &lt;a href= &#34;https://dataanalyticspost.com/u
     </item>
     
     <item>
-      <title> PPanGGOLiN: Depicting microbial diversity via a partitioned pangenome graph </title>
+      <title> metaVaR: introducing metavariant species models for reference-free metagenomic-based population genomics </title>
+      <link>https://cambroise.github.io/publication/laso2020metavar/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/laso2020metavar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> PPanGGOLiN: depicting microbial diversity via a partitioned pangenome graph </title>
       <link>https://cambroise.github.io/publication/gautreau2020ppanggolin/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://cambroise.github.io/publication/gautreau2020ppanggolin/</guid>
@@ -171,7 +227,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-438127659&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-421967853&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -181,7 +237,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-438127659&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-421967853&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

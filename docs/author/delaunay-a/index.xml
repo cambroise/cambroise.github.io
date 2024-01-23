@@ -5,12 +5,20 @@
     <link>https://cambroise.github.io/author/delaunay-a/</link>
       <atom:link href="https://cambroise.github.io/author/delaunay-a/index.xml" rel="self" type="application/rss+xml" />
     <description>Delaunay A</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Delaunay A</title>
       <link>https://cambroise.github.io/author/delaunay-a/</link>
     </image>
+    
+    <item>
+      <title> Epigenetic Variation in Tree Evolution: a case study in black poplar (Populus nigra) </title>
+      <link>https://cambroise.github.io/publication/sow2023epigenetic/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/sow2023epigenetic/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title> Clarifying the role of DNA methylation in tree phenotypic plasticity </title>

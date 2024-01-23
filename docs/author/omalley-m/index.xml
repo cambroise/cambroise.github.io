@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>O’Malley M | Christophe Ambroise</title>
+    <link>https://cambroise.github.io/author/omalley-m/</link>
+      <atom:link href="https://cambroise.github.io/author/omalley-m/index.xml" rel="self" type="application/rss+xml" />
+    <description>O’Malley M</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>O’Malley M</title>
+      <link>https://cambroise.github.io/author/omalley-m/</link>
+    </image>
+    
+    <item>
+      <title> Holistic view of the seascape dynamics and environment impact on macro-scale genetic connectivity of marine plankton populations </title>
+      <link>https://cambroise.github.io/publication/laso2023holistic/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/laso2023holistic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> How marine currents and environment shape plankton genomic differentiation: a mosaic view from Tara oceans metagenomic data </title>
+      <link>https://cambroise.github.io/publication/laso2021marine/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/laso2021marine/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

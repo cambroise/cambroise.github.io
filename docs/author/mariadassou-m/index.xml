@@ -5,7 +5,7 @@
     <link>https://cambroise.github.io/author/mariadassou-m/</link>
       <atom:link href="https://cambroise.github.io/author/mariadassou-m/index.xml" rel="self" type="application/rss+xml" />
     <description>Mariadassou M</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Mariadassou M</title>
@@ -13,15 +13,15 @@
     </image>
     
     <item>
-      <title>Hierarchical correction of p-values via a tree running Ornstein-Uhlenbeck process}, keywords={toappear  </title>
-      <link>https://cambroise.github.io/publication/bichat2021hierarchical/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://cambroise.github.io/publication/bichat2021hierarchical/</guid>
+      <title> Hierarchical correction of p-values via an ultrametric tree running Ornstein-Uhlenbeck process </title>
+      <link>https://cambroise.github.io/publication/bichat2022hierarchical/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/publication/bichat2022hierarchical/</guid>
       <description></description>
     </item>
     
     <item>
-      <title> Incorporating Phylogenetic Information in Microbiome Differential Abundance Studies Has No Effect on Detection Power and FDR Control </title>
+      <title> Incorporating phylogenetic information in microbiome differential abundance studies has no effect on detection power and FDR control </title>
       <link>https://cambroise.github.io/publication/bichat2020incorporating/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://cambroise.github.io/publication/bichat2020incorporating/</guid>
