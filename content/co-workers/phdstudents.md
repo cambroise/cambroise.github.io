@@ -19,20 +19,23 @@ subtitle: Past and present
 
 
 ### Present
-- [Edmond Sanou](https://desanou.github.io/) (**2019-** ,  with Geneviève Robin)
+- [Kylliann De Santiago](https://theorg.com/org/sensorion/org-chart/kylliann-de-santiago) (**2021-**, with Marie Szafranski).   Stratification de patients et analyse de biomarqueurs diagnostiques dans un espace de Hilbert à noyau consensus reproduisant : application au traumatisme sonore aigu.
 
 ### Past
+- [Edmond Sanou](https://desanou.github.io/) (**2019-2023** ,  with Geneviève Robin), Post-doc at CEA, * <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/co-workers/thesis/e-sanou-phd.pdf" target="_blank" rel="noopener">PDF
+  </a> 	Integration of complex omics data through Multiscale Gaussian Graphical Models
+
 
 - [Antoine Bichat](https://www.linkedin.com/in/antoinebichat/?originalSubdomain=fr), statistician at Servier (2017-2020,  with Mahendra Mariadassou)
   * <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/co-workers/thesis/a-bichat-phd.pdf" target="_blank" rel="noopener">PDF
-</a> Prise en compte de l’organisation hiérarchique des espèces pour la découverte de signatures métagénomiques multi-échelles
+  </a> Prise en compte de l’organisation hiérarchique des espèces pour la découverte de signatures métagénomiques multi-échelles
 
 - [Raphaelle Momal](https://rmomal.github.io/) (2017-2020 with Stéphane Robin)
   *  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/co-workers/thesis/r-momal-phd.pdf" target="_blank" rel="noopener">PDF</a>
-Network inference from incomplete abundance data 
+  Network inference from incomplete abundance data 
 - Arthur Frouin (2016-2020 with  Edith Lefloch and  Jean-François Deleuze)
   * <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/co-workers/thesis/a-frouin-phd.pdf" target="_blank" rel="noopener">PDF</a> Apport des  méthodes statistiques multivariées  à la prédiction d'une
-maladie polygénique  à l'aide de données génomiques
+  maladie polygénique  à l'aide de données génomiques
 
 - [Florent Guinot](https://www.linkedin.com/in/florentguinot/?originalSubdomain=fr), statistian at L'Oréal (2016-2019 with Marie Szafranski)
   * <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.biblio.univ-evry.fr/theses/2018/2018SACLE029.pdf" target="_blank" rel="noopener">PDF</a>   Développements méthodologiques autour des modèles mixtes additifs généralisés pour la recherche de signature moléculaires de cancer du sein triple négatif
@@ -45,7 +48,7 @@ maladie polygénique  à l'aide de données génomiques
   .
 -  [Alia Dehman](https://www.linkedin.com/in/alia-dehman-46668090/?originalSubdomain=fr), ingénieur statisticienne (2012-2015 with Pierre Neuvial) 
    * <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.biblio.univ-evry.fr/theses/2015/2015SACLE013.pdf" target="_blank" rel="noopener">PDF</a> Incorporating linkage disequilibrium information in Genome-Wide Association Studies
- 
+
 - [Jonathan Plassais](https://www.linkedin.com/in/jonathanplassais/?originalSubdomain=fr), CEO (2010-2012 Julien Chiquet)
   * Développement méthodologique pour la méta-analyse appliquée à la caractérisation de signatures chez les patients atteints de maladie auto-immune
 
@@ -64,12 +67,12 @@ maladie polygénique  à l'aide de données génomiques
      
 - [Hugo Zanghi](https://www.linkedin.com/in/hugo-zanghi/), CTO (2006-2009)
      * <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.biblio.univ-evry.fr/theses/2010/2010EVRY0041.pdf" target="_blank" rel="noopener">PDF</a>  Classfication automatique incrémentale de 
-documents hypertextuels pour l’optimisation et la 
-spécification du processus de collecte de pages
+     documents hypertextuels pour l’optimisation et la 
+     spécification du processus de collecte de pages
 
 -  Nadège Sujka (2004-2005 with Gérard Govaert)
    * Classification  croisée appliquée aux puces ADN 
- 
+
 - Karim Yousfi (2003-2008, with Jean-Pierre Cocquerez)
   * <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/co-workers/thesis/k-yousfi-phd.pdf" target="_blank" rel="noopener">PDF</a> Segmentation Hiérarchique Optimale par Injection d’A Priori : radiométrique, géométrique ou spatial
 
