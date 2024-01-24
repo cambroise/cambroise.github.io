@@ -5,7 +5,7 @@ authors:
 - Ambroise C 
 date: 2024-01-01
 title: " Mixture of multilayer stochastic block models for multiview clustering "
-publication: " JMLR "
+publication: " submitted to JMLR "
 featured: true 
 publication_types:
 - 2
