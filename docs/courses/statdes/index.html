@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="Introduction to graphical models">
+  <meta name="description" content="Statistiques Descriptives avec R pour étudiants L2 math">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://cambroise.github.io/courses/graphicalmodels/">
+  <link rel="alternate" hreflang="en-us" href="https://cambroise.github.io/courses/statdes/">
 
   
 
@@ -257,14 +257,14 @@
   
 
   
-  <link rel="alternate" href="/courses/graphicalmodels/index.xml" type="application/rss+xml" title="Christophe Ambroise">
+  <link rel="alternate" href="/courses/statdes/index.xml" type="application/rss+xml" title="Christophe Ambroise">
   
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://cambroise.github.io/courses/graphicalmodels/">
+  <link rel="canonical" href="https://cambroise.github.io/courses/statdes/">
 
   
   
@@ -280,9 +280,9 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Christophe Ambroise">
-  <meta property="og:url" content="https://cambroise.github.io/courses/graphicalmodels/">
-  <meta property="og:title" content="Graphical models | Christophe Ambroise">
-  <meta property="og:description" content="Introduction to graphical models"><meta property="og:image" content="https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
+  <meta property="og:url" content="https://cambroise.github.io/courses/statdes/">
+  <meta property="og:title" content=" | Christophe Ambroise">
+  <meta property="og:description" content="Statistiques Descriptives avec R pour étudiants L2 math"><meta property="og:image" content="https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
   <meta property="twitter:image" content="https://cambroise.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2018-09-09T00:00:00&#43;00:00">
@@ -303,7 +303,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 
-  <title>Graphical models | Christophe Ambroise</title>
+  <title> | Christophe Ambroise</title>
 
 </head>
 
@@ -724,12 +724,12 @@
 
   </div>
   
-  <div class="docs-toc-item active">
+  <div class="docs-toc-item">
     <a class="docs-toc-link" href="/courses/graphicalmodels/">Graphical models</a>
 
   </div>
   
-  <div class="docs-toc-item">
+  <div class="docs-toc-item active">
     <a class="docs-toc-link" href="/courses/statdes/">Statistiques Descriptives</a>
 
   </div>
@@ -752,13 +752,11 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#r-base">R base</a>
       <ul>
-        <li><a href="#reference-document">Reference document</a></li>
+        <li><a href="#r-from-rstudio-developers">R from RStudio developers</a></li>
       </ul>
     </li>
-    <li><a href="#directed-models">Directed models</a></li>
-    <li><a href="#undirected-models">Undirected models</a></li>
   </ul>
 </nav>
 
@@ -771,27 +769,30 @@
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Graphical models</h1>
+          <h1></h1>
 
           <div class="article-style">
-            <h3 id="reference-document">Reference document</h3>
-<p>The lecture closely follows and largely borrows material from
-&ldquo;Machine Learning: A Probabilistic Perspective&rdquo; (MLAPP) from
-Kevin P. Murphy, chapters:</p>
-<ul>
-<li>Chapter 10: Directed graphical models (Bayes nets)</li>
-<li>Chapter 19:  Undirected graphical models (Markov random fields)</li>
-<li>Chapter 20:  Exact inference for graphical models</li>
-<li>Chapter 26: Graphical model structure learning</li>
+            <ul>
+<li><a href="Statistiques-Des-R.html">Transparents de cours</a></li>
 </ul>
-<h2 id="directed-models">Directed models</h2>
+<h2 id="r-base">R base</h2>
+<p>Official manuals about R base can be retrieved from</p>
+<p><a href="https://cran.r-project.org/manuals.html" target="_blank" rel="noopener">https://cran.r-project.org/manuals.html</a></p>
+<p>Contribution by the community can be retrieved from</p>
+<p><a href="https://cran.r-project.org/other-docs.html" target="_blank" rel="noopener">https://cran.r-project.org/other-docs.html</a></p>
+<p>The short introduction from Emmanuel Paradis allows a quick start</p>
 <ul>
-<li><a href="directed-graphical-models.pdf">Directed Graphical Models</a></li>
+<li><a href="https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf" target="_blank" rel="noopener">&lsquo;&lsquo;R for Beginners&rsquo;&rsquo;</a> by Emmanuel Paradis.</li>
 </ul>
-<h2 id="undirected-models">Undirected models</h2>
+<p>Longer book allow a deepening. See for example</p>
 <ul>
-<li><a href="undirected-graphical-models.pdf">Undirected Graphical Models</a></li>
+<li><a href="https://cran.r-project.org/doc/contrib/usingR.pdf" target="_blank" rel="noopener">&lsquo;&lsquo;Using R for Data Analysis and Graphics - Introduction, Examples and Commentary&rsquo;&rsquo;</a> by John Maindonald.</li>
 </ul>
+<h3 id="r-from-rstudio-developers">R from RStudio developers</h3>
+<ul>
+<li><a href="https://r4ds.had.co.nz/" target="_blank" rel="noopener">R for Data Science</a>   The book of Wickam about more recent R development for data science</li>
+</ul>
+<p>And if you want more see <a href="https://www.rstudio.com/resources/books/" target="_blank" rel="noopener">https://www.rstudio.com/resources/books/</a></p>
 
           </div>
 
@@ -825,7 +826,7 @@ Kevin P. Murphy, chapters:</p>
   
 
 <p class="edit-page">
-  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses/graphicalmodels/_index.md">
+  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses/statdes/_index.md">
     <i class="fas fa-pen pr-2"></i>Edit this page
   </a>
 </p>
