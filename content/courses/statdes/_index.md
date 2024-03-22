@@ -15,6 +15,8 @@ weight: 1
 
 
   - [Transparents de cours](Statistiques-Des-R.html)
+  - [Exercices](exercices-sceance-1.html)
+
 
 ## R base
 
