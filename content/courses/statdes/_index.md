@@ -14,7 +14,7 @@ weight: 1
 ---
 
 
-  - [Transparents de cours](Statistiques-Des-R.html)
+  - [Transparents de cours](Statistiques-Des-R.pdf)
   - [Exercices](exercices-sceance-1.html)
   - [Projets](Projet-StatDes-2024.pdf)
 
