@@ -23,7 +23,15 @@ weight: 1
 
  - [Clustering](media/clustering.pdf)  
 
+## Exemples
+
+- [Gaussian Classifier](jupyter-gaussian/)
+- [Tree](jupyter-tree/) 
+
+
 ## Exercices
+
+
 
 ## Document and Links
 
@@ -36,7 +44,7 @@ An Introduction](https://github.com/probml/pml-book/releases/latest/download/boo
     - Chapter 5: Decision Theory
     - Chapter 9: Linear Discriminant Analysis
     - Chapter 18: Trees, Forests, Bagging, and Boosting  
- 
+
   - [Pattern Recognition and Machine Learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf) from  Chris M Bishop 
 
 
