@@ -12,5 +12,2197 @@
       <link>https://cambroise.github.io/courses/introduction-machine-learning/</link>
     </image>
     
+    <item>
+      <title></title>
+      <link>https://cambroise.github.io/courses/introduction-machine-learning/jupyter-gaussian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/courses/introduction-machine-learning/jupyter-gaussian/</guid>
+      <description>&lt;h2 id=&#34;simulations-gaussiennes&#34;&gt;Simulations Gaussiennes&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from scipy.stats import multivariate_normal
+from matplotlib.colors import ListedColormap
+
+mycolormap = ListedColormap([&#39;#FF0000&#39;, &#39;#0000FF&#39;])
+
+Exchoice = 1  # Choisir l&#39;exemple
+
+##############################################
+# Data set generation using scipy.stats.multivariate_normal
+#############################################
+
+def generate_data(n1, n2, mu1, cov1, mu2, cov2):
+    &amp;quot;&amp;quot;&amp;quot;
+    Generates simulated data from two multivariate normal distributions.
+
+    Parameters:
+    - n1: Size of sample 1
+    - n2: Size of sample 2
+    - mu1: Mean vector for group 1 (in 2 dimensions)
+    - cov1: Covariance matrix for group 1 (in 2 dimensions)
+    - mu2: Mean vector for group 2 (in 2 dimensions)
+    - cov2: Covariance matrix for group 2 (in 2 dimensions)
+    
+    Returns:
+    - X: Concatenated data matrix for both groups (n1 + n2, 2)
+    - Y: Associated class vector (0 for group 1, 1 for group 2)
+    &amp;quot;&amp;quot;&amp;quot;
+    # Generate data for each group
+    xG1 = multivariate_normal(mean=mu1, cov=cov1).rvs(n1)
+    xG2 = multivariate_normal(mean=mu2, cov=cov2).rvs(n2)
+    
+    # Concatenate data from both groups
+    X = np.concatenate((xG1, xG2), axis=0)
+    
+    # Create class vector (labels)
+    Y = np.array([0] * n1 + [1] * n2)
+    
+    return X, Y
+
+n1, n2 = 50, 150
+mu1 = [2, 2]  # Moyenne G1
+cov1 = [[1, 0], [0, 1]]  # Matrice de covariance G1 (indépendance)
+    
+mu2 = [0, 0]  # Moyenne G2
+cov2 = [[1, 0], [0, 2]]  # Matrice de covariance G2 (indépendance mais variance différente)
+    
+X, Y = generate_data(n1, n2, mu1, cov1, mu2, cov2)
+
+
+# Visualisation des données générées
+plt.scatter(X[:, 0], X[:, 1], c=Y, cmap=mycolormap)
+plt.title(&#39;Raw data&#39;)
+plt.grid()
+plt.xlabel(&#39;x1&#39;)
+plt.ylabel(&#39;x2&#39;)
+plt.show()
+
+
+
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;simulation-de-lexemple-2-gaussiennes-côte-côte-puis-affichage-de-la-posterior&#34;&gt;Simulation de l&amp;rsquo;exemple 2 (gaussiennes côte-côte) puis affichage de la posterior&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$P(X = x \mid Y = 1)$ est une gaussienne bivariée avec une moyenne $\mu_1 = (\mu_{11}, \mu_{12})$ et une matrice de covariance $\Sigma_1$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;La densité a posteriori $P(Y = 1 \mid X = x)$ peut être calculée à l&amp;rsquo;aide du théorème de Bayes :&lt;/p&gt;
+&lt;p&gt;$$
+P(Y = 1 \mid X = x) = \frac{P(X = x \mid Y = 1) P(Y = 1)}{P(X = x)}
+$$&lt;/p&gt;
+&lt;p&gt;où :&lt;/p&gt;
+&lt;p&gt;$$
+P(X = x) = P(X = x \mid Y = 1) P(Y = 1) + P(X = x \mid Y = 0) P(Y = 0)
+$$&lt;/p&gt;
+&lt;p&gt;Cela permet de calculer la probabilité a posteriori en fonction des probabilités conditionnelles et des probabilités a priori.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from scipy.stats import multivariate_normal
+
+class Bayes_Classifier:
+    def __init__(self, mu1, cov1, mu2, cov2, p1=0.5):
+        &amp;quot;&amp;quot;&amp;quot;
+        Initializes the Bayes Classifier with parameters of two bivariate Gaussian distributions.
+
+        Parameters:
+        - mu1: Mean vector for class 1 (in 2 dimensions)
+        - cov1: Covariance matrix for class 1 (in 2 dimensions)
+        - mu2: Mean vector for class 0 (in 2 dimensions)
+        - cov2: Covariance matrix for class 0 (in 2 dimensions)
+        - p1: Prior probability of class 1 (default is 0.5)
+        &amp;quot;&amp;quot;&amp;quot;
+        self.mu1 = mu1
+        self.cov1 = cov1
+        self.mu2 = mu2
+        self.cov2 = cov2
+        self.p1 = p1
+        self.p2 = 1 - p1
+        self.rv1 = multivariate_normal(mu1, cov1, allow_singular=True)
+        self.rv2 = multivariate_normal(mu2, cov2, allow_singular=True)
+
+    def predict_proba(self, X):
+        &amp;quot;&amp;quot;&amp;quot;
+        Predicts the posterior probability of class 1 for the given data points.
+
+        Parameters:
+        - X: Data points (n_samples, 2)
+
+        Returns:
+        - p1_x: Posterior probability of class 1 for each data point
+        &amp;quot;&amp;quot;&amp;quot;
+        # Calculate likelihoods P(X | Y=1) and P(X | Y=0)
+        px_1 = self.rv1.pdf(X)
+        px_2 = self.rv2.pdf(X)
+
+        # Total density P(X=x)
+        px = px_1 * self.p1 + px_2 * self.p2
+
+        # Posterior probability P(Y=1 | X=x) using Bayes&#39; theorem
+        p1_x = (px_1 * self.p1) / px
+
+        return p1_x
+
+
+def display_posterior_density(X, Y, classifier):
+    &amp;quot;&amp;quot;&amp;quot;
+    Displays the posterior density P(Y=1 | X=x) using a contour plot.
+
+    Parameters:
+    - X: Data points (n_samples, 2)
+    - Y: Class labels (n_samples,)
+    - classifier: Bayes_Classifier object used to predict the posterior probability
+    &amp;quot;&amp;quot;&amp;quot;
+        # Define the grid for evaluating the posterior probability
+    min_x1, min_x2 = np.min(X, axis=0) - 1
+    max_x1, max_x2 = np.max(X, axis=0) + 1
+
+    # Generate a grid of 2D points (mesh)
+    x1, x2 = np.mgrid[min_x1:max_x1:.01, min_x2:max_x2:.01]
+    pos = np.dstack((x1, x2))
+
+    # Predict posterior probability of first class for each point in the grid
+    p1_x = classifier.predict_proba(pos.reshape(-1, 2))
+    if p1_x.ndim &amp;gt; 1 and p1_x.shape[1]&amp;gt;1:
+        p1_x=p1_x[:,0]
+
+    p1_x=p1_x.reshape(x1.shape)      
+
+    # Display the posterior density in 2D
+    plt.contourf(x1, x2, p1_x, levels=20, cmap=&#39;coolwarm&#39;)
+    plt.colorbar(label=&#39;P(Y=1 | X=x)&#39;)
+    plt.contour(x1, x2, p1_x, levels=[0.5], colors=&#39;black&#39;, linewidths=2)
+    plt.title(&amp;quot;Posterior Density P(Y=1 | X=x)&amp;quot;)
+    plt.xlabel(&amp;quot;x1&amp;quot;)
+    plt.ylabel(&amp;quot;x2&amp;quot;)
+    plt.scatter(X[:, 0], X[:, 1], marker=&#39;o&#39;, c=Y, cmap=&#39;coolwarm&#39;, label=&#39;Data Points&#39;)
+
+    # Customize the plot
+    plt.title(&amp;quot;Posterior Density P(Y=1 | X=x) with Data Points&amp;quot;)
+    plt.xlabel(&amp;quot;x1&amp;quot;)
+    plt.ylabel(&amp;quot;x2&amp;quot;)
+    plt.legend()
+
+    # Show the plot
+    plt.show()
+
+# Example usage
+n1, n2 = 200, 200
+mu1 = [2, 2]
+cov1 = [[1, 0], [0, 1]]
+mu2 = [0, 0]
+cov2 = [[1, 0], [0, 2]]
+
+X, Y = generate_data(n1, n2, mu1, cov1, mu2, cov2)
+classifier = Bayes_Classifier(mu1, cov1, mu2, cov2)
+
+# Display posterior density
+display_posterior_density(X, Y, classifier)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_3_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mon-classifieur-de-bayes-naif&#34;&gt;Mon Classifieur de Bayes Naif&lt;/h2&gt;
+&lt;p&gt;Classifieur de Bayes Naif&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+
+class BayesNaifGaussien:
+    def __init__(self):
+        self.mu_0 = None  # Moyenne pour la classe 0
+        self.mu_1 = None  # Moyenne pour la classe 1
+        self.sigma_0 = None  # Variance pour la classe 0
+        self.sigma_1 = None  # Variance pour la classe 1
+        self.p_y0 = None  # Probabilité a priori de Y=0
+        self.p_y1 = None  # Probabilité a priori de Y=1
+
+    def fit(self, X, Y):
+        &amp;quot;&amp;quot;&amp;quot; Calcule les paramètres du modèle à partir des données X et Y &amp;quot;&amp;quot;&amp;quot;
+        # Séparer les données selon les classes
+        X_0 = X[Y == 0]  # Données pour la classe 0
+        X_1 = X[Y == 1]  # Données pour la classe 1
+        
+        # Calculer les moyennes et variances pour chaque classe
+        self.mu_0 = np.mean(X_0, axis=0)
+        self.mu_1 = np.mean(X_1, axis=0)
+        self.sigma_0 = np.var(X_0, axis=0)
+        self.sigma_1 = np.var(X_1, axis=0)
+        
+        # Probabilités a priori P(Y=0) et P(Y=1)
+        self.p_y0 = len(X_0) / len(X)
+        self.p_y1 = len(X_1) / len(X)
+
+    def gaussienne(self, x, mu, sigma):
+        &amp;quot;&amp;quot;&amp;quot; Calcul de la densité de probabilité gaussienne pour un point x &amp;quot;&amp;quot;&amp;quot;
+        return (1 / np.sqrt(2 * np.pi * sigma)) * np.exp(-0.5 * ((x - mu) ** 2) / sigma)
+
+    def predict_proba(self, X):
+        &amp;quot;&amp;quot;&amp;quot; Calcule les probabilités a posteriori P(Y=1 | X) pour chaque individu dans X &amp;quot;&amp;quot;&amp;quot;
+        proba_y1_given_x = []
+        
+        for x in X:
+            # Calculer P(X | Y=1) et P(X | Y=0) pour chaque variable
+            p_x_given_y1 = np.prod(self.gaussienne(x, self.mu_1, self.sigma_1))
+            p_x_given_y0 = np.prod(self.gaussienne(x, self.mu_0, self.sigma_0))
+            
+            # Densité totale P(X=x)
+            p_x = p_x_given_y1 * self.p_y1 + p_x_given_y0 * self.p_y0
+            
+            # Calculer la probabilité a posteriori P(Y=1 | X=x) (Théorème de Bayes)
+            p_y1_x = (p_x_given_y1 * self.p_y1) / p_x
+            
+            # Ajouter la probabilité pour cet individu
+            proba_y1_given_x.append(p_y1_x)
+        
+        return np.array(proba_y1_given_x)
+
+    def predict(self, X):
+        &amp;quot;&amp;quot;&amp;quot; Prédit la classe (0 ou 1) pour chaque individu en fonction de P(Y=1 | X) &amp;quot;&amp;quot;&amp;quot;
+        proba_y1 = self.predict_proba(X)
+        return (proba_y1 &amp;gt;= 0.5).astype(int)
+
+# Exemple d&#39;utilisation :
+
+# Générer des données aléatoires (2 variables)
+#np.random.seed(42)
+#X = np.random.randn(100, 2)  # 100 individus, 2 variables
+#Y = np.random.choice([0, 1], size=100)  # Classes aléatoires 0 ou 1
+
+# Initialiser et entraîner le modèle
+model = BayesNaifGaussien()
+model.fit(X, Y)
+
+# Prédire les probabilités a posteriori P(Y=1 | X)
+proba_y1_given_x = model.predict_proba(X)
+
+# Afficher les probabilités et les paramètres du modèle
+print(&amp;quot;Probabilités P(Y=1 | X):&amp;quot;, proba_y1_given_x)
+print(&amp;quot;Moyenne classe 0:&amp;quot;, model.mu_0)
+print(&amp;quot;Moyenne classe 1:&amp;quot;, model.mu_1)
+print(&amp;quot;Variance classe 0:&amp;quot;, model.sigma_0)
+print(&amp;quot;Variance classe 1:&amp;quot;, model.sigma_1)
+
+
+# Afficher les performances
+error=(model.predict(X)!=Y).sum()/len(Y)
+print(&amp;quot;Erreur empirique&amp;quot;,error)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Probabilités P(Y=1 | X): [4.77129432e-02 1.88198612e-01 1.19806441e-02 1.61156057e-03
+ 7.57724865e-01 5.47979333e-03 2.86561102e-02 5.28354680e-03
+ 4.19710179e-03 2.32670361e-03 4.25351100e-05 2.75755452e-02
+ 1.66745301e-03 2.49435759e-01 1.00766811e-03 6.33178333e-02
+ 7.11726400e-02 8.06725044e-03 3.49788468e-02 2.33123217e-01
+ 1.85679153e-01 1.61388217e-02 4.73890955e-04 3.40903507e-03
+ 5.48351905e-02 6.11117153e-01 7.97042638e-04 2.39487337e-02
+ 1.81606673e-01 7.51506787e-01 1.44906911e-01 3.20614819e-03
+ 1.49182986e-02 2.36029577e-02 1.10421848e-03 4.06797993e-02
+ 2.76919459e-01 9.80876216e-03 1.51080835e-03 1.19535527e-02
+ 7.54920408e-02 2.37668468e-03 1.34267871e-01 1.50892025e-04
+ 2.82689122e-04 3.97560524e-01 1.85964298e-01 2.89790882e-02
+ 2.61032354e-01 4.09004267e-01 2.28426189e-04 2.69845210e-01
+ 6.10553550e-03 8.50242142e-01 2.03655676e-01 2.20047876e-02
+ 2.75311642e-02 9.77504492e-02 3.40259695e-01 3.73255885e-01
+ 1.52570034e-03 2.83882103e-01 1.47553228e-03 1.59946985e-02
+ 3.12402875e-03 9.51981172e-03 1.26780125e-01 1.38245003e-03
+ 1.45565399e-01 2.11117520e-01 4.74854726e-04 6.81187545e-02
+ 3.17382874e-01 1.45887411e-01 3.72396824e-03 1.00399080e-04
+ 4.13313282e-03 1.17479805e-03 6.78963271e-01 1.77858266e-02
+ 3.18035514e-01 1.04417578e-01 3.76900434e-02 3.05594629e-01
+ 8.03794773e-05 6.33186245e-01 4.86832863e-03 2.00066529e-02
+ 4.04799919e-03 2.19082430e-01 3.34528481e-01 6.23729351e-03
+ 1.66303929e-02 8.95526616e-03 3.98065567e-02 1.98639470e-01
+ 4.04561745e-02 5.82954816e-02 3.39805011e-03 2.09663974e-02
+ 2.53093383e-02 2.21555326e-02 1.09365256e-02 3.74422495e-02
+ 3.43872900e-04 1.89273542e-02 1.38456942e-03 4.80891278e-02
+ 1.07933445e-01 3.05213147e-01 6.69535889e-02 1.44887853e-03
+ 2.20980438e-03 3.40678910e-02 1.56474474e-02 4.55360912e-04
+ 1.52599230e-04 3.38423666e-02 5.30316981e-02 3.95061749e-03
+ 1.66579442e-03 2.99502034e-01 4.89077220e-01 7.24637743e-02
+ 3.72126273e-03 9.97495673e-01 5.81488703e-02 2.71824520e-03
+ 3.31314879e-03 1.87599392e-01 2.84798275e-02 2.23632018e-01
+ 3.60488048e-01 2.38428084e-01 6.82397142e-02 1.70207819e-04
+ 1.65429076e-02 8.97641020e-02 1.47437064e-02 1.02971798e-02
+ 8.66017352e-04 2.90444112e-01 2.73443451e-03 3.12627059e-02
+ 4.67172669e-02 1.67625382e-02 3.70097236e-02 1.45051358e-03
+ 3.23307861e-01 3.18419139e-03 2.22863238e-02 1.22510786e-03
+ 9.82459480e-02 1.11912747e-02 1.20060399e-01 1.62403349e-03
+ 2.90996052e-01 5.85842940e-02 7.63932976e-03 2.20318786e-02
+ 1.71423565e-02 1.87681205e-02 3.41083199e-02 2.05334553e-03
+ 4.36902743e-01 3.31158281e-03 1.42633539e-04 9.32139342e-04
+ 1.73175620e-02 2.04639977e-03 2.40672704e-05 2.58175562e-03
+ 2.00897353e-01 7.09373320e-02 1.93387721e-02 3.43676984e-02
+ 6.39837963e-03 2.08496946e-02 5.02641687e-02 4.40223776e-02
+ 9.23455857e-01 8.50272970e-01 1.20956546e-01 1.36344422e-01
+ 1.65764476e-01 6.13372600e-02 5.06173937e-03 3.54062021e-02
+ 1.70972598e-03 3.92652867e-01 1.50124067e-01 2.12859692e-02
+ 1.16263615e-02 4.21556783e-02 7.13342266e-02 2.05523669e-02
+ 6.42687173e-02 1.95607635e-01 2.36928616e-01 9.28496158e-02
+ 9.92363237e-01 9.99347763e-01 9.91116855e-01 9.87181820e-01
+ 9.57392190e-01 8.68372052e-01 9.97952198e-01 9.70984948e-01
+ 9.28307824e-01 9.85646977e-01 9.84346244e-01 9.96345508e-01
+ 9.65157702e-01 9.97200756e-01 9.59341537e-01 9.90321766e-01
+ 9.97160385e-01 9.99963510e-01 9.99954006e-01 8.65862808e-01
+ 9.72073336e-01 9.99887907e-01 7.29077611e-01 9.95690771e-01
+ 9.55895128e-01 9.94207279e-01 9.86176885e-01 9.97203715e-01
+ 9.72794523e-01 9.95845219e-01 9.31445242e-01 9.33333563e-01
+ 9.99562104e-01 9.99866670e-01 9.99837689e-01 9.75130335e-01
+ 9.97995441e-01 9.99417007e-01 9.96072060e-01 9.32357076e-01
+ 9.55016044e-01 6.53713472e-01 6.78432054e-01 9.84099988e-01
+ 1.38612115e-01 9.86935547e-01 9.30047978e-01 9.98871069e-01
+ 9.73709329e-01 9.88313439e-01 9.96964639e-01 9.99237123e-01
+ 9.92546248e-01 9.88113710e-01 9.99551783e-01 1.73016802e-01
+ 9.99651727e-01 9.99983129e-01 9.99789445e-01 9.78577405e-01
+ 9.55891996e-01 1.46452492e-01 9.98577642e-01 9.21704460e-01
+ 9.99953932e-01 9.99837455e-01 9.47543861e-01 9.03746805e-01
+ 9.99103334e-01 9.99792672e-01 9.99956825e-01 9.99997796e-01
+ 8.57309795e-01 6.71868292e-01 5.29623647e-01 4.96240922e-01
+ 9.99619180e-01 8.82698551e-01 7.67662542e-01 9.95413843e-01
+ 9.99991943e-01 9.17265098e-01 9.99470345e-01 8.39243490e-01
+ 9.99937582e-01 9.99482108e-01 9.97125578e-01 6.24979920e-01
+ 9.34161919e-01 9.95496765e-01 9.94315135e-01 8.83557684e-01
+ 8.97947696e-01 5.10179180e-01 9.94743249e-01 9.61605183e-01
+ 9.99644538e-01 9.88320148e-01 8.76415088e-01 9.59577794e-01
+ 9.50858263e-01 9.78410036e-01 9.99913326e-01 9.70535075e-01
+ 9.99969452e-01 9.75022751e-01 8.64891438e-01 9.82382548e-01
+ 9.96648735e-01 9.99061819e-01 3.99177158e-01 9.98788237e-01
+ 9.73770146e-01 9.99608663e-01 8.59156079e-01 9.99982757e-01
+ 9.99654456e-01 8.38934579e-01 8.74529610e-01 9.99903513e-01
+ 9.99044151e-01 7.21647474e-01 9.96229908e-01 4.32779327e-02
+ 9.99652362e-01 9.96643859e-01 5.28982658e-01 9.99655356e-01
+ 7.02083645e-01 9.99986917e-01 5.33882446e-01 3.51556956e-01
+ 2.58009589e-01 9.93309344e-01 9.99923436e-01 9.99929086e-01
+ 9.94525560e-01 9.89293529e-01 9.95676851e-01 9.98902457e-01
+ 6.56435543e-01 9.99881910e-01 9.20536849e-01 9.96802987e-01
+ 9.99722059e-01 9.99930401e-01 9.99997011e-01 8.70526167e-01
+ 9.63482657e-01 9.81299644e-01 9.99988951e-01 9.99666706e-01
+ 9.86843060e-01 9.86592838e-01 9.99742465e-01 1.54492741e-01
+ 3.62478287e-01 9.99781860e-01 1.29421022e-02 5.74462107e-01
+ 2.94746510e-01 3.23258171e-01 9.91575605e-01 9.57284443e-01
+ 9.99659660e-01 9.92712669e-01 9.71220091e-01 9.99939050e-01
+ 9.90235282e-01 6.12219544e-01 3.16340570e-01 5.57344204e-01
+ 9.99994937e-01 9.94087895e-01 9.02534982e-01 2.28010496e-01
+ 9.96876362e-01 9.99703341e-01 7.93473528e-01 3.83625876e-01
+ 9.99988105e-01 9.76297207e-01 9.84924536e-01 9.99999680e-01
+ 9.99962153e-01 8.96720802e-01 9.98621979e-01 9.98555326e-01
+ 9.95912839e-01 9.51539421e-01 3.72359423e-01 9.84742990e-01
+ 9.94566778e-01 7.34086111e-01 1.14850155e-01 9.87775139e-01
+ 9.99788052e-01 9.45727676e-01 8.42356808e-01 9.95216255e-01]
+Moyenne classe 0: [2.04616058 1.91278979]
+Moyenne classe 1: [-0.07510028 -0.14203197]
+Variance classe 0: [0.97936836 0.97850395]
+Variance classe 1: [0.89293017 2.05696981]
+Erreur empirique 0.0675
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;erreur-en-apprentissage-et-test-pour-le-classifieur-de-bayes-naïf&#34;&gt;Erreur en apprentissage et test pour le classifieur de Bayes naïf&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=1/3, random_state=3)
+
+from sklearn.naive_bayes import GaussianNB
+gnb = GaussianNB();
+gnbmod=gnb.fit(X_train, y_train);
+y_pred_test = gnbmod.predict(X_test)
+y_pred_train = gnbmod.predict(X_train)
+
+E_test=(y_test != y_pred_test).sum()/len(y_test)
+E_train=(y_train != y_pred_train).sum()/len(y_train)
+
+print(&amp;quot;Error on the test set=&amp;quot;,E_test)
+print(&amp;quot;Error on the train set=&amp;quot;,E_train)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Error on the test set= 0.05970149253731343
+Error on the train set= 0.07142857142857142
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;courbe-roc-et-auc-pour-une-validation-en-5-plis&#34;&gt;Courbe ROC et AUC pour une validation en 5 plis&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#Etude MM 2022
+y=Y
+#############################################
+# Cross-validation sur la courbe ROC
+############################################
+import numpy as np
+import matplotlib.pyplot as plt
+
+from sklearn import svm, datasets
+from sklearn.metrics import auc
+from sklearn.metrics import RocCurveDisplay
+from sklearn.model_selection import StratifiedKFold
+
+n_samples, n_features = X.shape
+
+# Run classifier with cross-validation and plot ROC curves
+cv = StratifiedKFold(n_splits=6)
+classifier = GaussianNB();
+
+tprs = []
+aucs = []
+mean_fpr = np.linspace(0, 1, 100)
+
+fig, ax = plt.subplots()
+for i, (train, test) in enumerate(cv.split(X, y)):
+    y_train=[y[i] for i in train];
+    y_test=[y[i] for i in test];
+    classifier.fit(X[train], y_train)
+    viz = RocCurveDisplay.from_estimator(
+        classifier,             # Le modèle entraîné
+        X[test],                # Les données de test
+        y_test,                 # Les étiquettes de test
+        name=&#39;ROC fold {}&#39;.format(i),  # Nom de la courbe pour chaque fold
+        alpha=0.3,              # Transparence
+        lw=1,                   # Épaisseur de la ligne
+        ax=ax                   # L&#39;axe de la figure pour tracer la courbe
+        )       
+    interp_tpr = np.interp(mean_fpr, viz.fpr, viz.tpr)
+    interp_tpr[0] = 0.0
+    tprs.append(interp_tpr)
+    aucs.append(viz.roc_auc)
+
+ax.plot([0, 1], [0, 1], linestyle=&#39;--&#39;, lw=2, color=&#39;r&#39;,
+        label=&#39;Chance&#39;, alpha=.8)
+
+mean_tpr = np.mean(tprs, axis=0)
+mean_tpr[-1] = 1.0
+mean_auc = auc(mean_fpr, mean_tpr)
+std_auc = np.std(aucs)
+ax.plot(mean_fpr, mean_tpr, color=&#39;b&#39;,
+        label=r&#39;Mean ROC (AUC = %0.2f $\pm$ %0.2f)&#39; % (mean_auc, std_auc),
+        lw=2, alpha=.8)
+
+std_tpr = np.std(tprs, axis=0)
+tprs_upper = np.minimum(mean_tpr + std_tpr, 1)
+tprs_lower = np.maximum(mean_tpr - std_tpr, 0)
+ax.fill_between(mean_fpr, tprs_lower, tprs_upper, color=&#39;grey&#39;, alpha=.2,
+                label=r&#39;$\pm$ 1 std. dev.&#39;)
+
+ax.set(xlim=[-0.05, 1.05], ylim=[-0.05, 1.05],
+       title=&amp;quot;Receiver operating characteristic example&amp;quot;)
+ax.legend(loc=&amp;quot;lower right&amp;quot;)
+plt.show()
+    
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_10_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;analyse-discriminante-linéaire&#34;&gt;Analyse discriminante linéaire&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Example usage
+from sklearn.model_selection import train_test_split
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.metrics import accuracy_score
+
+# Generate data
+n1, n2 = 200, 200
+mu1 = [2, 2]
+cov1 = [[1, 0], [0, 1]]
+mu2 = [0, 0]
+cov2 = [[1, 0], [0, 2]]
+
+X, Y = generate_data(n1, n2, mu1, cov1, mu2, cov2)
+
+# Split the data into train and test sets
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=42)
+
+# Train LDA model
+lda = LinearDiscriminantAnalysis()
+lda.fit(X_train, Y_train)
+
+# Predict on test set
+Y_pred = lda.predict(X_test)
+
+# Calculate accuracy
+accuracy = accuracy_score(Y_test, Y_pred)
+print(f&amp;quot;LDA Classification Accuracy: {accuracy:.2f}&amp;quot;)
+
+# Display posterior density
+display_posterior_density(X, Y, lda)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;LDA Classification Accuracy: 0.93
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_12_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Nous remarquons la frontière linéaire liée à l&amp;rsquo;égalité des matrices de covariance&lt;/p&gt;
+&lt;h2 id=&#34;analyse-discriminante-quadratique&#34;&gt;Analyse discriminante quadratique&lt;/h2&gt;
+&lt;p&gt;Les matrices de variances-covariances sont laissées libres et la frontière est une hyperbole (proche de la frontière obtenu par le classifieur de Bayes naïf)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Example usage with QDA
+from sklearn.model_selection import train_test_split
+from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
+from sklearn.metrics import accuracy_score
+
+# Generate data
+n1, n2 = 200, 200
+mu1 = [2, 2]
+cov1 = [[1, 0], [0, 1]]
+mu2 = [0, 0]
+cov2 = [[1, 0], [0, 2]]
+
+X, Y = generate_data(n1, n2, mu1, cov1, mu2, cov2)
+
+# Split the data into train and test sets
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=42)
+
+# Train QDA model
+qda = QuadraticDiscriminantAnalysis()
+qda.fit(X_train, Y_train)
+
+# Predict on test set
+Y_pred = qda.predict(X_test)
+
+# Calculate accuracy
+accuracy = accuracy_score(Y_test, Y_pred)
+print(f&amp;quot;QDA Classification Accuracy: {accuracy:.2f}&amp;quot;)
+
+# Display posterior density
+display_posterior_density(X, Y, qda)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;QDA Classification Accuracy: 0.93
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_14_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;les-plus-proches-voisins&#34;&gt;Les plus proches voisins&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Example usage with KNN
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
+
+# Generate data
+n1, n2 = 200, 200
+mu1 = [2, 2]
+cov1 = [[1, 0], [0, 1]]
+mu2 = [0, 0]
+cov2 = [[1, 0], [0, 2]]
+
+X, Y = generate_data(n1, n2, mu1, cov1, mu2, cov2)
+
+# Split the data into train and test sets
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=42)
+
+# Train KNN model
+knn = KNeighborsClassifier(n_neighbors=5)  # You can adjust the number of neighbors (k)
+knn.fit(X_train, Y_train)
+
+# Predict on test set
+Y_pred = knn.predict(X_test)
+
+# Calculate accuracy
+accuracy = accuracy_score(Y_test, Y_pred)
+print(f&amp;quot;KNN Classification Accuracy: {accuracy:.2f}&amp;quot;)
+
+# Display posterior density
+display_posterior_density(X, Y, knn)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;KNN Classification Accuracy: 0.85
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_16_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;la-régression-logistique&#34;&gt;La régression logistique&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Example usage with Logistic Regression
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+
+# Generate data
+n1, n2 = 200, 200
+mu1 = [2, 2]
+cov1 = [[1, 0], [0, 1]]
+mu2 = [0, 0]
+cov2 = [[1, 0], [0, 2]]
+
+X, Y = generate_data(n1, n2, mu1, cov1, mu2, cov2)
+
+# Split the data into train and test sets
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=42)
+
+# Train Logistic Regression model
+log_reg = LogisticRegression()
+log_reg.fit(X_train, Y_train)
+
+# Predict on test set
+Y_pred = log_reg.predict(X_test)
+
+# Calculate accuracy
+accuracy = accuracy_score(Y_test, Y_pred)
+print(f&amp;quot;Logistic Regression Classification Accuracy: {accuracy:.2f}&amp;quot;)
+
+# Display posterior density
+display_posterior_density(X, Y, log_reg)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Logistic Regression Classification Accuracy: 0.88
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_18_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;comparaison-des-méthodes-par-auc-et-erreur-de-classification&#34;&gt;Comparaison des méthodes par AUC et erreur de classification&lt;/h2&gt;
+&lt;p&gt;Remarquons les grandes différences entre ensemble d&amp;rsquo;apprentissage et test.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis, QuadraticDiscriminantAnalysis
+from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.metrics import roc_auc_score, make_scorer
+from sklearn.datasets import make_classification
+
+# Générer des données simulées
+n1, n2 = 200, 200
+X, Y = make_classification(n_samples=n1 + n2, n_features=2, n_informative=2, n_redundant=0, random_state=42)
+
+# Split les données en train/test
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=42)
+
+# Initialiser les modèles
+models = {
+    &#39;Naive Bayes&#39;: GaussianNB(),
+    &#39;LDA&#39;: LinearDiscriminantAnalysis(),
+    &#39;Logistic Regression&#39;: LogisticRegression(),
+    &#39;QDA&#39;: QuadraticDiscriminantAnalysis(),
+    &#39;KNN&#39;: KNeighborsClassifier(n_neighbors=5)
+}
+
+# Fonction pour calculer les AUC avec validation croisée (10-fold)
+def calculate_auc_cv(model, X_train, Y_train, X_test, Y_test):
+    scorer = make_scorer(roc_auc_score)
+    train_scores = cross_val_score(model, X_train, Y_train, cv=10, scoring=scorer)
+    test_scores = cross_val_score(model, X_test, Y_test, cv=10, scoring=scorer)
+    return train_scores, test_scores
+
+# Stocker les résultats des AUC
+results_train = []
+results_test = []
+model_names = []
+
+# Calculer l&#39;AUC pour chaque modèle
+for name, model in models.items():
+    train_auc, test_auc = calculate_auc_cv(model, X_train, Y_train, X_test, Y_test)
+    results_train.append(train_auc)
+    results_test.append(test_auc)
+    model_names.append(name)
+
+# Créer les boxplots pour visualiser les AUC en train et en test
+fig, ax = plt.subplots(figsize=(12, 6))
+
+# Préparer les données pour afficher les boxplots côte à côte
+positions_train = np.arange(1, len(models) * 2, 2)  # Positions pour les boxplots en train
+positions_test = np.arange(2, len(models) * 2 + 1, 2)  # Positions pour les boxplots en test
+
+# Boxplot pour l&#39;AUC sur les données de train (en bleu)
+bp_train = ax.boxplot(results_train, positions=positions_train, widths=0.6, patch_artist=True,
+                      boxprops=dict(facecolor=&amp;quot;lightblue&amp;quot;), medianprops=dict(color=&amp;quot;blue&amp;quot;))
+
+# Boxplot pour l&#39;AUC sur les données de test (en orange)
+bp_test = ax.boxplot(results_test, positions=positions_test, widths=0.6, patch_artist=True,
+                     boxprops=dict(facecolor=&amp;quot;orange&amp;quot;), medianprops=dict(color=&amp;quot;red&amp;quot;))
+
+# Ajouter une légende pour les boxplots
+ax.legend([bp_train[&amp;quot;boxes&amp;quot;][0], bp_test[&amp;quot;boxes&amp;quot;][0]], [&#39;Train&#39;, &#39;Test&#39;], loc=&#39;upper right&#39;)
+
+# Ajuster les labels et le titre
+ax.set_xticks(np.arange(1.5, len(models) * 2, 2))
+ax.set_xticklabels(model_names)
+ax.set_title(&amp;quot;Comparaison des modèles - AUC en Train et Test (10-fold CV)&amp;quot;)
+ax.set_ylabel(&amp;quot;AUC Score&amp;quot;)
+
+plt.tight_layout()
+plt.show()
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_20_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis, QuadraticDiscriminantAnalysis
+from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.metrics import make_scorer
+from sklearn.datasets import make_classification
+
+# Générer des données simulées
+n1, n2 = 200, 200
+X, Y = make_classification(n_samples=n1 + n2, n_features=2, n_informative=2, n_redundant=0, random_state=42)
+
+# Split les données en train/test
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=42)
+
+# Initialiser les modèles
+models = {
+    &#39;Naive Bayes&#39;: GaussianNB(),
+    &#39;LDA&#39;: LinearDiscriminantAnalysis(),
+    &#39;Logistic Regression&#39;: LogisticRegression(),
+    &#39;QDA&#39;: QuadraticDiscriminantAnalysis(),
+    &#39;KNN&#39;: KNeighborsClassifier(n_neighbors=5)
+}
+
+# Fonction pour calculer les erreurs avec validation croisée (10-fold)
+def calculate_error_cv(model, X_train, Y_train, X_test, Y_test):
+    scorer = make_scorer(lambda y_true, y_pred: 1 - np.mean(y_true == y_pred))  # Calculer l&#39;erreur
+    train_errors = cross_val_score(model, X_train, Y_train, cv=10, scoring=scorer)
+    test_errors = cross_val_score(model, X_test, Y_test, cv=10, scoring=scorer)
+    return train_errors, test_errors
+
+# Stocker les résultats des erreurs
+results_train = []
+results_test = []
+model_names = []
+
+# Calculer l&#39;erreur pour chaque modèle
+for name, model in models.items():
+    train_error, test_error = calculate_error_cv(model, X_train, Y_train, X_test, Y_test)
+    results_train.append(train_error)
+    results_test.append(test_error)
+    model_names.append(name)
+
+# Créer les boxplots pour visualiser les erreurs en train et en test
+fig, ax = plt.subplots(figsize=(12, 6))
+
+# Préparer les données pour afficher les boxplots côte à côte
+positions_train = np.arange(1, len(models) * 2, 2)  # Positions pour les boxplots en train
+positions_test = np.arange(2, len(models) * 2 + 1, 2)  # Positions pour les boxplots en test
+
+# Boxplot pour l&#39;erreur sur les données de train (en bleu)
+bp_train = ax.boxplot(results_train, positions=positions_train, widths=0.6, patch_artist=True,
+                      boxprops=dict(facecolor=&amp;quot;lightblue&amp;quot;), medianprops=dict(color=&amp;quot;blue&amp;quot;))
+
+# Boxplot pour l&#39;erreur sur les données de test (en orange)
+bp_test = ax.boxplot(results_test, positions=positions_test, widths=0.6, patch_artist=True,
+                     boxprops=dict(facecolor=&amp;quot;orange&amp;quot;), medianprops=dict(color=&amp;quot;red&amp;quot;))
+
+# Ajouter une légende pour les boxplots
+ax.legend([bp_train[&amp;quot;boxes&amp;quot;][0], bp_test[&amp;quot;boxes&amp;quot;][0]], [&#39;Train&#39;, &#39;Test&#39;], loc=&#39;upper right&#39;)
+
+# Ajuster les labels et le titre
+ax.set_xticks(np.arange(1.5, len(models) * 2, 2))
+ax.set_xticklabels(model_names)
+ax.set_title(&amp;quot;Comparaison des modèles - Erreur en Train et Test (10-fold CV)&amp;quot;)
+ax.set_ylabel(&amp;quot;Erreur de Classification&amp;quot;)
+
+plt.tight_layout()
+plt.show()
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_21_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cambroise.github.io/courses/introduction-machine-learning/jupyter-tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cambroise.github.io/courses/introduction-machine-learning/jupyter-tree/</guid>
+      <description>&lt;h1 id=&#34;tree-bagging-et-forêts-aléatoires&#34;&gt;Tree, bagging et forêts aléatoires&lt;/h1&gt;
+&lt;h2 id=&#34;simulation&#34;&gt;Simulation&lt;/h2&gt;
+&lt;p&gt;Soit X un vecteur gaussien de loi $\mathcal N_p(\boldsymbol \mu, \boldsymbol \Sigma)$&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import random as rd
+from scipy.stats import multivariate_normal
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap
+import math
+
+NG1, NG2 = 50, 150
+mu1 = [2, 2]  # Moyenne G1
+cov1 = [[1, 0], [0, 1]]  # Matrice de covariance G1 (indépendance)
+    
+mu2 = [0, 0]  # Moyenne G2
+cov2 = [[1, 0], [0, 2]]  # Matrice de covariance G2 (indépendance mais variance différente)
+    
+# Génération des données
+xG1 = multivariate_normal(mean=mu1, cov=cov1).rvs(NG1)
+xG2 = multivariate_normal(mean=mu2, cov=cov2).rvs(NG2)
+    
+X = np.concatenate((xG1, xG2), axis=0)
+Y = [0] * NG1 + [1] * NG2
+
+
+# Visualisation des données générées
+mycolormap = ListedColormap([&#39;#FF0000&#39;, &#39;#0000FF&#39;])
+plt.scatter(X[:, 0], X[:, 1], c=Y, cmap=mycolormap)
+plt.title(&#39;Raw data&#39;)
+plt.grid()
+plt.xlabel(&#39;x1&#39;)
+plt.ylabel(&#39;x2&#39;)
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_2_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;classification-avec-arbre-de-décision&#34;&gt;Classification avec arbre de décision&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
+
+# Initialiser le classificateur
+dt_classifier = DecisionTreeClassifier()
+
+# Entraîner le modèle
+dt_classifier.fit(X, Y)
+
+# Prédire les probabilités sur le jeu d&#39;entraînement
+pred_proba_train = dt_classifier.predict_proba(X)
+
+# Obtenir les prédictions des classes
+pred_class_train = np.argmax(pred_proba_train, axis=1)
+
+# Calculer l&#39;accuracy sur le jeu d&#39;entraînement
+train_accuracy = accuracy_score(Y, pred_class_train)
+
+# Afficher l&#39;erreur d&#39;entraînement
+train_error = 1 - train_accuracy
+print(f&amp;quot;Erreur sur l&#39;ensemble d&#39;entraînement : {train_error:.2f}&amp;quot;)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Erreur sur l&#39;ensemble d&#39;entraînement : 0.00
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;tracé-de-la-frontière-de-décision-avec-contourf&#34;&gt;Tracé de la frontière de décision avec contourf&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# ---- Traçage de la frontière de décision ----
+# Créer une grille de points couvrant l&#39;espace des données
+x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
+y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+xx, yy = np.meshgrid(np.arange(x_min, x_max, 0.1),
+                     np.arange(y_min, y_max, 0.1))
+
+# Prédire la classe pour chaque point de la grille
+Z = dt_classifier.predict(np.c_[xx.ravel(), yy.ravel()])
+Z = Z.reshape(xx.shape)
+
+# Tracer la frontière de décision avec contourf
+plt.contourf(xx, yy, Z, alpha=0.4, cmap=mycolormap)
+
+# Tracer les points de données
+plt.scatter(X[:, 0], X[:, 1], c=Y, edgecolors=&#39;k&#39;, cmap=mycolormap)
+plt.title(&#39;Decision Boundary of the Decision Tree&#39;)
+plt.grid()
+plt.xlabel(&#39;x1&#39;)
+plt.ylabel(&#39;x2&#39;)
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_6_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;help(DecisionTreeClassifier)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Help on class DecisionTreeClassifier in module sklearn.tree._classes:
+
+class DecisionTreeClassifier(sklearn.base.ClassifierMixin, BaseDecisionTree)
+ |  DecisionTreeClassifier(*, criterion=&#39;gini&#39;, splitter=&#39;best&#39;, max_depth=None, min_samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, max_leaf_nodes=None, min_impurity_decrease=0.0, class_weight=None, ccp_alpha=0.0, monotonic_cst=None)
+ |
+ |  A decision tree classifier.
+ |
+ |  Read more in the :ref:`User Guide &amp;lt;tree&amp;gt;`.
+ |
+ |  Parameters
+ |  ----------
+ |  criterion : {&amp;quot;gini&amp;quot;, &amp;quot;entropy&amp;quot;, &amp;quot;log_loss&amp;quot;}, default=&amp;quot;gini&amp;quot;
+ |      The function to measure the quality of a split. Supported criteria are
+ |      &amp;quot;gini&amp;quot; for the Gini impurity and &amp;quot;log_loss&amp;quot; and &amp;quot;entropy&amp;quot; both for the
+ |      Shannon information gain, see :ref:`tree_mathematical_formulation`.
+ |
+ |  splitter : {&amp;quot;best&amp;quot;, &amp;quot;random&amp;quot;}, default=&amp;quot;best&amp;quot;
+ |      The strategy used to choose the split at each node. Supported
+ |      strategies are &amp;quot;best&amp;quot; to choose the best split and &amp;quot;random&amp;quot; to choose
+ |      the best random split.
+ |
+ |  max_depth : int, default=None
+ |      The maximum depth of the tree. If None, then nodes are expanded until
+ |      all leaves are pure or until all leaves contain less than
+ |      min_samples_split samples.
+ |
+ |  min_samples_split : int or float, default=2
+ |      The minimum number of samples required to split an internal node:
+ |
+ |      - If int, then consider `min_samples_split` as the minimum number.
+ |      - If float, then `min_samples_split` is a fraction and
+ |        `ceil(min_samples_split * n_samples)` are the minimum
+ |        number of samples for each split.
+ |
+ |      .. versionchanged:: 0.18
+ |         Added float values for fractions.
+ |
+ |  min_samples_leaf : int or float, default=1
+ |      The minimum number of samples required to be at a leaf node.
+ |      A split point at any depth will only be considered if it leaves at
+ |      least ``min_samples_leaf`` training samples in each of the left and
+ |      right branches.  This may have the effect of smoothing the model,
+ |      especially in regression.
+ |
+ |      - If int, then consider `min_samples_leaf` as the minimum number.
+ |      - If float, then `min_samples_leaf` is a fraction and
+ |        `ceil(min_samples_leaf * n_samples)` are the minimum
+ |        number of samples for each node.
+ |
+ |      .. versionchanged:: 0.18
+ |         Added float values for fractions.
+ |
+ |  min_weight_fraction_leaf : float, default=0.0
+ |      The minimum weighted fraction of the sum total of weights (of all
+ |      the input samples) required to be at a leaf node. Samples have
+ |      equal weight when sample_weight is not provided.
+ |
+ |  max_features : int, float or {&amp;quot;sqrt&amp;quot;, &amp;quot;log2&amp;quot;}, default=None
+ |      The number of features to consider when looking for the best split:
+ |
+ |          - If int, then consider `max_features` features at each split.
+ |          - If float, then `max_features` is a fraction and
+ |            `max(1, int(max_features * n_features_in_))` features are considered at
+ |            each split.
+ |          - If &amp;quot;sqrt&amp;quot;, then `max_features=sqrt(n_features)`.
+ |          - If &amp;quot;log2&amp;quot;, then `max_features=log2(n_features)`.
+ |          - If None, then `max_features=n_features`.
+ |
+ |      Note: the search for a split does not stop until at least one
+ |      valid partition of the node samples is found, even if it requires to
+ |      effectively inspect more than ``max_features`` features.
+ |
+ |  random_state : int, RandomState instance or None, default=None
+ |      Controls the randomness of the estimator. The features are always
+ |      randomly permuted at each split, even if ``splitter`` is set to
+ |      ``&amp;quot;best&amp;quot;``. When ``max_features &amp;lt; n_features``, the algorithm will
+ |      select ``max_features`` at random at each split before finding the best
+ |      split among them. But the best found split may vary across different
+ |      runs, even if ``max_features=n_features``. That is the case, if the
+ |      improvement of the criterion is identical for several splits and one
+ |      split has to be selected at random. To obtain a deterministic behaviour
+ |      during fitting, ``random_state`` has to be fixed to an integer.
+ |      See :term:`Glossary &amp;lt;random_state&amp;gt;` for details.
+ |
+ |  max_leaf_nodes : int, default=None
+ |      Grow a tree with ``max_leaf_nodes`` in best-first fashion.
+ |      Best nodes are defined as relative reduction in impurity.
+ |      If None then unlimited number of leaf nodes.
+ |
+ |  min_impurity_decrease : float, default=0.0
+ |      A node will be split if this split induces a decrease of the impurity
+ |      greater than or equal to this value.
+ |
+ |      The weighted impurity decrease equation is the following::
+ |
+ |          N_t / N * (impurity - N_t_R / N_t * right_impurity
+ |                              - N_t_L / N_t * left_impurity)
+ |
+ |      where ``N`` is the total number of samples, ``N_t`` is the number of
+ |      samples at the current node, ``N_t_L`` is the number of samples in the
+ |      left child, and ``N_t_R`` is the number of samples in the right child.
+ |
+ |      ``N``, ``N_t``, ``N_t_R`` and ``N_t_L`` all refer to the weighted sum,
+ |      if ``sample_weight`` is passed.
+ |
+ |      .. versionadded:: 0.19
+ |
+ |  class_weight : dict, list of dict or &amp;quot;balanced&amp;quot;, default=None
+ |      Weights associated with classes in the form ``{class_label: weight}``.
+ |      If None, all classes are supposed to have weight one. For
+ |      multi-output problems, a list of dicts can be provided in the same
+ |      order as the columns of y.
+ |
+ |      Note that for multioutput (including multilabel) weights should be
+ |      defined for each class of every column in its own dict. For example,
+ |      for four-class multilabel classification weights should be
+ |      [{0: 1, 1: 1}, {0: 1, 1: 5}, {0: 1, 1: 1}, {0: 1, 1: 1}] instead of
+ |      [{1:1}, {2:5}, {3:1}, {4:1}].
+ |
+ |      The &amp;quot;balanced&amp;quot; mode uses the values of y to automatically adjust
+ |      weights inversely proportional to class frequencies in the input data
+ |      as ``n_samples / (n_classes * np.bincount(y))``
+ |
+ |      For multi-output, the weights of each column of y will be multiplied.
+ |
+ |      Note that these weights will be multiplied with sample_weight (passed
+ |      through the fit method) if sample_weight is specified.
+ |
+ |  ccp_alpha : non-negative float, default=0.0
+ |      Complexity parameter used for Minimal Cost-Complexity Pruning. The
+ |      subtree with the largest cost complexity that is smaller than
+ |      ``ccp_alpha`` will be chosen. By default, no pruning is performed. See
+ |      :ref:`minimal_cost_complexity_pruning` for details.
+ |
+ |      .. versionadded:: 0.22
+ |
+ |  monotonic_cst : array-like of int of shape (n_features), default=None
+ |      Indicates the monotonicity constraint to enforce on each feature.
+ |        - 1: monotonic increase
+ |        - 0: no constraint
+ |        - -1: monotonic decrease
+ |
+ |      If monotonic_cst is None, no constraints are applied.
+ |
+ |      Monotonicity constraints are not supported for:
+ |        - multiclass classifications (i.e. when `n_classes &amp;gt; 2`),
+ |        - multioutput classifications (i.e. when `n_outputs_ &amp;gt; 1`),
+ |        - classifications trained on data with missing values.
+ |
+ |      The constraints hold over the probability of the positive class.
+ |
+ |      Read more in the :ref:`User Guide &amp;lt;monotonic_cst_gbdt&amp;gt;`.
+ |
+ |      .. versionadded:: 1.4
+ |
+ |  Attributes
+ |  ----------
+ |  classes_ : ndarray of shape (n_classes,) or list of ndarray
+ |      The classes labels (single output problem),
+ |      or a list of arrays of class labels (multi-output problem).
+ |
+ |  feature_importances_ : ndarray of shape (n_features,)
+ |      The impurity-based feature importances.
+ |      The higher, the more important the feature.
+ |      The importance of a feature is computed as the (normalized)
+ |      total reduction of the criterion brought by that feature.  It is also
+ |      known as the Gini importance [4]_.
+ |
+ |      Warning: impurity-based feature importances can be misleading for
+ |      high cardinality features (many unique values). See
+ |      :func:`sklearn.inspection.permutation_importance` as an alternative.
+ |
+ |  max_features_ : int
+ |      The inferred value of max_features.
+ |
+ |  n_classes_ : int or list of int
+ |      The number of classes (for single output problems),
+ |      or a list containing the number of classes for each
+ |      output (for multi-output problems).
+ |
+ |  n_features_in_ : int
+ |      Number of features seen during :term:`fit`.
+ |
+ |      .. versionadded:: 0.24
+ |
+ |  feature_names_in_ : ndarray of shape (`n_features_in_`,)
+ |      Names of features seen during :term:`fit`. Defined only when `X`
+ |      has feature names that are all strings.
+ |
+ |      .. versionadded:: 1.0
+ |
+ |  n_outputs_ : int
+ |      The number of outputs when ``fit`` is performed.
+ |
+ |  tree_ : Tree instance
+ |      The underlying Tree object. Please refer to
+ |      ``help(sklearn.tree._tree.Tree)`` for attributes of Tree object and
+ |      :ref:`sphx_glr_auto_examples_tree_plot_unveil_tree_structure.py`
+ |      for basic usage of these attributes.
+ |
+ |  See Also
+ |  --------
+ |  DecisionTreeRegressor : A decision tree regressor.
+ |
+ |  Notes
+ |  -----
+ |  The default values for the parameters controlling the size of the trees
+ |  (e.g. ``max_depth``, ``min_samples_leaf``, etc.) lead to fully grown and
+ |  unpruned trees which can potentially be very large on some data sets. To
+ |  reduce memory consumption, the complexity and size of the trees should be
+ |  controlled by setting those parameter values.
+ |
+ |  The :meth:`predict` method operates using the :func:`numpy.argmax`
+ |  function on the outputs of :meth:`predict_proba`. This means that in
+ |  case the highest predicted probabilities are tied, the classifier will
+ |  predict the tied class with the lowest index in :term:`classes_`.
+ |
+ |  References
+ |  ----------
+ |
+ |  .. [1] https://en.wikipedia.org/wiki/Decision_tree_learning
+ |
+ |  .. [2] L. Breiman, J. Friedman, R. Olshen, and C. Stone, &amp;quot;Classification
+ |         and Regression Trees&amp;quot;, Wadsworth, Belmont, CA, 1984.
+ |
+ |  .. [3] T. Hastie, R. Tibshirani and J. Friedman. &amp;quot;Elements of Statistical
+ |         Learning&amp;quot;, Springer, 2009.
+ |
+ |  .. [4] L. Breiman, and A. Cutler, &amp;quot;Random Forests&amp;quot;,
+ |         https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm
+ |
+ |  Examples
+ |  --------
+ |  &amp;gt;&amp;gt;&amp;gt; from sklearn.datasets import load_iris
+ |  &amp;gt;&amp;gt;&amp;gt; from sklearn.model_selection import cross_val_score
+ |  &amp;gt;&amp;gt;&amp;gt; from sklearn.tree import DecisionTreeClassifier
+ |  &amp;gt;&amp;gt;&amp;gt; clf = DecisionTreeClassifier(random_state=0)
+ |  &amp;gt;&amp;gt;&amp;gt; iris = load_iris()
+ |  &amp;gt;&amp;gt;&amp;gt; cross_val_score(clf, iris.data, iris.target, cv=10)
+ |  ...                             # doctest: +SKIP
+ |  ...
+ |  array([ 1.     ,  0.93...,  0.86...,  0.93...,  0.93...,
+ |          0.93...,  0.93...,  1.     ,  0.93...,  1.      ])
+ |
+ |  Method resolution order:
+ |      DecisionTreeClassifier
+ |      sklearn.base.ClassifierMixin
+ |      BaseDecisionTree
+ |      sklearn.base.MultiOutputMixin
+ |      sklearn.base.BaseEstimator
+ |      sklearn.utils._estimator_html_repr._HTMLDocumentationLinkMixin
+ |      sklearn.utils._metadata_requests._MetadataRequester
+ |      builtins.object
+ |
+ |  Methods defined here:
+ |
+ |  __init__(self, *, criterion=&#39;gini&#39;, splitter=&#39;best&#39;, max_depth=None, min_samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, max_leaf_nodes=None, min_impurity_decrease=0.0, class_weight=None, ccp_alpha=0.0, monotonic_cst=None)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |
+ |  fit(self, X, y, sample_weight=None, check_input=True)
+ |      Build a decision tree classifier from the training set (X, y).
+ |
+ |      Parameters
+ |      ----------
+ |      X : {array-like, sparse matrix} of shape (n_samples, n_features)
+ |          The training input samples. Internally, it will be converted to
+ |          ``dtype=np.float32`` and if a sparse matrix is provided
+ |          to a sparse ``csc_matrix``.
+ |
+ |      y : array-like of shape (n_samples,) or (n_samples, n_outputs)
+ |          The target values (class labels) as integers or strings.
+ |
+ |      sample_weight : array-like of shape (n_samples,), default=None
+ |          Sample weights. If None, then samples are equally weighted. Splits
+ |          that would create child nodes with net zero or negative weight are
+ |          ignored while searching for a split in each node. Splits are also
+ |          ignored if they would result in any single class carrying a
+ |          negative weight in either child node.
+ |
+ |      check_input : bool, default=True
+ |          Allow to bypass several input checking.
+ |          Don&#39;t use this parameter unless you know what you&#39;re doing.
+ |
+ |      Returns
+ |      -------
+ |      self : DecisionTreeClassifier
+ |          Fitted estimator.
+ |
+ |  predict_log_proba(self, X)
+ |      Predict class log-probabilities of the input samples X.
+ |
+ |      Parameters
+ |      ----------
+ |      X : {array-like, sparse matrix} of shape (n_samples, n_features)
+ |          The input samples. Internally, it will be converted to
+ |          ``dtype=np.float32`` and if a sparse matrix is provided
+ |          to a sparse ``csr_matrix``.
+ |
+ |      Returns
+ |      -------
+ |      proba : ndarray of shape (n_samples, n_classes) or list of n_outputs             such arrays if n_outputs &amp;gt; 1
+ |          The class log-probabilities of the input samples. The order of the
+ |          classes corresponds to that in the attribute :term:`classes_`.
+ |
+ |  predict_proba(self, X, check_input=True)
+ |      Predict class probabilities of the input samples X.
+ |
+ |      The predicted class probability is the fraction of samples of the same
+ |      class in a leaf.
+ |
+ |      Parameters
+ |      ----------
+ |      X : {array-like, sparse matrix} of shape (n_samples, n_features)
+ |          The input samples. Internally, it will be converted to
+ |          ``dtype=np.float32`` and if a sparse matrix is provided
+ |          to a sparse ``csr_matrix``.
+ |
+ |      check_input : bool, default=True
+ |          Allow to bypass several input checking.
+ |          Don&#39;t use this parameter unless you know what you&#39;re doing.
+ |
+ |      Returns
+ |      -------
+ |      proba : ndarray of shape (n_samples, n_classes) or list of n_outputs             such arrays if n_outputs &amp;gt; 1
+ |          The class probabilities of the input samples. The order of the
+ |          classes corresponds to that in the attribute :term:`classes_`.
+ |
+ |  set_fit_request(self: sklearn.tree._classes.DecisionTreeClassifier, *, check_input: Union[bool, NoneType, str] = &#39;$UNCHANGED$&#39;, sample_weight: Union[bool, NoneType, str] = &#39;$UNCHANGED$&#39;) -&amp;gt; sklearn.tree._classes.DecisionTreeClassifier
+ |      Request metadata passed to the ``fit`` method.
+ |
+ |      Note that this method is only relevant if
+ |      ``enable_metadata_routing=True`` (see :func:`sklearn.set_config`).
+ |      Please see :ref:`User Guide &amp;lt;metadata_routing&amp;gt;` on how the routing
+ |      mechanism works.
+ |
+ |      The options for each parameter are:
+ |
+ |      - ``True``: metadata is requested, and passed to ``fit`` if provided. The request is ignored if metadata is not provided.
+ |
+ |      - ``False``: metadata is not requested and the meta-estimator will not pass it to ``fit``.
+ |
+ |      - ``None``: metadata is not requested, and the meta-estimator will raise an error if the user provides it.
+ |
+ |      - ``str``: metadata should be passed to the meta-estimator with this given alias instead of the original name.
+ |
+ |      The default (``sklearn.utils.metadata_routing.UNCHANGED``) retains the
+ |      existing request. This allows you to change the request for some
+ |      parameters and not others.
+ |
+ |      .. versionadded:: 1.3
+ |
+ |      .. note::
+ |          This method is only relevant if this estimator is used as a
+ |          sub-estimator of a meta-estimator, e.g. used inside a
+ |          :class:`~sklearn.pipeline.Pipeline`. Otherwise it has no effect.
+ |
+ |      Parameters
+ |      ----------
+ |      check_input : str, True, False, or None,                     default=sklearn.utils.metadata_routing.UNCHANGED
+ |          Metadata routing for ``check_input`` parameter in ``fit``.
+ |
+ |      sample_weight : str, True, False, or None,                     default=sklearn.utils.metadata_routing.UNCHANGED
+ |          Metadata routing for ``sample_weight`` parameter in ``fit``.
+ |
+ |      Returns
+ |      -------
+ |      self : object
+ |          The updated object.
+ |
+ |  set_predict_proba_request(self: sklearn.tree._classes.DecisionTreeClassifier, *, check_input: Union[bool, NoneType, str] = &#39;$UNCHANGED$&#39;) -&amp;gt; sklearn.tree._classes.DecisionTreeClassifier
+ |      Request metadata passed to the ``predict_proba`` method.
+ |
+ |      Note that this method is only relevant if
+ |      ``enable_metadata_routing=True`` (see :func:`sklearn.set_config`).
+ |      Please see :ref:`User Guide &amp;lt;metadata_routing&amp;gt;` on how the routing
+ |      mechanism works.
+ |
+ |      The options for each parameter are:
+ |
+ |      - ``True``: metadata is requested, and passed to ``predict_proba`` if provided. The request is ignored if metadata is not provided.
+ |
+ |      - ``False``: metadata is not requested and the meta-estimator will not pass it to ``predict_proba``.
+ |
+ |      - ``None``: metadata is not requested, and the meta-estimator will raise an error if the user provides it.
+ |
+ |      - ``str``: metadata should be passed to the meta-estimator with this given alias instead of the original name.
+ |
+ |      The default (``sklearn.utils.metadata_routing.UNCHANGED``) retains the
+ |      existing request. This allows you to change the request for some
+ |      parameters and not others.
+ |
+ |      .. versionadded:: 1.3
+ |
+ |      .. note::
+ |          This method is only relevant if this estimator is used as a
+ |          sub-estimator of a meta-estimator, e.g. used inside a
+ |          :class:`~sklearn.pipeline.Pipeline`. Otherwise it has no effect.
+ |
+ |      Parameters
+ |      ----------
+ |      check_input : str, True, False, or None,                     default=sklearn.utils.metadata_routing.UNCHANGED
+ |          Metadata routing for ``check_input`` parameter in ``predict_proba``.
+ |
+ |      Returns
+ |      -------
+ |      self : object
+ |          The updated object.
+ |
+ |  set_predict_request(self: sklearn.tree._classes.DecisionTreeClassifier, *, check_input: Union[bool, NoneType, str] = &#39;$UNCHANGED$&#39;) -&amp;gt; sklearn.tree._classes.DecisionTreeClassifier
+ |      Request metadata passed to the ``predict`` method.
+ |
+ |      Note that this method is only relevant if
+ |      ``enable_metadata_routing=True`` (see :func:`sklearn.set_config`).
+ |      Please see :ref:`User Guide &amp;lt;metadata_routing&amp;gt;` on how the routing
+ |      mechanism works.
+ |
+ |      The options for each parameter are:
+ |
+ |      - ``True``: metadata is requested, and passed to ``predict`` if provided. The request is ignored if metadata is not provided.
+ |
+ |      - ``False``: metadata is not requested and the meta-estimator will not pass it to ``predict``.
+ |
+ |      - ``None``: metadata is not requested, and the meta-estimator will raise an error if the user provides it.
+ |
+ |      - ``str``: metadata should be passed to the meta-estimator with this given alias instead of the original name.
+ |
+ |      The default (``sklearn.utils.metadata_routing.UNCHANGED``) retains the
+ |      existing request. This allows you to change the request for some
+ |      parameters and not others.
+ |
+ |      .. versionadded:: 1.3
+ |
+ |      .. note::
+ |          This method is only relevant if this estimator is used as a
+ |          sub-estimator of a meta-estimator, e.g. used inside a
+ |          :class:`~sklearn.pipeline.Pipeline`. Otherwise it has no effect.
+ |
+ |      Parameters
+ |      ----------
+ |      check_input : str, True, False, or None,                     default=sklearn.utils.metadata_routing.UNCHANGED
+ |          Metadata routing for ``check_input`` parameter in ``predict``.
+ |
+ |      Returns
+ |      -------
+ |      self : object
+ |          The updated object.
+ |
+ |  set_score_request(self: sklearn.tree._classes.DecisionTreeClassifier, *, sample_weight: Union[bool, NoneType, str] = &#39;$UNCHANGED$&#39;) -&amp;gt; sklearn.tree._classes.DecisionTreeClassifier
+ |      Request metadata passed to the ``score`` method.
+ |
+ |      Note that this method is only relevant if
+ |      ``enable_metadata_routing=True`` (see :func:`sklearn.set_config`).
+ |      Please see :ref:`User Guide &amp;lt;metadata_routing&amp;gt;` on how the routing
+ |      mechanism works.
+ |
+ |      The options for each parameter are:
+ |
+ |      - ``True``: metadata is requested, and passed to ``score`` if provided. The request is ignored if metadata is not provided.
+ |
+ |      - ``False``: metadata is not requested and the meta-estimator will not pass it to ``score``.
+ |
+ |      - ``None``: metadata is not requested, and the meta-estimator will raise an error if the user provides it.
+ |
+ |      - ``str``: metadata should be passed to the meta-estimator with this given alias instead of the original name.
+ |
+ |      The default (``sklearn.utils.metadata_routing.UNCHANGED``) retains the
+ |      existing request. This allows you to change the request for some
+ |      parameters and not others.
+ |
+ |      .. versionadded:: 1.3
+ |
+ |      .. note::
+ |          This method is only relevant if this estimator is used as a
+ |          sub-estimator of a meta-estimator, e.g. used inside a
+ |          :class:`~sklearn.pipeline.Pipeline`. Otherwise it has no effect.
+ |
+ |      Parameters
+ |      ----------
+ |      sample_weight : str, True, False, or None,                     default=sklearn.utils.metadata_routing.UNCHANGED
+ |          Metadata routing for ``sample_weight`` parameter in ``score``.
+ |
+ |      Returns
+ |      -------
+ |      self : object
+ |          The updated object.
+ |
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |
+ |  __abstractmethods__ = frozenset()
+ |
+ |  __annotations__ = {&#39;_parameter_constraints&#39;: &amp;lt;class &#39;dict&#39;&amp;gt;}
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from sklearn.base.ClassifierMixin:
+ |
+ |  score(self, X, y, sample_weight=None)
+ |      Return the mean accuracy on the given test data and labels.
+ |
+ |      In multi-label classification, this is the subset accuracy
+ |      which is a harsh metric since you require for each sample that
+ |      each label set be correctly predicted.
+ |
+ |      Parameters
+ |      ----------
+ |      X : array-like of shape (n_samples, n_features)
+ |          Test samples.
+ |
+ |      y : array-like of shape (n_samples,) or (n_samples, n_outputs)
+ |          True labels for `X`.
+ |
+ |      sample_weight : array-like of shape (n_samples,), default=None
+ |          Sample weights.
+ |
+ |      Returns
+ |      -------
+ |      score : float
+ |          Mean accuracy of ``self.predict(X)`` w.r.t. `y`.
+ |
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from sklearn.base.ClassifierMixin:
+ |
+ |  __dict__
+ |      dictionary for instance variables
+ |
+ |  __weakref__
+ |      list of weak references to the object
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from BaseDecisionTree:
+ |
+ |  apply(self, X, check_input=True)
+ |      Return the index of the leaf that each sample is predicted as.
+ |
+ |      .. versionadded:: 0.17
+ |
+ |      Parameters
+ |      ----------
+ |      X : {array-like, sparse matrix} of shape (n_samples, n_features)
+ |          The input samples. Internally, it will be converted to
+ |          ``dtype=np.float32`` and if a sparse matrix is provided
+ |          to a sparse ``csr_matrix``.
+ |
+ |      check_input : bool, default=True
+ |          Allow to bypass several input checking.
+ |          Don&#39;t use this parameter unless you know what you&#39;re doing.
+ |
+ |      Returns
+ |      -------
+ |      X_leaves : array-like of shape (n_samples,)
+ |          For each datapoint x in X, return the index of the leaf x
+ |          ends up in. Leaves are numbered within
+ |          ``[0; self.tree_.node_count)``, possibly with gaps in the
+ |          numbering.
+ |
+ |  cost_complexity_pruning_path(self, X, y, sample_weight=None)
+ |      Compute the pruning path during Minimal Cost-Complexity Pruning.
+ |
+ |      See :ref:`minimal_cost_complexity_pruning` for details on the pruning
+ |      process.
+ |
+ |      Parameters
+ |      ----------
+ |      X : {array-like, sparse matrix} of shape (n_samples, n_features)
+ |          The training input samples. Internally, it will be converted to
+ |          ``dtype=np.float32`` and if a sparse matrix is provided
+ |          to a sparse ``csc_matrix``.
+ |
+ |      y : array-like of shape (n_samples,) or (n_samples, n_outputs)
+ |          The target values (class labels) as integers or strings.
+ |
+ |      sample_weight : array-like of shape (n_samples,), default=None
+ |          Sample weights. If None, then samples are equally weighted. Splits
+ |          that would create child nodes with net zero or negative weight are
+ |          ignored while searching for a split in each node. Splits are also
+ |          ignored if they would result in any single class carrying a
+ |          negative weight in either child node.
+ |
+ |      Returns
+ |      -------
+ |      ccp_path : :class:`~sklearn.utils.Bunch`
+ |          Dictionary-like object, with the following attributes.
+ |
+ |          ccp_alphas : ndarray
+ |              Effective alphas of subtree during pruning.
+ |
+ |          impurities : ndarray
+ |              Sum of the impurities of the subtree leaves for the
+ |              corresponding alpha value in ``ccp_alphas``.
+ |
+ |  decision_path(self, X, check_input=True)
+ |      Return the decision path in the tree.
+ |
+ |      .. versionadded:: 0.18
+ |
+ |      Parameters
+ |      ----------
+ |      X : {array-like, sparse matrix} of shape (n_samples, n_features)
+ |          The input samples. Internally, it will be converted to
+ |          ``dtype=np.float32`` and if a sparse matrix is provided
+ |          to a sparse ``csr_matrix``.
+ |
+ |      check_input : bool, default=True
+ |          Allow to bypass several input checking.
+ |          Don&#39;t use this parameter unless you know what you&#39;re doing.
+ |
+ |      Returns
+ |      -------
+ |      indicator : sparse matrix of shape (n_samples, n_nodes)
+ |          Return a node indicator CSR matrix where non zero elements
+ |          indicates that the samples goes through the nodes.
+ |
+ |  get_depth(self)
+ |      Return the depth of the decision tree.
+ |
+ |      The depth of a tree is the maximum distance between the root
+ |      and any leaf.
+ |
+ |      Returns
+ |      -------
+ |      self.tree_.max_depth : int
+ |          The maximum depth of the tree.
+ |
+ |  get_n_leaves(self)
+ |      Return the number of leaves of the decision tree.
+ |
+ |      Returns
+ |      -------
+ |      self.tree_.n_leaves : int
+ |          Number of leaves.
+ |
+ |  predict(self, X, check_input=True)
+ |      Predict class or regression value for X.
+ |
+ |      For a classification model, the predicted class for each sample in X is
+ |      returned. For a regression model, the predicted value based on X is
+ |      returned.
+ |
+ |      Parameters
+ |      ----------
+ |      X : {array-like, sparse matrix} of shape (n_samples, n_features)
+ |          The input samples. Internally, it will be converted to
+ |          ``dtype=np.float32`` and if a sparse matrix is provided
+ |          to a sparse ``csr_matrix``.
+ |
+ |      check_input : bool, default=True
+ |          Allow to bypass several input checking.
+ |          Don&#39;t use this parameter unless you know what you&#39;re doing.
+ |
+ |      Returns
+ |      -------
+ |      y : array-like of shape (n_samples,) or (n_samples, n_outputs)
+ |          The predicted classes, or the predict values.
+ |
+ |  ----------------------------------------------------------------------
+ |  Readonly properties inherited from BaseDecisionTree:
+ |
+ |  feature_importances_
+ |      Return the feature importances.
+ |
+ |      The importance of a feature is computed as the (normalized) total
+ |      reduction of the criterion brought by that feature.
+ |      It is also known as the Gini importance.
+ |
+ |      Warning: impurity-based feature importances can be misleading for
+ |      high cardinality features (many unique values). See
+ |      :func:`sklearn.inspection.permutation_importance` as an alternative.
+ |
+ |      Returns
+ |      -------
+ |      feature_importances_ : ndarray of shape (n_features,)
+ |          Normalized total reduction of criteria by feature
+ |          (Gini importance).
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from sklearn.base.BaseEstimator:
+ |
+ |  __getstate__(self)
+ |      Helper for pickle.
+ |
+ |  __repr__(self, N_CHAR_MAX=700)
+ |      Return repr(self).
+ |
+ |  __setstate__(self, state)
+ |
+ |  __sklearn_clone__(self)
+ |
+ |  get_params(self, deep=True)
+ |      Get parameters for this estimator.
+ |
+ |      Parameters
+ |      ----------
+ |      deep : bool, default=True
+ |          If True, will return the parameters for this estimator and
+ |          contained subobjects that are estimators.
+ |
+ |      Returns
+ |      -------
+ |      params : dict
+ |          Parameter names mapped to their values.
+ |
+ |  set_params(self, **params)
+ |      Set the parameters of this estimator.
+ |
+ |      The method works on simple estimators as well as on nested objects
+ |      (such as :class:`~sklearn.pipeline.Pipeline`). The latter have
+ |      parameters of the form ``&amp;lt;component&amp;gt;__&amp;lt;parameter&amp;gt;`` so that it&#39;s
+ |      possible to update each component of a nested object.
+ |
+ |      Parameters
+ |      ----------
+ |      **params : dict
+ |          Estimator parameters.
+ |
+ |      Returns
+ |      -------
+ |      self : estimator instance
+ |          Estimator instance.
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from sklearn.utils._metadata_requests._MetadataRequester:
+ |
+ |  get_metadata_routing(self)
+ |      Get metadata routing of this object.
+ |
+ |      Please check :ref:`User Guide &amp;lt;metadata_routing&amp;gt;` on how the routing
+ |      mechanism works.
+ |
+ |      Returns
+ |      -------
+ |      routing : MetadataRequest
+ |          A :class:`~sklearn.utils.metadata_routing.MetadataRequest` encapsulating
+ |          routing information.
+ |
+ |  ----------------------------------------------------------------------
+ |  Class methods inherited from sklearn.utils._metadata_requests._MetadataRequester:
+ |
+ |  __init_subclass__(**kwargs) from abc.ABCMeta
+ |      Set the ``set_{method}_request`` methods.
+ |
+ |      This uses PEP-487 [1]_ to set the ``set_{method}_request`` methods. It
+ |      looks for the information available in the set default values which are
+ |      set using ``__metadata_request__*`` class attributes, or inferred
+ |      from method signatures.
+ |
+ |      The ``__metadata_request__*`` class attributes are used when a method
+ |      does not explicitly accept a metadata through its arguments or if the
+ |      developer would like to specify a request value for those metadata
+ |      which are different from the default ``None``.
+ |
+ |      References
+ |      ----------
+ |      .. [1] https://www.python.org/dev/peps/pep-0487
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Les paramètres de l&amp;rsquo;arbre de décision sont fixés mais peuvent être changés. Pour obtenir un arbre plus simple, il est par exemple possible d&amp;rsquo;augmenter le nombre de noeuds minimum par feuille.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;dt_classifier = DecisionTreeClassifier()
+
+# Afficher les paramètres du modèle
+params = dt_classifier.get_params()
+print(params)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;{&#39;ccp_alpha&#39;: 0.0, &#39;class_weight&#39;: None, &#39;criterion&#39;: &#39;gini&#39;, &#39;max_depth&#39;: None, &#39;max_features&#39;: None, &#39;max_leaf_nodes&#39;: None, &#39;min_impurity_decrease&#39;: 0.0, &#39;min_samples_leaf&#39;: 1, &#39;min_samples_split&#39;: 2, &#39;min_weight_fraction_leaf&#39;: 0.0, &#39;monotonic_cst&#39;: None, &#39;random_state&#39;: None, &#39;splitter&#39;: &#39;best&#39;}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;dt_classifier.set_params(min_samples_split= 30)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;style&gt;#sk-container-id-2 {
+  /* Definition of color scheme common for light and dark mode */
+  --sklearn-color-text: black;
+  --sklearn-color-line: gray;
+  /* Definition of color scheme for unfitted estimators */
+  --sklearn-color-unfitted-level-0: #fff5e6;
+  --sklearn-color-unfitted-level-1: #f6e4d2;
+  --sklearn-color-unfitted-level-2: #ffe0b3;
+  --sklearn-color-unfitted-level-3: chocolate;
+  /* Definition of color scheme for fitted estimators */
+  --sklearn-color-fitted-level-0: #f0f8ff;
+  --sklearn-color-fitted-level-1: #d4ebff;
+  --sklearn-color-fitted-level-2: #b3dbfd;
+  --sklearn-color-fitted-level-3: cornflowerblue;
+
+  /* Specific color for light theme */
+  --sklearn-color-text-on-default-background: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, black)));
+  --sklearn-color-background: var(--sg-background-color, var(--theme-background, var(--jp-layout-color0, white)));
+  --sklearn-color-border-box: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, black)));
+  --sklearn-color-icon: #696969;
+
+  @media (prefers-color-scheme: dark) {
+    /* Redefinition of color scheme for dark theme */
+    --sklearn-color-text-on-default-background: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, white)));
+    --sklearn-color-background: var(--sg-background-color, var(--theme-background, var(--jp-layout-color0, #111)));
+    --sklearn-color-border-box: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, white)));
+    --sklearn-color-icon: #878787;
+  }
+}
+
+#sk-container-id-2 {
+  color: var(--sklearn-color-text);
+}
+
+#sk-container-id-2 pre {
+  padding: 0;
+}
+
+#sk-container-id-2 input.sk-hidden--visually {
+  border: 0;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+#sk-container-id-2 div.sk-dashed-wrapped {
+  border: 1px dashed var(--sklearn-color-line);
+  margin: 0 0.4em 0.5em 0.4em;
+  box-sizing: border-box;
+  padding-bottom: 0.4em;
+  background-color: var(--sklearn-color-background);
+}
+
+#sk-container-id-2 div.sk-container {
+  /* jupyter&#39;s `normalize.less` sets `[hidden] { display: none; }`
+     but bootstrap.min.css set `[hidden] { display: none !important; }`
+     so we also need the `!important` here to be able to override the
+     default hidden behavior on the sphinx rendered scikit-learn.org.
+     See: https://github.com/scikit-learn/scikit-learn/issues/21755 */
+  display: inline-block !important;
+  position: relative;
+}
+
+#sk-container-id-2 div.sk-text-repr-fallback {
+  display: none;
+}
+
+div.sk-parallel-item,
+div.sk-serial,
+div.sk-item {
+  /* draw centered vertical line to link estimators */
+  background-image: linear-gradient(var(--sklearn-color-text-on-default-background), var(--sklearn-color-text-on-default-background));
+  background-size: 2px 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Parallel-specific style estimator block */
+
+#sk-container-id-2 div.sk-parallel-item::after {
+  content: &#34;&#34;;
+  width: 100%;
+  border-bottom: 2px solid var(--sklearn-color-text-on-default-background);
+  flex-grow: 1;
+}
+
+#sk-container-id-2 div.sk-parallel {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background-color: var(--sklearn-color-background);
+  position: relative;
+}
+
+#sk-container-id-2 div.sk-parallel-item {
+  display: flex;
+  flex-direction: column;
+}
+
+#sk-container-id-2 div.sk-parallel-item:first-child::after {
+  align-self: flex-end;
+  width: 50%;
+}
+
+#sk-container-id-2 div.sk-parallel-item:last-child::after {
+  align-self: flex-start;
+  width: 50%;
+}
+
+#sk-container-id-2 div.sk-parallel-item:only-child::after {
+  width: 0;
+}
+
+/* Serial-specific style estimator block */
+
+#sk-container-id-2 div.sk-serial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--sklearn-color-background);
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+
+/* Toggleable style: style used for estimator/Pipeline/ColumnTransformer box that is
+clickable and can be expanded/collapsed.
+- Pipeline and ColumnTransformer use this feature and define the default style
+- Estimators will overwrite some part of the style using the `sk-estimator` class
+*/
+
+/* Pipeline and ColumnTransformer style (default) */
+
+#sk-container-id-2 div.sk-toggleable {
+  /* Default theme specific background. It is overwritten whether we have a
+  specific estimator or a Pipeline/ColumnTransformer */
+  background-color: var(--sklearn-color-background);
+}
+
+/* Toggleable label */
+#sk-container-id-2 label.sk-toggleable__label {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0.5em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#sk-container-id-2 label.sk-toggleable__label-arrow:before {
+  /* Arrow on the left of the label */
+  content: &#34;▸&#34;;
+  float: left;
+  margin-right: 0.25em;
+  color: var(--sklearn-color-icon);
+}
+
+#sk-container-id-2 label.sk-toggleable__label-arrow:hover:before {
+  color: var(--sklearn-color-text);
+}
+
+/* Toggleable content - dropdown */
+
+#sk-container-id-2 div.sk-toggleable__content {
+  max-height: 0;
+  max-width: 0;
+  overflow: hidden;
+  text-align: left;
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-2 div.sk-toggleable__content.fitted {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+#sk-container-id-2 div.sk-toggleable__content pre {
+  margin: 0.2em;
+  border-radius: 0.25em;
+  color: var(--sklearn-color-text);
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-2 div.sk-toggleable__content.fitted pre {
+  /* unfitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+#sk-container-id-2 input.sk-toggleable__control:checked~div.sk-toggleable__content {
+  /* Expand drop-down */
+  max-height: 200px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+#sk-container-id-2 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {
+  content: &#34;▾&#34;;
+}
+
+/* Pipeline/ColumnTransformer-specific style */
+
+#sk-container-id-2 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-2 div.sk-label.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Estimator-specific style */
+
+/* Colorize estimator box */
+#sk-container-id-2 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-2 div.sk-estimator.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+#sk-container-id-2 div.sk-label label.sk-toggleable__label,
+#sk-container-id-2 div.sk-label label {
+  /* The background is the default theme color */
+  color: var(--sklearn-color-text-on-default-background);
+}
+
+/* On hover, darken the color of the background */
+#sk-container-id-2 div.sk-label:hover label.sk-toggleable__label {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+/* Label box, darken color on hover, fitted */
+#sk-container-id-2 div.sk-label.fitted:hover label.sk-toggleable__label.fitted {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Estimator label */
+
+#sk-container-id-2 div.sk-label label {
+  font-family: monospace;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 1.2em;
+}
+
+#sk-container-id-2 div.sk-label-container {
+  text-align: center;
+}
+
+/* Estimator-specific */
+#sk-container-id-2 div.sk-estimator {
+  font-family: monospace;
+  border: 1px dotted var(--sklearn-color-border-box);
+  border-radius: 0.25em;
+  box-sizing: border-box;
+  margin-bottom: 0.5em;
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-2 div.sk-estimator.fitted {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+/* on hover */
+#sk-container-id-2 div.sk-estimator:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-2 div.sk-estimator.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Specification for estimator info (e.g. &#34;i&#34; and &#34;?&#34;) */
+
+/* Common style for &#34;i&#34; and &#34;?&#34; */
+
+.sk-estimator-doc-link,
+a:link.sk-estimator-doc-link,
+a:visited.sk-estimator-doc-link {
+  float: right;
+  font-size: smaller;
+  line-height: 1em;
+  font-family: monospace;
+  background-color: var(--sklearn-color-background);
+  border-radius: 1em;
+  height: 1em;
+  width: 1em;
+  text-decoration: none !important;
+  margin-left: 1ex;
+  /* unfitted */
+  border: var(--sklearn-color-unfitted-level-1) 1pt solid;
+  color: var(--sklearn-color-unfitted-level-1);
+}
+
+.sk-estimator-doc-link.fitted,
+a:link.sk-estimator-doc-link.fitted,
+a:visited.sk-estimator-doc-link.fitted {
+  /* fitted */
+  border: var(--sklearn-color-fitted-level-1) 1pt solid;
+  color: var(--sklearn-color-fitted-level-1);
+}
+
+/* On hover */
+div.sk-estimator:hover .sk-estimator-doc-link:hover,
+.sk-estimator-doc-link:hover,
+div.sk-label-container:hover .sk-estimator-doc-link:hover,
+.sk-estimator-doc-link:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+div.sk-estimator.fitted:hover .sk-estimator-doc-link.fitted:hover,
+.sk-estimator-doc-link.fitted:hover,
+div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
+.sk-estimator-doc-link.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+/* Span, style for the box shown on hovering the info icon */
+.sk-estimator-doc-link span {
+  display: none;
+  z-index: 9999;
+  position: relative;
+  font-weight: normal;
+  right: .2ex;
+  padding: .5ex;
+  margin: .5ex;
+  width: min-content;
+  min-width: 20ex;
+  max-width: 50ex;
+  color: var(--sklearn-color-text);
+  box-shadow: 2pt 2pt 4pt #999;
+  /* unfitted */
+  background: var(--sklearn-color-unfitted-level-0);
+  border: .5pt solid var(--sklearn-color-unfitted-level-3);
+}
+
+.sk-estimator-doc-link.fitted span {
+  /* fitted */
+  background: var(--sklearn-color-fitted-level-0);
+  border: var(--sklearn-color-fitted-level-3);
+}
+
+.sk-estimator-doc-link:hover span {
+  display: block;
+}
+
+/* &#34;?&#34;-specific style due to the `&lt;a&gt;` HTML tag */
+
+#sk-container-id-2 a.estimator_doc_link {
+  float: right;
+  font-size: 1rem;
+  line-height: 1em;
+  font-family: monospace;
+  background-color: var(--sklearn-color-background);
+  border-radius: 1rem;
+  height: 1rem;
+  width: 1rem;
+  text-decoration: none;
+  /* unfitted */
+  color: var(--sklearn-color-unfitted-level-1);
+  border: var(--sklearn-color-unfitted-level-1) 1pt solid;
+}
+
+#sk-container-id-2 a.estimator_doc_link.fitted {
+  /* fitted */
+  border: var(--sklearn-color-fitted-level-1) 1pt solid;
+  color: var(--sklearn-color-fitted-level-1);
+}
+
+/* On hover */
+#sk-container-id-2 a.estimator_doc_link:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+#sk-container-id-2 a.estimator_doc_link.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-3);
+}
+&lt;/style&gt;&lt;div id=&#34;sk-container-id-2&#34; class=&#34;sk-top-container&#34;&gt;&lt;div class=&#34;sk-text-repr-fallback&#34;&gt;&lt;pre&gt;DecisionTreeClassifier(min_samples_split=30)&lt;/pre&gt;&lt;b&gt;In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. &lt;br /&gt;On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.&lt;/b&gt;&lt;/div&gt;&lt;div class=&#34;sk-container&#34; hidden&gt;&lt;div class=&#34;sk-item&#34;&gt;&lt;div class=&#34;sk-estimator fitted sk-toggleable&#34;&gt;&lt;input class=&#34;sk-toggleable__control sk-hidden--visually&#34; id=&#34;sk-estimator-id-2&#34; type=&#34;checkbox&#34; checked&gt;&lt;label for=&#34;sk-estimator-id-2&#34; class=&#34;sk-toggleable__label fitted sk-toggleable__label-arrow fitted&#34;&gt;&amp;nbsp;&amp;nbsp;DecisionTreeClassifier&lt;a class=&#34;sk-estimator-doc-link fitted&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://scikit-learn.org/1.5/modules/generated/sklearn.tree.DecisionTreeClassifier.html&#34;&gt;?&lt;span&gt;Documentation for DecisionTreeClassifier&lt;/span&gt;&lt;/a&gt;&lt;span class=&#34;sk-estimator-doc-link fitted&#34;&gt;i&lt;span&gt;Fitted&lt;/span&gt;&lt;/span&gt;&lt;/label&gt;&lt;div class=&#34;sk-toggleable__content fitted&#34;&gt;&lt;pre&gt;DecisionTreeClassifier(min_samples_split=30)&lt;/pre&gt;&lt;/div&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Entraîner le modèle
+dt_classifier.fit(X, Y)
+Z = dt_classifier.predict(np.c_[xx.ravel(), yy.ravel()])
+Z = Z.reshape(xx.shape)
+
+# Tracer la frontière de décision avec contourf
+plt.contourf(xx, yy, Z, alpha=0.4, cmap=mycolormap)
+
+# Tracer les points de données
+plt.scatter(X[:, 0], X[:, 1], c=Y, edgecolors=&#39;k&#39;, cmap=mycolormap)
+plt.title(&#39;Decision Boundary of the Decision Tree&#39;)
+plt.grid()
+plt.xlabel(&#39;x1&#39;)
+plt.ylabel(&#39;x2&#39;)
+plt.show()
+
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_11_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;la-méthode-cart-avec-lélagage-pour-obtenir-les-valeurs-de-coût-complexité&#34;&gt;La méthode CART avec l&amp;rsquo;élagage pour obtenir les valeurs de coût-complexité&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+# Générer des données exemple (X, Y) - Tes données
+# Assure-toi d&#39;avoir X et Y définis avant ceci
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=1)
+
+# Initialiser le classificateur sans élagage pour obtenir le chemin d&#39;élagage
+dt_classifier = DecisionTreeClassifier(random_state=1)
+path = dt_classifier.cost_complexity_pruning_path(X_train, Y_train)
+ccp_alphas = path.ccp_alphas  # Liste des valeurs de ccp_alpha
+impurities = path.impurities  # Coût total de l&#39;arbre pour chaque alpha
+
+# Stocker les erreurs pour chaque ccp_alpha
+train_errors = []
+test_errors = []
+
+# Entraîner un arbre pour chaque valeur de ccp_alpha et calculer les erreurs
+for ccp_alpha in ccp_alphas:
+    dt_classifier_pruned = DecisionTreeClassifier(random_state=1, ccp_alpha=ccp_alpha)
+    dt_classifier_pruned.fit(X_train, Y_train)
+    
+    # Prédiction sur l&#39;ensemble d&#39;entraînement et de test
+    train_pred = dt_classifier_pruned.predict(X_train)
+    test_pred = dt_classifier_pruned.predict(X_test)
+    
+    # Calculer l&#39;erreur (1 - précision)
+    train_error = 1 - accuracy_score(Y_train, train_pred)
+    test_error = 1 - accuracy_score(Y_test, test_pred)
+    
+    # Stocker les erreurs
+    train_errors.append(train_error)
+    test_errors.append(test_error)
+
+# Tracer les erreurs d&#39;apprentissage et de test en fonction de ccp_alpha
+plt.figure(figsize=(10, 6))
+plt.plot(ccp_alphas, train_errors, marker=&#39;o&#39;, label=&amp;quot;Erreur d&#39;apprentissage&amp;quot;, drawstyle=&amp;quot;steps-post&amp;quot;)
+plt.plot(ccp_alphas, test_errors, marker=&#39;o&#39;, label=&amp;quot;Erreur de test&amp;quot;, drawstyle=&amp;quot;steps-post&amp;quot;)
+plt.xlabel(&amp;quot;Valeur de ccp_alpha&amp;quot;)
+plt.ylabel(&amp;quot;Erreur&amp;quot;)
+plt.title(&amp;quot;Erreur d&#39;apprentissage et de test en fonction de ccp_alpha&amp;quot;)
+plt.legend()
+plt.grid(True)
+plt.show()
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_14_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;bagging&#34;&gt;Bagging&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import BaggingClassifier
+from sklearn.metrics import accuracy_score
+
+# Initialiser le modèle d&#39;arbre de décision
+treemod = DecisionTreeClassifier()
+
+# Initialiser le modèle Bagging avec l&#39;arbre de décision comme estimateur de base
+bagmod = BaggingClassifier(estimator=treemod, n_estimators=100, random_state=0)
+
+# Entraîner les modèles (arbre et bagging) sur les données
+treemodfit = treemod.fit(X, Y)  # Facultatif ici si tu utilises le modèle bagging
+bagmodfit = bagmod.fit(X, Y)
+
+# Prédire les classes sur l&#39;ensemble d&#39;entraînement avec Bagging
+pY_train = bagmodfit.predict(X)  # Utiliser predict() pour obtenir les classes
+
+# Calculer l&#39;erreur d&#39;entraînement
+train_error = 1 - accuracy_score(Y, pY_train)
+print(&amp;quot;L&#39;erreur en apprentissage du Bagging est &amp;quot;, train_error)
+
+
+Z = bagmodfit.predict(np.c_[xx.ravel(), yy.ravel()])
+Z = Z.reshape(xx.shape)
+
+# Tracer la frontière de décision avec contourf
+plt.contourf(xx, yy, Z, alpha=0.4, cmap=mycolormap)
+
+# Tracer les points de données
+plt.scatter(X[:, 0], X[:, 1], c=Y, edgecolors=&#39;k&#39;, cmap=mycolormap)
+plt.title(&#39;Decision Boundary of the Bagged Trees&#39;)
+plt.grid()
+plt.xlabel(&#39;x1&#39;)
+plt.ylabel(&#39;x2&#39;)
+plt.show()
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;L&#39;erreur en apprentissage du Bagging est  0.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_16_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;forêt-aléatoire&#34;&gt;Forêt aléatoire&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap
+
+# Remplace le BaggingClassifier par le RandomForestClassifier
+forestmod = RandomForestClassifier(n_estimators=100, random_state=0)
+
+# Entraîner le modèle de forêt aléatoire sur les données
+forestmodfit = forestmod.fit(X, Y)
+
+# Prédire les classes sur l&#39;ensemble d&#39;entraînement avec RandomForest
+pY_train = forestmodfit.predict(X)
+
+# Calculer l&#39;erreur d&#39;entraînement
+train_error = 1 - accuracy_score(Y, pY_train)
+print(&amp;quot;L&#39;erreur en apprentissage de la forêt aléatoire est &amp;quot;, train_error)
+
+
+# Prédire les classes sur la grille de points avec RandomForest
+Z = forestmodfit.predict(np.c_[xx.ravel(), yy.ravel()])
+Z = Z.reshape(xx.shape)
+
+# Tracer la frontière de décision avec contourf
+mycolormap = ListedColormap([&#39;#FF0000&#39;, &#39;#0000FF&#39;])
+plt.contourf(xx, yy, Z, alpha=0.4, cmap=mycolormap)
+
+# Tracer les points de données
+plt.scatter(X[:, 0], X[:, 1], c=Y, edgecolors=&#39;k&#39;, cmap=mycolormap)
+plt.title(&#39;Decision Boundary of the Random Forest&#39;)
+plt.grid()
+plt.xlabel(&#39;x1&#39;)
+plt.ylabel(&#39;x2&#39;)
+plt.show()
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;L&#39;erreur en apprentissage de la forêt aléatoire est  0.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_18_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

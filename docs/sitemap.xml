@@ -427,12 +427,6 @@
     <loc>https://cambroise.github.io/courses/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cambroise.github.io/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://cambroise.github.io/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://cambroise.github.io/publication/sow2018clarifying/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -987,6 +981,10 @@
   </url><url>
     <loc>https://cambroise.github.io/publication-type/3/</loc>
     <lastmod>1996-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cambroise.github.io/courses/introduction-machine-learning/jupyter-gaussian/</loc>
+  </url><url>
+    <loc>https://cambroise.github.io/courses/introduction-machine-learning/jupyter-tree/</loc>
   </url><url>
     <loc>https://cambroise.github.io/author/catherine-matias/</loc>
   </url>
