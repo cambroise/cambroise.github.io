@@ -5,7 +5,7 @@ summary: Unsupervised approaches based on continuous latent variables for dimens
 weight: 1
 
 # Page metadata.
-title: Overview
+title: Visualisation and Dimension reduction
 date: "2018-09-09T00:00:00Z"
 lastmod: "2018-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
