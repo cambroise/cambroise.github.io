@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dalmasso C on Christophe Ambroise</title>
+    <link>http://localhost:1313/authors/dalmasso-c/</link>
+    <description>Recent content in Dalmasso C on Christophe Ambroise</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://localhost:1313/authors/dalmasso-c/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> A Sparse Mixture-of-Experts Model With Screening of Genetic Associations to Guide Disease Subtyping </title>
+      <link>http://localhost:1313/publication/courbariaux2022sparse/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/courbariaux2022sparse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Systematic analysis of TruSeq, SMARTer and SMARTer Ultra-Low RNA-seq kits for standard, low and ultra-low quantity samples </title>
+      <link>http://localhost:1313/publication/palomares2019systematic/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/palomares2019systematic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Beyond support in two-stage variable selection </title>
+      <link>http://localhost:1313/publication/becu2017beyond/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/becu2017beyond/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Eigen-epistasis for detecting gene-gene interactions </title>
+      <link>http://localhost:1313/publication/stanislas2017eigen/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/stanislas2017eigen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> AB0004 Characterization of Putative Pre-RA Signatures by Transcriptome Analysis </title>
+      <link>http://localhost:1313/publication/petit2015ab0004/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/petit2015ab0004/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Significance testing for variable selection in high-dimension </title>
+      <link>http://localhost:1313/publication/becu2015significance/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/becu2015significance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

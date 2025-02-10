@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>McLachlan G on Christophe Ambroise</title>
+    <link>http://localhost:1313/authors/mclachlan-g/</link>
+    <description>Recent content in McLachlan G on Christophe Ambroise</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://localhost:1313/authors/mclachlan-g/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> Discriminant analysis </title>
+      <link>http://localhost:1313/publication/mclachlan2012discriminant/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/mclachlan2012discriminant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Selection bias in working with the top genes in supervised classification of tissue samples </title>
+      <link>http://localhost:1313/publication/zhu2006selection/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/zhu2006selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Analyzing microarray gene expression data </title>
+      <link>http://localhost:1313/publication/mclachlan2005analyzing/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/mclachlan2005analyzing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Use of Micro Array Data via Model-based Classification in the Study and Prediction of Survival from Lung Cancer </title>
+      <link>http://localhost:1313/publication/jones2005use/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/jones2005use/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Microarrays in gene expression studies </title>
+      <link>http://localhost:1313/publication/mclachlan2004microarrays/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/mclachlan2004microarrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> On the simultaneous use of clinical and microarray expression data in the cluster analysis of tissue samples </title>
+      <link>http://localhost:1313/publication/mclachlan2004simultaneous/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/mclachlan2004simultaneous/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Selection bias in gene extraction on the basis of microarray gene-expression data </title>
+      <link>http://localhost:1313/publication/ambroise2002selection/</link>
+      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/ambroise2002selection/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

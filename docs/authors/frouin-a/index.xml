@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frouin A on Christophe Ambroise</title>
+    <link>http://localhost:1313/authors/frouin-a/</link>
+    <description>Recent content in Frouin A on Christophe Ambroise</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://localhost:1313/authors/frouin-a/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> Exploring the link between additive heritability and prediction accuracy from a ridge regression perspective </title>
+      <link>http://localhost:1313/publication/frouin2020exploring/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/frouin2020exploring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> High heritability does not imply accurate prediction under the small additive effects hypothesis </title>
+      <link>http://localhost:1313/publication/frouin2020high/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/frouin2020high/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Quantify Genomic Heritability Through a Prediction Measure </title>
+      <link>http://localhost:1313/publication/frouin2018quantify/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/frouin2018quantify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Estimating Narrow-Sense Heritability with Ridge Regression </title>
+      <link>http://localhost:1313/publication/frouin2017estimating/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/frouin2017estimating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Quantify Genomic Heritability Through a Prediction Measure </title>
+      <link>http://localhost:1313/publication/frouin2017quantify/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/frouin2017quantify/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

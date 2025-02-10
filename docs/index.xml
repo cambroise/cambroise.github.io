@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christophe Ambroise</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Christophe Ambroise</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Research collaborators</title>
+      <link>http://localhost:1313/collaborators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/collaborators/</guid>
+      <description>&lt;h2 id=&#34;phd-students&#34;&gt;PhD Students&lt;/h2&gt;
+&lt;h3 id=&#34;present&#34;&gt;Present&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://theorg.com/org/sensorion/org-chart/kylliann-de-santiago&#34;&gt;Kylliann De Santiago&lt;/a&gt; (&lt;strong&gt;2021-&lt;/strong&gt;, with Marie Szafranski).   Stratification de patients et analyse de biomarqueurs diagnostiques dans un espace de Hilbert à noyau consensus reproduisant : application au traumatisme sonore aigu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;past&#34;&gt;Past&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://desanou.github.io/&#34;&gt;Edmond Sanou&lt;/a&gt; (&lt;strong&gt;2019-2023&lt;/strong&gt; ,  with Geneviève Robin), Post-doc at CEA,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/e-sanou-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; 	Integration of complex omics data through Multiscale Gaussian Graphical Models&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/antoinebichat/?originalSubdomain=fr&#34;&gt;Antoine Bichat&lt;/a&gt;, statistician at Servier (2017-2020,  with Mahendra Mariadassou)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/a-bichat-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Prise en compte de l’organisation hiérarchique des espèces pour la découverte de signatures métagénomiques multi-échelles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://rmomal.github.io/&#34;&gt;Raphaelle Momal&lt;/a&gt; (2017-2020 with Stéphane Robin)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/r-momal-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;
+Network inference from incomplete abundance data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Arthur Frouin (2016-2020 with  Edith Lefloch and  Jean-François Deleuze)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/a-frouin-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Apport des  méthodes statistiques multivariées  à la prédiction d&amp;rsquo;une
+maladie polygénique  à l&amp;rsquo;aide de données génomiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/florentguinot/?originalSubdomain=fr&#34;&gt;Florent Guinot&lt;/a&gt;, statistian at L&amp;rsquo;Oréal (2016-2019 with Marie Szafranski)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://www.biblio.univ-evry.fr/theses/2018/2018SACLE029.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;   Développements méthodologiques autour des modèles mixtes additifs généralisés pour la recherche de signature moléculaires de cancer du sein triple négatif&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/virginie-stanislas/?locale=en_US&#34;&gt;Virginie Stanislas&lt;/a&gt; (2014-2017, with Cyril Dalmasso)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://www.biblio.univ-evry.fr/theses/2017/2017SACLE040.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;   Régression en grande dimension et épistasie par blocs pour les études d&amp;rsquo;association : application à la spondylarthrite ankylosante&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/jean-michel-becu-9ba03245/?originalSubdomain=fr&#34;&gt;Jean-Michel Bécu&lt;/a&gt; (2012- 2016, with  Yves Grandvalet)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://tel.archives-ouvertes.fr/tel-01326950v2/document&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Contôle des fausses découvertes lors de la sélection de variables en grande dimension
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/alia-dehman-46668090/?originalSubdomain=fr&#34;&gt;Alia Dehman&lt;/a&gt;, ingénieur statisticienne (2012-2015 with Pierre Neuvial)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://www.biblio.univ-evry.fr/theses/2015/2015SACLE013.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Incorporating linkage disequilibrium information in Genome-Wide Association Studies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/jonathanplassais/?originalSubdomain=fr&#34;&gt;Jonathan Plassais&lt;/a&gt;, CEO (2010-2012 Julien Chiquet)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement méthodologique pour la méta-analyse appliquée à la caractérisation de signatures chez les patients atteints de maladie auto-immune&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=r14sH4oAAAAJ&amp;amp;hl=en&#34;&gt;Marine Jeanmougin&lt;/a&gt;, ingénieur de recherche  (2010-2013, with Mickaël Guedj)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://www.biblio.univ-evry.fr/theses/2012/2012EVRY0029.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Statistical methods for robust analysis of transcriptome data by integration of biological prior knowledge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/matthieu-bouaziz-835ba39b/?originalSubdomain=fr&#34;&gt;Matthieu Bouaziz&lt;/a&gt; (2010-2013, with Mickaël Guedj)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://www.biblio.univ-evry.fr/theses/2012/2012EVRY0023.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Accounting for different sources of bias in Genome-Wide Association Studies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=Ty2AyhkAAAAJ&amp;amp;hl=fr&#34;&gt;Camille Charbonnier&lt;/a&gt;, maîtresse de conférences (2010-2013, with Julien Chiquet)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://www.biblio.univ-evry.fr/theses/2012/2012EVRY0022.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Inférence de réseau d&amp;rsquo;interactions de gènes à partir de données non-identiquement distribuées&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://helios.mi.parisdescartes.fr/~platouch/&#34;&gt;Pierre Latouche&lt;/a&gt;, professeur des universités  (2007-2010 with Etienne Birmelé)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://tel.archives-ouvertes.fr/tel-00623088/document&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;  Classification empiétante sur réseau biologique&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/hugo-zanghi/&#34;&gt;Hugo Zanghi&lt;/a&gt;, CTO (2006-2009)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://www.biblio.univ-evry.fr/theses/2010/2010EVRY0041.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;  Classfication automatique incrémentale de
+documents hypertextuels pour l’optimisation et la
+spécification du processus de collecte de pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nadège Sujka (2004-2005 with Gérard Govaert)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Classification  croisée appliquée aux puces ADN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Karim Yousfi (2003-2008, with Jean-Pierre Cocquerez)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/k-yousfi-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Segmentation Hiérarchique Optimale par Injection d’A Priori : radiométrique, géométrique ou spatial&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/ncharkaoui/?originalSubdomain=fr&#34;&gt;Nasser Charkaoui&lt;/a&gt;, Ingénieur (2002-2005, with Bernard Dubuisson)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Discrimination de classes à occurences simultanées par des approches de reconnaissance des formes : application à la détection et à la localisation de défaillances sur les véhicules en après-vente&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ifsttar.fr/menu-haut/annuaire/fiche-personnelle/personne/same-allou-badara/&#34;&gt;Allou Samé&lt;/a&gt;, directeur de recherche (2001-2004, with Gérard Govaert)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Classification automatique de données temporelles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bordeaux-population-health.center/profile/marta-avalos/&#34;&gt;Marta Avalos&lt;/a&gt;, maîtresse de conférences (2001-2004, with Yves Grandvalet)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/m-avalos-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Mod`eles Additifs Parcimonieux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/micheline-najjar-556212116/?originalSubdomain=lb&#34;&gt;Micheline Najjar&lt;/a&gt;, missionaire (2000-mai 2004, with Jean-Pierre Cocquerez)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/m-najjar-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Modèles de mélange pour la recherche d’images par le contenu : applications aux pathologies ostéo-articulaires&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;colleagues&#34;&gt;Colleagues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://julien.cremeriefamily.info/&#34;&gt;Julien Chiquet&lt;/a&gt;, directeur de recherche, INRA/ Agroparistech&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.math-evry.cnrs.fr/members/cdalmasso/welcome&#34;&gt;Cyril Dalmasso&lt;/a&gt;, maître de conférences, UEVE
+Université Paris-Saclay, INRAE, AgroParisTech&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.hds.utc.fr/~grandval/dokuwiki/doku.php&#34;&gt;Yves Grandvalet&lt;/a&gt;, directeur de recherche CNRS/UTC&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/amin-madoui-3392431a/?originalSubdomain=fr&#34;&gt;Amin Madoui&lt;/a&gt;, chargé de recherce CEA, France&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www6.inrae.fr/mia-paris/Equipes/Membres/Marie-Laure-Martin-Magniette&#34;&gt;Marie-Laure Martin-Magnette&lt;/a&gt;,  directrice de recherche INRAe&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cmatias.perso.math.cnrs.fr/&#34;&gt;Catherine Matias&lt;/a&gt;, directrice de recherche
+CNRS, Université Pierre et Marie Curie&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://people.smp.uq.edu.au/GeoffMcLachlan/&#34;&gt;Geoff McLachlan&lt;/a&gt;
+Professor of Statistics, University of Queensland, Australia&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.math.univ-toulouse.fr/~pneuvial/&#34;&gt;Pierre Neuvial&lt;/a&gt;, chargé de recherche
+CNRS, Institut de Mathématiques de Toulouse&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://franckpicard.github.io/&#34;&gt;Franck Picard&lt;/a&gt;, directeur de recherche
+LBMC - ENS Lyon - CNRS&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mpascucci.github.io/&#34;&gt;Marco Pascucci&lt;/a&gt;, post-doctorant CEA&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.math-evry.cnrs.fr/members/grigaill/welcome&#34;&gt;Guillem Rigaïll&lt;/a&gt;, chargé de recherche INRAE&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://genevieverobin.com/news/&#34;&gt;Geneviève Robin&lt;/a&gt;, chargée de recherche CNRS&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www6.inrae.fr/mia-paris/Equipes/Membres/Stephane-Robin&#34;&gt;Stéphane Robin&lt;/a&gt;, Directeur de recherche
+INRAe / AgroParisTech&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.aphp.fr/offre-de-soin/medecin/4024033/026/25&#34;&gt;Guilhem Royer&lt;/a&gt;, PhD bacteriology, virology&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.math-evry.cnrs.fr/members/mszafranski/welcome&#34;&gt;Marie Szafranski&lt;/a&gt;, maîtresse de conférence, ENSIIE, Evry&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www6.val-de-loire.inrae.fr/biofora/Personnel/Ils-ont-travaille-a-BioForA/SEGURA-Vincent&#34;&gt;Vincent Segura&lt;/a&gt;,
+chargé de recherche, UMR 1334 AGAP, INRAE, Montpellier&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nathalievialaneix.eu/&#34;&gt;Nathalie Vialaneix&lt;/a&gt;, directrice de recherche INRAE&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>http://localhost:1313/talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publication/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Courses</title>
+      <link>http://localhost:1313/courses/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/courses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>http://localhost:1313/post/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>http://localhost:1313/slides/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/slides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

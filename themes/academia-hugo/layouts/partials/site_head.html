@@ -9,7 +9,7 @@
   {{ $scr := .Scratch }}
 
   {{/* Attempt to load superuser. */}}
-  {{ $superuser_name := "" }}
+  {{ $superuser_name := "Christophe" }}
   {{ $superuser_username := "" }}
   {{ $superuser_role := "" }}
   {{ range first 1 (where (where site.Pages "Section" "authors") "Params.superuser" true) }}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chiquet J on Christophe Ambroise</title>
+    <link>http://localhost:1313/authors/chiquet-j/</link>
+    <description>Recent content in Chiquet J on Christophe Ambroise</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://localhost:1313/authors/chiquet-j/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> Fast computation of genome-metagenome interaction effects </title>
+      <link>http://localhost:1313/publication/guinot2020fast/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/guinot2020fast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> A greedy great approach to learn with complementary structured datasets </title>
+      <link>http://localhost:1313/publication/chiquet2015greedy/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/chiquet2015greedy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Sparsity by Worst-Case Penalties </title>
+      <link>http://localhost:1313/publication/grandvalet2012sparsity/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/grandvalet2012sparsity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Inferring multiple graphical structures </title>
+      <link>http://localhost:1313/publication/chiquet2011inferring/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/chiquet2011inferring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Weighted-LASSO for structured network inference from time course data </title>
+      <link>http://localhost:1313/publication/charbonnier2010weighted/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/charbonnier2010weighted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Inferring sparse Gaussian graphical models with latent structure </title>
+      <link>http://localhost:1313/publication/ambroise2009inferring/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/ambroise2009inferring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Simone: Statistical inference for modular networks </title>
+      <link>http://localhost:1313/publication/chiquet2009simone/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/chiquet2009simone/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

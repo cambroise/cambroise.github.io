@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on Christophe Ambroise</title>
+    <link>http://localhost:1313/courses/</link>
+    <description>Recent content in Courses on Christophe Ambroise</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate>
+    
+	    <atom:link href="http://localhost:1313/courses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>http://localhost:1313/courses/example/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/courses/example/</guid>
+      <description>&lt;h2 id=&#34;outline-of-the-course&#34;&gt;Outline of the course&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Factor Analysis&lt;/li&gt;
+&lt;li&gt;Variational Auto-encoder&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Neurons and Stochastic Gradient&lt;/li&gt;
+&lt;li&gt;VAE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Visualisation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;SVD&lt;/li&gt;
+&lt;li&gt;t-SNE&lt;/li&gt;
+&lt;li&gt;UMAP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Introduction to NLP&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;lecture-notesmedialecture-dimension-reductionpdf&#34;&gt;&lt;a href=&#34;http://localhost:1313/courses/example/media/Lecture-Dimension-Reduction.pdf&#34;&gt;Lecture notes&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;reference-document&#34;&gt;Reference document&lt;/h2&gt;
+&lt;p&gt;The lecture closely follows and largely borrows material from
+&amp;ldquo;Machine Learning: A Probabilistic Perspective&amp;rdquo; (MLAPP) from
+Kevin P. Murphy.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

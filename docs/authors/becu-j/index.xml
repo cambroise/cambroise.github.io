@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Becu J on Christophe Ambroise</title>
+    <link>http://localhost:1313/authors/becu-j/</link>
+    <description>Recent content in Becu J on Christophe Ambroise</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://localhost:1313/authors/becu-j/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> Beyond support in two-stage variable selection </title>
+      <link>http://localhost:1313/publication/becu2017beyond/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/becu2017beyond/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Significance testing for variable selection in high-dimension </title>
+      <link>http://localhost:1313/publication/becu2015significance/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/becu2015significance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

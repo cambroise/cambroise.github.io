@@ -19,11 +19,11 @@
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
   itemref="{{ if site.Params.email }}person-email{{ end }}{{ if site.Params.phone }} person-telephone{{ end }}{{ if site.Params.address}} person-address{{ end }}">
   <div class="col-lg-5">
-    <div id="profile">
+    <div id="profile" class="profile-image">
       {{ $avatar_image := .page.Params.avatar_image }}
       <img class="img-fluid" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="Avatar">
     </div>
-    <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
+    <ul class="network-icon bg-white mx-2 py-2" aria-hidden="true" >
       {{ range $person.social }}
       {{ $pack := or .icon_pack "fas" }}
       {{ $pack_prefix := $pack }}
