@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualisation and Dimension reduction on Christophe Ambroise</title>
+    <link>http://localhost:1313/courses/unsupervised/</link>
+    <description>Recent content in Visualisation and Dimension reduction on Christophe Ambroise</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://localhost:1313/courses/unsupervised/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sentiment Analysis via MoE and representation of IMDb Movie Reviews</title>
+      <link>http://localhost:1313/courses/unsupervised/project/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/courses/unsupervised/project/</guid>
+      <description>&lt;p&gt;The project will be sent by email (to &lt;a href=&#34;mailto:christophe.ambroise@univ-evry.fr&#34;&gt;christophe.ambroise@univ-evry.fr&lt;/a&gt;) as a &lt;strong&gt;PDF&lt;/strong&gt; file with the corresponding notebook (&lt;strong&gt;Python&lt;/strong&gt; or &lt;strong&gt;Rmd&lt;/strong&gt;). Briefly describe the problem, write the calculations you are programming. The project can be done in pairs or alone.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Sentiment analysis is a fundamental task in Natural Language Processing (NLP), aiming to determine the sentiment expressed in a piece of text. This project explores sentiment classification of movie reviews using the &lt;a href=&#34;https://ai.stanford.edu/~amaas/data/sentiment/&#34;&gt;IMDb dataset&lt;/a&gt; and implements a &lt;strong&gt;Mixture of Experts (MoE)&lt;/strong&gt; model to improve classification performance.&lt;/p&gt;
+&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+&lt;p&gt;The dataset used for this project is the &lt;strong&gt;IMDb Movie Reviews&lt;/strong&gt; dataset, available at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Original Dataset&lt;/strong&gt;: &lt;a href=&#34;https://ai.stanford.edu/~amaas/data/sentiment/&#34;&gt;Stanford AI - IMDb Dataset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dataset with references&lt;/strong&gt;: &lt;a href=&#34;https://huggingface.co/datasets/stanfordnlp/imdb&#34;&gt;Hugging Face - IMDb Dataset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reference paper&lt;/strong&gt;: &lt;a href=&#34;https://aclanthology.org/P11-1015.pdf&#34;&gt;Learning Word Vectors for Sentiment Analysis (Maas et al., 2011)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This dataset consists of 50,000 movie reviews labeled as positive or negative, split evenly for training and testing.&lt;/p&gt;
+&lt;h2 id=&#34;project-tasks&#34;&gt;Project Tasks&lt;/h2&gt;
+&lt;h3 id=&#34;1-data-preparation&#34;&gt;1. Data Preparation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Download and preprocess the dataset.&lt;/li&gt;
+&lt;li&gt;You may select a random sample of &lt;strong&gt;2,000 reviews&lt;/strong&gt; (1,000 positive, 1,000 negative) for efficient processing.&lt;/li&gt;
+&lt;li&gt;Preprocessing, Tokenization, stopword removal, stemming/lemmatization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-feature-extraction&#34;&gt;2. Feature Extraction&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Convert text data into numerical representations:
+&lt;ul&gt;
+&lt;li&gt;TF-IDF vectorization.&lt;/li&gt;
+&lt;li&gt;Word embeddings (using &lt;strong&gt;Word2Vec&lt;/strong&gt;,  &lt;strong&gt;GloVe&lt;/strong&gt;, &amp;hellip;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-visualisation&#34;&gt;3. Visualisation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use t-SNE and UMAP  to represent the data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-model-implementation-mixture-of-experts-moe&#34;&gt;4. Model Implementation: Mixture of Experts (MoE)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Train the MoE model with optimized hyperparameters.&lt;/li&gt;
+&lt;li&gt;Compare performance with baseline models:
+&lt;ul&gt;
+&lt;li&gt;Logistic Regression&lt;/li&gt;
+&lt;li&gt;Neural Networks (MLP, CNN, LSTM)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Evaluate using accuracy, precision, recall, and F1-score.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-analysis&#34;&gt;5. Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Investigate expert assignments for different types of reviews.&lt;/li&gt;
+&lt;li&gt;Visualize decision boundaries and the routing mechanism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;6-results-and-discussion&#34;&gt;6. Results and Discussion&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Performance Comparison:&lt;/strong&gt; MoE vs. traditional models.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interpretability:&lt;/strong&gt; How different experts contribute to classification.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Potential Improvements&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

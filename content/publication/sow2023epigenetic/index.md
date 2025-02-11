@@ -14,8 +14,8 @@ authors:
 date: 2024-01-01
 title: " Epigenetic Variation in Tree Evolution: a case study in black poplar (Populus nigra) "
 featured: true
-publication: " submitted to  Plant Cell "
+publication: "Bioarxic"
 publication_types:
-- 2
+- 1
 url_pdf: ''
 ---
