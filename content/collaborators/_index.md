@@ -78,11 +78,10 @@ weight: 20
 
 
 
-
 ## Colleagues
 
 
-- [Julien Chiquet](http://julien.cremeriefamily.info/), directeur de recherche, INRA/ Agroparistech
+- [Julien Chiquet](https://jchiquet.github.io/), directeur de recherche, INRA/ Agroparistech
 - [Cyril Dalmasso](http://www.math-evry.cnrs.fr/members/cdalmasso/welcome), maître de conférences, UEVE
 Université Paris-Saclay, INRAE, AgroParisTech
 - [Yves Grandvalet](https://www.hds.utc.fr/~grandval/dokuwiki/doku.php), directeur de recherche CNRS/UTC

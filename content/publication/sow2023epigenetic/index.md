@@ -11,11 +11,11 @@ authors:
 - Delaunay A 
 - Lesage-Descauses M 
 - others  
-date: 2024-01-01
+date: 2023-08-01
 title: " Epigenetic Variation in Tree Evolution: a case study in black poplar (Populus nigra) "
-featured: true
-publication: "Bioarxic"
+featured: false
+publication: "Bioarxiv"
 publication_types:
-- 1
+- 3
 url_pdf: ''
 ---
