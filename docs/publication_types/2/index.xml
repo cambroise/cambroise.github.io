@@ -7,7 +7,7 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="http://localhost:1313/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,18 +15,9 @@
     <item>
       <title> Spectral Bridges </title>
       <link>http://localhost:1313/publication/laplante2024spectral/</link>
-      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/publication/laplante2024spectral/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Mixture of multilayer stochastic block models for multiview clustering </title>
-      <link>http://localhost:1313/publication/desantiago2024mixture/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/publication/desantiago2024mixture/</guid>
       <description></description>
     </item>
     
@@ -486,15 +477,6 @@
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/publication/govaert2005analyse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Data Analysis Tools for DNA Microarrays/Analyzing Microarray Gene Expression Data </title>
-      <link>http://localhost:1313/publication/ziegel2005data/</link>
-      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/publication/ziegel2005data/</guid>
       <description></description>
     </item>
     

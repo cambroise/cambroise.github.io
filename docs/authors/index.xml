@@ -7,7 +7,7 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Ambroise C</title>
       <link>http://localhost:1313/authors/ambroise-c/</link>
-      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/authors/ambroise-c/</guid>
       <description></description>
@@ -24,99 +24,9 @@
     <item>
       <title>Laplante F</title>
       <link>http://localhost:1313/authors/laplante-f/</link>
-      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/authors/laplante-f/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Civan P</title>
-      <link>http://localhost:1313/authors/civan-p/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/civan-p/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Daviaud C</title>
-      <link>http://localhost:1313/authors/daviaud-c/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/daviaud-c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Delaunay A</title>
-      <link>http://localhost:1313/authors/delaunay-a/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/delaunay-a/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Duvaux L</title>
-      <link>http://localhost:1313/authors/duvaux-l/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/duvaux-l/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lesage-Descauses M</title>
-      <link>http://localhost:1313/authors/lesage-descauses-m/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/lesage-descauses-m/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lesur I</title>
-      <link>http://localhost:1313/authors/lesur-i/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/lesur-i/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mardoc E</title>
-      <link>http://localhost:1313/authors/mardoc-e/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/mardoc-e/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Others</title>
-      <link>http://localhost:1313/authors/others/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/others/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rogier O</title>
-      <link>http://localhost:1313/authors/rogier-o/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/rogier-o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sanou E</title>
-      <link>http://localhost:1313/authors/sanou-e/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/sanou-e/</guid>
       <description></description>
     </item>
     
@@ -130,20 +40,110 @@
     </item>
     
     <item>
-      <title>Sow M</title>
-      <link>http://localhost:1313/authors/sow-m/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/sow-m/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>SZAFRANSKI M</title>
       <link>http://localhost:1313/authors/szafranski-m/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/authors/szafranski-m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Civan P</title>
+      <link>http://localhost:1313/authors/civan-p/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/civan-p/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daviaud C</title>
+      <link>http://localhost:1313/authors/daviaud-c/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/daviaud-c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delaunay A</title>
+      <link>http://localhost:1313/authors/delaunay-a/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/delaunay-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Duvaux L</title>
+      <link>http://localhost:1313/authors/duvaux-l/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/duvaux-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lesage-Descauses M</title>
+      <link>http://localhost:1313/authors/lesage-descauses-m/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/lesage-descauses-m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lesur I</title>
+      <link>http://localhost:1313/authors/lesur-i/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/lesur-i/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mardoc E</title>
+      <link>http://localhost:1313/authors/mardoc-e/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/mardoc-e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Others</title>
+      <link>http://localhost:1313/authors/others/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/others/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rogier O</title>
+      <link>http://localhost:1313/authors/rogier-o/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/rogier-o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sanou E</title>
+      <link>http://localhost:1313/authors/sanou-e/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/sanou-e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sow M</title>
+      <link>http://localhost:1313/authors/sow-m/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/sow-m/</guid>
       <description></description>
     </item>
     
@@ -1523,15 +1523,6 @@
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/authors/yor-m/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ziegel E</title>
-      <link>http://localhost:1313/authors/ziegel-e/</link>
-      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/ziegel-e/</guid>
       <description></description>
     </item>
     

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/courses/unsupervised/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/courses/unsupervised/project/</loc>
     <lastmod>2025-02-10T00:00:00+00:00</lastmod>
@@ -26,76 +26,76 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/courses/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publication/laplante2024spectral/</loc>
-    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publication_types/2/</loc>
-    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/ambroise-c/</loc>
-    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/</loc>
-    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/laplante-f/</loc>
-    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publication_types/</loc>
-    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publication/</loc>
-    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/publication/sow2023epigenetic/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publication/desantiago2024mixture/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication_types/1/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/civan-p/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/daviaud-c/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/delaunay-a/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/duvaux-l/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/lesage-descauses-m/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/lesur-i/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/mardoc-e/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/others/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/rogier-o/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/sanou-e/</loc>
+    <loc>http://localhost:1313/publication_types/3/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/santiago-k/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/sow-m/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/authors/szafranski-m/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publication/sow2023epigenetic/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/civan-p/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/daviaud-c/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/delaunay-a/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/duvaux-l/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/lesage-descauses-m/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/lesur-i/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/mardoc-e/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/others/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/rogier-o/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/sanou-e/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/sow-m/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publication/laso2023holistic/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
@@ -431,6 +431,9 @@
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publication/frouin2018quantify/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publication_types/1/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/allona-i/</loc>
@@ -781,9 +784,6 @@
     <loc>http://localhost:1313/publication/chaumont2005books/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/ziegel2005data/</loc>
-    <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/publication/avalos2005discrimination/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -854,9 +854,6 @@
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/yor-m/</loc>
-    <lastmod>2005-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/ziegel-e/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publication/same2004mixture/</loc>
@@ -974,9 +971,6 @@
     <lastmod>1996-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publication/ambroise1996constrained/</loc>
-    <lastmod>1996-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/publication_types/3/</loc>
     <lastmod>1996-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
