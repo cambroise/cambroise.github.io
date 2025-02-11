@@ -1,10 +1,1 @@
 
-.profile-image {
-  width: 150px; /* Définissez la largeur souhaitée */
-  height: 150px; /* Définissez la hauteur souhaitée */
-  border-radius: 50%; /* Rend les coins arrondis pour former un cercle */
-  object-fit: cover; /* Assure que l'image couvre entièrement le conteneur sans déformation */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}

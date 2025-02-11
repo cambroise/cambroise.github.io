@@ -15,15 +15,30 @@
 {{end}}
 {{ $person := $person_page.Params }}
 
+
+<style>
+.img-fluid {
+  width: 250px; /* Définissez la largeur souhaitée */
+  height: 250px; /* Définissez la hauteur souhaitée */
+  border-radius: 50%; /* Rend les coins arrondis pour former un cercle */
+  object-fit: cover; /* Assure que l'image couvre entièrement le conteneur sans déformation */
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+</style>
+
+
+
 <!-- About widget -->
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
   itemref="{{ if site.Params.email }}person-email{{ end }}{{ if site.Params.phone }} person-telephone{{ end }}{{ if site.Params.address}} person-address{{ end }}">
   <div class="col-lg-5">
     <div id="profile" class="profile-image">
       {{ $avatar_image := .page.Params.avatar_image }}
-      <img class="img-fluid" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="Avatar">
+      <img class="img-fluid" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="Avatar" >
     </div>
-    <ul class="network-icon bg-white mx-2 py-2" aria-hidden="true" >
+    <ul class="network-icon  mx-2 py-2" aria-hidden="true" >
       {{ range $person.social }}
       {{ $pack := or .icon_pack "fas" }}
       {{ $pack_prefix := $pack }}

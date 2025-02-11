@@ -37,6 +37,7 @@
       "select",
       "span",
       "strong",
+      "style",
       "time",
       "title",
       "ul"
@@ -63,7 +64,6 @@
       "author-card",
       "badge",
       "badge-light",
-      "bg-white",
       "body-footer",
       "btn",
       "btn-links",
@@ -102,7 +102,6 @@
       "d-md-none",
       "d-none",
       "d-xl-block",
-      "dark",
       "docs",
       "docs-article-container",
       "docs-content",
