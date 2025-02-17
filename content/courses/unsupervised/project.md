@@ -72,6 +72,10 @@ This dataset consists of 50,000 movie reviews labeled as positive or negative, s
 - ...
 
 
+### Useful links
+
+- Mixture of experts : https://github.com/AviSoori1x/makeMoE
+
 
 
 
