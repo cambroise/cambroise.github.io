@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Same A on Christophe Ambroise</title>
-    <link>http://localhost:1313/authors/same-a/</link>
+    <link>https://gethugothemes.com/authors/same-a/</link>
     <description>Recent content in Same A on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Mon, 01 Jan 2007 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/authors/same-a/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://gethugothemes.com/authors/same-a/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> An online classification EM algorithm based on the mixture model </title>
-      <link>http://localhost:1313/publication/same2007online/</link>
+      <link>https://gethugothemes.com/publication/same2007online/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/same2007online/</guid>
+      <guid>https://gethugothemes.com/publication/same2007online/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A classification EM algorithm for binned data </title>
-      <link>http://localhost:1313/publication/same2006classification/</link>
+      <link>https://gethugothemes.com/publication/same2006classification/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/same2006classification/</guid>
+      <guid>https://gethugothemes.com/publication/same2006classification/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A mixture model-based on-line CEM algorithm </title>
-      <link>http://localhost:1313/publication/same2005mixture/</link>
+      <link>https://gethugothemes.com/publication/same2005mixture/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/same2005mixture/</guid>
+      <guid>https://gethugothemes.com/publication/same2005mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A mixture model approach for on-line clustering </title>
-      <link>http://localhost:1313/publication/same2004mixture/</link>
+      <link>https://gethugothemes.com/publication/same2004mixture/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/same2004mixture/</guid>
+      <guid>https://gethugothemes.com/publication/same2004mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A mixture model approach for binned data clustering </title>
-      <link>http://localhost:1313/publication/same2003mixture/</link>
+      <link>https://gethugothemes.com/publication/same2003mixture/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/same2003mixture/</guid>
+      <guid>https://gethugothemes.com/publication/same2003mixture/</guid>
       <description></description>
     </item>
     

@@ -2,49 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3 on Christophe Ambroise</title>
-    <link>http://localhost:1313/publication_types/3/</link>
+    <link>https://gethugothemes.com/publication_types/3/</link>
     <description>Recent content in 3 on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://gethugothemes.com/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Mixture of multilayer stochastic block models for multiview clustering </title>
-      <link>http://localhost:1313/publication/desantiago2024mixture/</link>
+      <link>https://gethugothemes.com/publication/desantiago2024mixture/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/desantiago2024mixture/</guid>
+      <guid>https://gethugothemes.com/publication/desantiago2024mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Epigenetic Variation in Tree Evolution: a case study in black poplar (Populus nigra) </title>
-      <link>http://localhost:1313/publication/sow2023epigenetic/</link>
+      <link>https://gethugothemes.com/publication/sow2023epigenetic/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/sow2023epigenetic/</guid>
+      <guid>https://gethugothemes.com/publication/sow2023epigenetic/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering of spatial data by the EM algorithm </title>
-      <link>http://localhost:1313/publication/ambroise1997clustering/</link>
+      <link>https://gethugothemes.com/publication/ambroise1997clustering/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/ambroise1997clustering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Approche probabiliste en classification automatique et contraintes de voisinage </title>
-      <link>http://localhost:1313/publication/ambroise1996approche/</link>
-      <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/publication/ambroise1996approche/</guid>
+      <guid>https://gethugothemes.com/publication/ambroise1997clustering/</guid>
       <description></description>
     </item>
     

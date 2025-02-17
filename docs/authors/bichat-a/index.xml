@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bichat A on Christophe Ambroise</title>
-    <link>http://localhost:1313/authors/bichat-a/</link>
+    <link>https://gethugothemes.com/authors/bichat-a/</link>
     <description>Recent content in Bichat A on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/authors/bichat-a/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://gethugothemes.com/authors/bichat-a/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Hierarchical correction of p-values via an ultrametric tree running Ornstein-Uhlenbeck process </title>
-      <link>http://localhost:1313/publication/bichat2022hierarchical/</link>
+      <link>https://gethugothemes.com/publication/bichat2022hierarchical/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/bichat2022hierarchical/</guid>
+      <guid>https://gethugothemes.com/publication/bichat2022hierarchical/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Incorporating phylogenetic information in microbiome differential abundance studies has no effect on detection power and FDR control </title>
-      <link>http://localhost:1313/publication/bichat2020incorporating/</link>
+      <link>https://gethugothemes.com/publication/bichat2020incorporating/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/bichat2020incorporating/</guid>
+      <guid>https://gethugothemes.com/publication/bichat2020incorporating/</guid>
       <description></description>
     </item>
     

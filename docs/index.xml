@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Christophe Ambroise</title>
-    <link>http://localhost:1313/</link>
+    <link>https://gethugothemes.com/</link>
     <description>Recent content on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://gethugothemes.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Research collaborators</title>
-      <link>http://localhost:1313/collaborators/</link>
+      <link>https://gethugothemes.com/collaborators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/collaborators/</guid>
+      <guid>https://gethugothemes.com/collaborators/</guid>
       <description>&lt;h2 id=&#34;phd-students&#34;&gt;PhD Students&lt;/h2&gt;
 &lt;h3 id=&#34;present&#34;&gt;Present&lt;/h3&gt;
 &lt;ul&gt;
@@ -28,26 +28,26 @@
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://desanou.github.io/&#34;&gt;Edmond Sanou&lt;/a&gt; (&lt;strong&gt;2019-2023&lt;/strong&gt; ,  with Geneviève Robin), Post-doc at CEA,&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/e-sanou-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; 	Integration of complex omics data through Multiscale Gaussian Graphical Models&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://gethugothemes.com/collaborators/thesis/e-sanou-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; 	Integration of complex omics data through Multiscale Gaussian Graphical Models&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/antoinebichat/?originalSubdomain=fr&#34;&gt;Antoine Bichat&lt;/a&gt;, statistician at Servier (2017-2020,  with Mahendra Mariadassou)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/a-bichat-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Prise en compte de l’organisation hiérarchique des espèces pour la découverte de signatures métagénomiques multi-échelles&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://gethugothemes.com/collaborators/thesis/a-bichat-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Prise en compte de l’organisation hiérarchique des espèces pour la découverte de signatures métagénomiques multi-échelles&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://rmomal.github.io/&#34;&gt;Raphaelle Momal&lt;/a&gt; (2017-2020 with Stéphane Robin)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/r-momal-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://gethugothemes.com/collaborators/thesis/r-momal-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;
 Network inference from incomplete abundance data&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Arthur Frouin (2016-2020 with  Edith Lefloch and  Jean-François Deleuze)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/a-frouin-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Apport des  méthodes statistiques multivariées  à la prédiction d&amp;rsquo;une
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://gethugothemes.com/collaborators/thesis/a-frouin-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Apport des  méthodes statistiques multivariées  à la prédiction d&amp;rsquo;une
 maladie polygénique  à l&amp;rsquo;aide de données génomiques&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -123,7 +123,7 @@ spécification du processus de collecte de pages&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Karim Yousfi (2003-2008, with Jean-Pierre Cocquerez)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/k-yousfi-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Segmentation Hiérarchique Optimale par Injection d’A Priori : radiométrique, géométrique ou spatial&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://gethugothemes.com/collaborators/thesis/k-yousfi-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Segmentation Hiérarchique Optimale par Injection d’A Priori : radiométrique, géométrique ou spatial&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -141,13 +141,13 @@ spécification du processus de collecte de pages&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bordeaux-population-health.center/profile/marta-avalos/&#34;&gt;Marta Avalos&lt;/a&gt;, maîtresse de conférences (2001-2004, with Yves Grandvalet)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/m-avalos-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Mod`eles Additifs Parcimonieux&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://gethugothemes.com/collaborators/thesis/m-avalos-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Mod`eles Additifs Parcimonieux&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/micheline-najjar-556212116/?originalSubdomain=lb&#34;&gt;Micheline Najjar&lt;/a&gt;, missionaire (2000-mai 2004, with Jean-Pierre Cocquerez)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://localhost:1313/collaborators/thesis/m-najjar-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Modèles de mélange pour la recherche d’images par le contenu : applications aux pathologies ostéo-articulaires&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://gethugothemes.com/collaborators/thesis/m-najjar-phd.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt; Modèles de mélange pour la recherche d’images par le contenu : applications aux pathologies ostéo-articulaires&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -183,55 +183,59 @@ chargé de recherche, UMR 1334 AGAP, INRAE, Montpellier&lt;/li&gt;
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>http://localhost:1313/talk/</link>
+      <link>https://gethugothemes.com/talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/talk/</guid>
+      <guid>https://gethugothemes.com/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Courses</title>
-      <link>http://localhost:1313/courses/</link>
+      <link>https://gethugothemes.com/courses/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/courses/</guid>
+      <guid>https://gethugothemes.com/courses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>http://localhost:1313/publication/</link>
+      <link>https://gethugothemes.com/publication/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/</guid>
-      <description></description>
+      <guid>https://gethugothemes.com/publication/</guid>
+      <description>&lt;p&gt;You can also check out my profile on  &lt;a href=&#34;https://scholar.google.com/citations?user=t2SxgaEAAAAJ&amp;hl=fr&amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt; Google scholar
+&lt;i class=&#34;ai ai-google-scholar&#34;&gt;&lt;/i&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>http://localhost:1313/post/</link>
+      <link>https://gethugothemes.com/post/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/</guid>
+      <guid>https://gethugothemes.com/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/</link>
+      <link>https://gethugothemes.com/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/slides/</guid>
+      <guid>https://gethugothemes.com/slides/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/project/</link>
+      <link>https://gethugothemes.com/project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/project/</guid>
+      <guid>https://gethugothemes.com/project/</guid>
       <description></description>
     </item>
     

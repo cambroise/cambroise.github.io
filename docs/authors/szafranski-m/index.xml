@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SZAFRANSKI M on Christophe Ambroise</title>
-    <link>http://localhost:1313/authors/szafranski-m/</link>
+    <link>https://gethugothemes.com/authors/szafranski-m/</link>
     <description>Recent content in SZAFRANSKI M on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/authors/szafranski-m/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://gethugothemes.com/authors/szafranski-m/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Mixture of multilayer stochastic block models for multiview clustering </title>
-      <link>http://localhost:1313/publication/desantiago2024mixture/</link>
+      <link>https://gethugothemes.com/publication/desantiago2024mixture/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/desantiago2024mixture/</guid>
+      <guid>https://gethugothemes.com/publication/desantiago2024mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A Sparse Mixture-of-Experts Model With Screening of Genetic Associations to Guide Disease Subtyping </title>
-      <link>http://localhost:1313/publication/courbariaux2022sparse/</link>
+      <link>https://gethugothemes.com/publication/courbariaux2022sparse/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/courbariaux2022sparse/</guid>
+      <guid>https://gethugothemes.com/publication/courbariaux2022sparse/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Compression structur{e}e de l&#39;information g{e}n{e}tique et {e}tude d&#39;association pang{e}nomique par mod{e}les additifs </title>
-      <link>http://localhost:1313/publication/guinot2022compression/</link>
+      <link>https://gethugothemes.com/publication/guinot2022compression/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/guinot2022compression/</guid>
+      <guid>https://gethugothemes.com/publication/guinot2022compression/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Fast computation of genome-metagenome interaction effects </title>
-      <link>http://localhost:1313/publication/guinot2020fast/</link>
+      <link>https://gethugothemes.com/publication/guinot2020fast/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/guinot2020fast/</guid>
+      <guid>https://gethugothemes.com/publication/guinot2020fast/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Learning the optimal scale for GWAS through hierarchical SNP aggregation </title>
-      <link>http://localhost:1313/publication/guinot2018learning/</link>
+      <link>https://gethugothemes.com/publication/guinot2018learning/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/guinot2018learning/</guid>
+      <guid>https://gethugothemes.com/publication/guinot2018learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A greedy great approach to learn with complementary structured datasets </title>
-      <link>http://localhost:1313/publication/chiquet2015greedy/</link>
+      <link>https://gethugothemes.com/publication/chiquet2015greedy/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/chiquet2015greedy/</guid>
+      <guid>https://gethugothemes.com/publication/chiquet2015greedy/</guid>
       <description></description>
     </item>
     

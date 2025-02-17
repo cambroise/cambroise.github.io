@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Volant S on Christophe Ambroise</title>
-    <link>http://localhost:1313/authors/volant-s/</link>
+    <link>https://gethugothemes.com/authors/volant-s/</link>
     <description>Recent content in Volant S on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Fri, 01 Jan 2010 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/authors/volant-s/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://gethugothemes.com/authors/volant-s/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Clustering based on random graph model embedding vertex features </title>
-      <link>http://localhost:1313/publication/zanghi2010clustering/</link>
+      <link>https://gethugothemes.com/publication/zanghi2010clustering/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/zanghi2010clustering/</guid>
+      <guid>https://gethugothemes.com/publication/zanghi2010clustering/</guid>
       <description></description>
     </item>
     

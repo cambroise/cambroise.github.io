@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academia on Christophe Ambroise</title>
-    <link>http://localhost:1313/tags/academia/</link>
+    <link>https://gethugothemes.com/tags/academia/</link>
     <description>Recent content in Academia on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/tags/academia/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://gethugothemes.com/tags/academia/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A Study of Snail Behavior</title>
-      <link>http://localhost:1313/post/snail/</link>
+      <link>https://gethugothemes.com/post/snail/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/snail/</guid>
+      <guid>https://gethugothemes.com/post/snail/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Create a free website with academia using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://academia-demo.netlify.com/&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/post/snail/#install&#34;&gt;&lt;strong&gt;Setup academia&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gethugothemes.com/post/snail/#install&#34;&gt;&lt;strong&gt;Setup academia&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34;&gt;View the documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/&#34;&gt;Ask a question&lt;/a&gt;&lt;/li&gt;
@@ -85,8 +85,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-1950s_hu8090154866876748264.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/snail/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/snail/gallery/theme-1950s_hu8090154866876748264.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -98,8 +98,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-apogee_hu3736725048932955682.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/snail/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/snail/gallery/theme-apogee_hu3736725048932955682.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -111,8 +111,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-coffee-playfair_hu5975374466282837123.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/snail/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/snail/gallery/theme-coffee-playfair_hu5975374466282837123.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -124,8 +124,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-dark_hu1820333524410461739.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/snail/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/snail/gallery/theme-dark_hu1820333524410461739.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -137,8 +137,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-default_hu10460097020403530355.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/snail/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/snail/gallery/theme-default_hu10460097020403530355.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -150,8 +150,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-forest_hu14011521461444474163.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/snail/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/snail/gallery/theme-forest_hu14011521461444474163.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -163,8 +163,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-ocean_hu14013329940897655413.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/snail/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/snail/gallery/theme-ocean_hu14013329940897655413.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -176,8 +176,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-strawberry_hu6527816099320964396.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/snail/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/snail/gallery/theme-strawberry_hu6527816099320964396.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 
@@ -208,14 +208,14 @@
     
     <item>
       <title>academia: the website builder for Hugo</title>
-      <link>http://localhost:1313/post/getting-started/</link>
+      <link>https://gethugothemes.com/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/getting-started/</guid>
+      <guid>https://gethugothemes.com/post/getting-started/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Create a free website with academia using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://academia-demo.netlify.com/&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/post/getting-started/#install&#34;&gt;&lt;strong&gt;Setup academia&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gethugothemes.com/post/getting-started/#install&#34;&gt;&lt;strong&gt;Setup academia&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34;&gt;View the documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/&#34;&gt;Ask a question&lt;/a&gt;&lt;/li&gt;
@@ -279,8 +279,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-1950s_hu8090154866876748264.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-1950s_hu8090154866876748264.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -292,8 +292,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-apogee_hu3736725048932955682.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-apogee_hu3736725048932955682.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -305,8 +305,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-coffee-playfair_hu5975374466282837123.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-coffee-playfair_hu5975374466282837123.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -318,8 +318,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-dark_hu1820333524410461739.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-dark_hu1820333524410461739.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -331,8 +331,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-default_hu10460097020403530355.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-default_hu10460097020403530355.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -344,8 +344,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-forest_hu14011521461444474163.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-forest_hu14011521461444474163.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -357,8 +357,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-ocean_hu14013329940897655413.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-ocean_hu14013329940897655413.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -370,8 +370,8 @@
         
       
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-strawberry_hu6527816099320964396.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
+  &lt;img src=&#34;https://gethugothemes.com/post/getting-started/gallery/theme-strawberry_hu6527816099320964396.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 
