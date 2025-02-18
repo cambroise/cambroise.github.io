@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Robin S on Christophe Ambroise</title>
-    <link>https://gethugothemes.com/authors/robin-s/</link>
+    <link>http://localhost:1313/authors/robin-s/</link>
     <description>Recent content in Robin S on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://gethugothemes.com/authors/robin-s/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/authors/robin-s/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Accounting for missing actors in interaction network inference from abundance data </title>
-      <link>https://gethugothemes.com/publication/momal2021accounting/</link>
+      <link>http://localhost:1313/publication/momal2021accounting/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/momal2021accounting/</guid>
+      <guid>http://localhost:1313/publication/momal2021accounting/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Tree-based Inference of Species Interaction Networks from Abundance Data </title>
-      <link>https://gethugothemes.com/publication/momal2020tree/</link>
+      <link>http://localhost:1313/publication/momal2020tree/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/momal2020tree/</guid>
+      <guid>http://localhost:1313/publication/momal2020tree/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A generalized statistical framework to assess mixing ability from incomplete mixing designs using binary or higher order variety mixtures and application to wheat </title>
-      <link>https://gethugothemes.com/publication/forst2019generalized/</link>
+      <link>http://localhost:1313/publication/forst2019generalized/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/forst2019generalized/</guid>
+      <guid>http://localhost:1313/publication/forst2019generalized/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Applications in Genomics </title>
-      <link>https://gethugothemes.com/publication/robin2019applications/</link>
+      <link>http://localhost:1313/publication/robin2019applications/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/robin2019applications/</guid>
+      <guid>http://localhost:1313/publication/robin2019applications/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Incomplete graphical model inference via latent tree aggregation </title>
-      <link>https://gethugothemes.com/publication/robin2019incomplete/</link>
+      <link>http://localhost:1313/publication/robin2019incomplete/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/robin2019incomplete/</guid>
+      <guid>http://localhost:1313/publication/robin2019incomplete/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Estimation of mixing ability for variety mixtures: Statistical models and experimental results </title>
-      <link>https://gethugothemes.com/publication/forst2018estimation/</link>
+      <link>http://localhost:1313/publication/forst2018estimation/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/forst2018estimation/</guid>
+      <guid>http://localhost:1313/publication/forst2018estimation/</guid>
       <description></description>
     </item>
     

@@ -2,994 +2,994 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Christophe Ambroise</title>
-    <link>https://gethugothemes.com/publication/</link>
+    <link>http://localhost:1313/publication/</link>
     <description>Recent content in Publications on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://gethugothemes.com/publication/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Spectral Bridges </title>
-      <link>https://gethugothemes.com/publication/laplante2024spectral/</link>
+      <link>http://localhost:1313/publication/laplante2024spectral/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/laplante2024spectral/</guid>
+      <guid>http://localhost:1313/publication/laplante2024spectral/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Mixture of multilayer stochastic block models for multiview clustering </title>
-      <link>https://gethugothemes.com/publication/desantiago2024mixture/</link>
+      <link>http://localhost:1313/publication/desantiago2024mixture/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/desantiago2024mixture/</guid>
+      <guid>http://localhost:1313/publication/desantiago2024mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Epigenetic Variation in Tree Evolution: a case study in black poplar (Populus nigra) </title>
-      <link>https://gethugothemes.com/publication/sow2023epigenetic/</link>
+      <link>http://localhost:1313/publication/sow2023epigenetic/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/sow2023epigenetic/</guid>
+      <guid>http://localhost:1313/publication/sow2023epigenetic/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Holistic view of the seascape dynamics and environment impact on macro-scale genetic connectivity of marine plankton populations </title>
-      <link>https://gethugothemes.com/publication/laso2023holistic/</link>
+      <link>http://localhost:1313/publication/laso2023holistic/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/laso2023holistic/</guid>
+      <guid>http://localhost:1313/publication/laso2023holistic/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Inference of Multiscale Gaussian Graphical Model </title>
-      <link>https://gethugothemes.com/publication/sanou2023inference/</link>
+      <link>http://localhost:1313/publication/sanou2023inference/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/sanou2023inference/</guid>
+      <guid>http://localhost:1313/publication/sanou2023inference/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A Sparse Mixture-of-Experts Model With Screening of Genetic Associations to Guide Disease Subtyping </title>
-      <link>https://gethugothemes.com/publication/courbariaux2022sparse/</link>
+      <link>http://localhost:1313/publication/courbariaux2022sparse/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/courbariaux2022sparse/</guid>
+      <guid>http://localhost:1313/publication/courbariaux2022sparse/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Compression structur{e}e de l&#39;information g{e}n{e}tique et {e}tude d&#39;association pang{e}nomique par mod{e}les additifs </title>
-      <link>https://gethugothemes.com/publication/guinot2022compression/</link>
+      <link>http://localhost:1313/publication/guinot2022compression/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/guinot2022compression/</guid>
+      <guid>http://localhost:1313/publication/guinot2022compression/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Hierarchical correction of p-values via an ultrametric tree running Ornstein-Uhlenbeck process </title>
-      <link>https://gethugothemes.com/publication/bichat2022hierarchical/</link>
+      <link>http://localhost:1313/publication/bichat2022hierarchical/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/bichat2022hierarchical/</guid>
+      <guid>http://localhost:1313/publication/bichat2022hierarchical/</guid>
       <description></description>
     </item>
     
     <item>
       <title> AI-based mobile application for antibiotic resistance testing </title>
-      <link>https://gethugothemes.com/publication/pascucci2021/</link>
+      <link>http://localhost:1313/publication/pascucci2021/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/pascucci2021/</guid>
+      <guid>http://localhost:1313/publication/pascucci2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Accounting for missing actors in interaction network inference from abundance data </title>
-      <link>https://gethugothemes.com/publication/momal2021accounting/</link>
+      <link>http://localhost:1313/publication/momal2021accounting/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/momal2021accounting/</guid>
+      <guid>http://localhost:1313/publication/momal2021accounting/</guid>
       <description></description>
     </item>
     
     <item>
       <title> How marine currents and environment shape plankton genomic differentiation: a mosaic view from Tara oceans metagenomic data </title>
-      <link>https://gethugothemes.com/publication/laso2021marine/</link>
+      <link>http://localhost:1313/publication/laso2021marine/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/laso2021marine/</guid>
+      <guid>http://localhost:1313/publication/laso2021marine/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Tree-based Inference of Species Interaction Networks from Abundance Data </title>
-      <link>https://gethugothemes.com/publication/momal2020tree/</link>
+      <link>http://localhost:1313/publication/momal2020tree/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/momal2020tree/</guid>
+      <guid>http://localhost:1313/publication/momal2020tree/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Exploring the link between additive heritability and prediction accuracy from a ridge regression perspective </title>
-      <link>https://gethugothemes.com/publication/frouin2020exploring/</link>
+      <link>http://localhost:1313/publication/frouin2020exploring/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/frouin2020exploring/</guid>
+      <guid>http://localhost:1313/publication/frouin2020exploring/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Fast computation of genome-metagenome interaction effects </title>
-      <link>https://gethugothemes.com/publication/guinot2020fast/</link>
+      <link>http://localhost:1313/publication/guinot2020fast/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/guinot2020fast/</guid>
+      <guid>http://localhost:1313/publication/guinot2020fast/</guid>
       <description></description>
     </item>
     
     <item>
       <title> High heritability does not imply accurate prediction under the small additive effects hypothesis </title>
-      <link>https://gethugothemes.com/publication/frouin2020high/</link>
+      <link>http://localhost:1313/publication/frouin2020high/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/frouin2020high/</guid>
+      <guid>http://localhost:1313/publication/frouin2020high/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Incorporating phylogenetic information in microbiome differential abundance studies has no effect on detection power and FDR control </title>
-      <link>https://gethugothemes.com/publication/bichat2020incorporating/</link>
+      <link>http://localhost:1313/publication/bichat2020incorporating/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/bichat2020incorporating/</guid>
+      <guid>http://localhost:1313/publication/bichat2020incorporating/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Investigating population-scale allelic differential expression in wild populations of Oithona similis (Cyclopoida, Claus, 1866) </title>
-      <link>https://gethugothemes.com/publication/laso2020investigating/</link>
+      <link>http://localhost:1313/publication/laso2020investigating/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/laso2020investigating/</guid>
+      <guid>http://localhost:1313/publication/laso2020investigating/</guid>
       <description></description>
     </item>
     
     <item>
       <title> metaVaR: introducing metavariant species models for reference-free metagenomic-based population genomics </title>
-      <link>https://gethugothemes.com/publication/laso2020metavar/</link>
+      <link>http://localhost:1313/publication/laso2020metavar/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/laso2020metavar/</guid>
+      <guid>http://localhost:1313/publication/laso2020metavar/</guid>
       <description></description>
     </item>
     
     <item>
       <title> PPanGGOLiN: depicting microbial diversity via a partitioned pangenome graph </title>
-      <link>https://gethugothemes.com/publication/gautreau2020ppanggolin/</link>
+      <link>http://localhost:1313/publication/gautreau2020ppanggolin/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/gautreau2020ppanggolin/</guid>
+      <guid>http://localhost:1313/publication/gautreau2020ppanggolin/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A generalized statistical framework to assess mixing ability from incomplete mixing designs using binary or higher order variety mixtures and application to wheat </title>
-      <link>https://gethugothemes.com/publication/forst2019generalized/</link>
+      <link>http://localhost:1313/publication/forst2019generalized/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/forst2019generalized/</guid>
+      <guid>http://localhost:1313/publication/forst2019generalized/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Adjacency-constrained hierarchical clustering of a band similarity matrix with application to genomics </title>
-      <link>https://gethugothemes.com/publication/ambroise2019adjacency/</link>
+      <link>http://localhost:1313/publication/ambroise2019adjacency/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2019adjacency/</guid>
+      <guid>http://localhost:1313/publication/ambroise2019adjacency/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Applications in Genomics </title>
-      <link>https://gethugothemes.com/publication/robin2019applications/</link>
+      <link>http://localhost:1313/publication/robin2019applications/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/robin2019applications/</guid>
+      <guid>http://localhost:1313/publication/robin2019applications/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Incomplete graphical model inference via latent tree aggregation </title>
-      <link>https://gethugothemes.com/publication/robin2019incomplete/</link>
+      <link>http://localhost:1313/publication/robin2019incomplete/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/robin2019incomplete/</guid>
+      <guid>http://localhost:1313/publication/robin2019incomplete/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Systematic analysis of TruSeq, SMARTer and SMARTer Ultra-Low RNA-seq kits for standard, low and ultra-low quantity samples </title>
-      <link>https://gethugothemes.com/publication/palomares2019systematic/</link>
+      <link>http://localhost:1313/publication/palomares2019systematic/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/palomares2019systematic/</guid>
+      <guid>http://localhost:1313/publication/palomares2019systematic/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clarifying the role of DNA methylation in tree phenotypic plasticity </title>
-      <link>https://gethugothemes.com/publication/sow2018clarifying/</link>
+      <link>http://localhost:1313/publication/sow2018clarifying/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/sow2018clarifying/</guid>
+      <guid>http://localhost:1313/publication/sow2018clarifying/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Epigenetics in forest trees: state of the art and potential implications for breeding and management in a context of climate change </title>
-      <link>https://gethugothemes.com/publication/sow2018epigenetics/</link>
+      <link>http://localhost:1313/publication/sow2018epigenetics/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/sow2018epigenetics/</guid>
+      <guid>http://localhost:1313/publication/sow2018epigenetics/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Estimation of mixing ability for variety mixtures: Statistical models and experimental results </title>
-      <link>https://gethugothemes.com/publication/forst2018estimation/</link>
+      <link>http://localhost:1313/publication/forst2018estimation/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/forst2018estimation/</guid>
+      <guid>http://localhost:1313/publication/forst2018estimation/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Learning the optimal scale for GWAS through hierarchical SNP aggregation </title>
-      <link>https://gethugothemes.com/publication/guinot2018learning/</link>
+      <link>http://localhost:1313/publication/guinot2018learning/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/guinot2018learning/</guid>
+      <guid>http://localhost:1313/publication/guinot2018learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Quantify Genomic Heritability Through a Prediction Measure </title>
-      <link>https://gethugothemes.com/publication/frouin2018quantify/</link>
+      <link>http://localhost:1313/publication/frouin2018quantify/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/frouin2018quantify/</guid>
+      <guid>http://localhost:1313/publication/frouin2018quantify/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Beyond support in two-stage variable selection </title>
-      <link>https://gethugothemes.com/publication/becu2017beyond/</link>
+      <link>http://localhost:1313/publication/becu2017beyond/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/becu2017beyond/</guid>
+      <guid>http://localhost:1313/publication/becu2017beyond/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Eigen-epistasis for detecting gene-gene interactions </title>
-      <link>https://gethugothemes.com/publication/stanislas2017eigen/</link>
+      <link>http://localhost:1313/publication/stanislas2017eigen/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/stanislas2017eigen/</guid>
+      <guid>http://localhost:1313/publication/stanislas2017eigen/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Estimating Narrow-Sense Heritability with Ridge Regression </title>
-      <link>https://gethugothemes.com/publication/frouin2017estimating/</link>
+      <link>http://localhost:1313/publication/frouin2017estimating/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/frouin2017estimating/</guid>
+      <guid>http://localhost:1313/publication/frouin2017estimating/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Quantify Genomic Heritability Through a Prediction Measure </title>
-      <link>https://gethugothemes.com/publication/frouin2017quantify/</link>
+      <link>http://localhost:1313/publication/frouin2017quantify/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/frouin2017quantify/</guid>
+      <guid>http://localhost:1313/publication/frouin2017quantify/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A greedy great approach to learn with complementary structured datasets </title>
-      <link>https://gethugothemes.com/publication/chiquet2015greedy/</link>
+      <link>http://localhost:1313/publication/chiquet2015greedy/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/chiquet2015greedy/</guid>
+      <guid>http://localhost:1313/publication/chiquet2015greedy/</guid>
       <description></description>
     </item>
     
     <item>
       <title> AB0004 Characterization of Putative Pre-RA Signatures by Transcriptome Analysis </title>
-      <link>https://gethugothemes.com/publication/petit2015ab0004/</link>
+      <link>http://localhost:1313/publication/petit2015ab0004/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/petit2015ab0004/</guid>
+      <guid>http://localhost:1313/publication/petit2015ab0004/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Performance of a blockwise approach in variable selection using linkage disequilibrium information </title>
-      <link>https://gethugothemes.com/publication/dehman2015performance/</link>
+      <link>http://localhost:1313/publication/dehman2015performance/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/dehman2015performance/</guid>
+      <guid>http://localhost:1313/publication/dehman2015performance/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Significance testing for variable selection in high-dimension </title>
-      <link>https://gethugothemes.com/publication/becu2015significance/</link>
+      <link>http://localhost:1313/publication/becu2015significance/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/becu2015significance/</guid>
+      <guid>http://localhost:1313/publication/becu2015significance/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Model selection in overlapping stochastic block models </title>
-      <link>https://gethugothemes.com/publication/latouche2014model/</link>
+      <link>http://localhost:1313/publication/latouche2014model/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/latouche2014model/</guid>
+      <guid>http://localhost:1313/publication/latouche2014model/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Overlapping clustering methods for networks </title>
-      <link>https://gethugothemes.com/publication/latouche2014overlapping/</link>
+      <link>http://localhost:1313/publication/latouche2014overlapping/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/latouche2014overlapping/</guid>
+      <guid>http://localhost:1313/publication/latouche2014overlapping/</guid>
       <description></description>
     </item>
     
     <item>
       <title> BP 529 F-60205 Compi{e}gne cedea-France </title>
-      <link>https://gethugothemes.com/publication/ambroise2013bp/</link>
+      <link>http://localhost:1313/publication/ambroise2013bp/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2013bp/</guid>
+      <guid>http://localhost:1313/publication/ambroise2013bp/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Incorporating linkage disequilibrium blocks in Genome-Wide Association Studies </title>
-      <link>https://gethugothemes.com/publication/dehman2013incorporating/</link>
+      <link>http://localhost:1313/publication/dehman2013incorporating/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/dehman2013incorporating/</guid>
+      <guid>http://localhost:1313/publication/dehman2013incorporating/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering by maximizing a fuzzy </title>
-      <link>https://gethugothemes.com/publication/ambroise2012clustering/</link>
+      <link>http://localhost:1313/publication/ambroise2012clustering/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2012clustering/</guid>
+      <guid>http://localhost:1313/publication/ambroise2012clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Discriminant analysis </title>
-      <link>https://gethugothemes.com/publication/mclachlan2012discriminant/</link>
+      <link>http://localhost:1313/publication/mclachlan2012discriminant/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/mclachlan2012discriminant/</guid>
+      <guid>http://localhost:1313/publication/mclachlan2012discriminant/</guid>
       <description></description>
     </item>
     
     <item>
       <title> SHIPS: spectral hierarchical clustering for the inference of population structure </title>
-      <link>https://gethugothemes.com/publication/bouaziz2012ships/</link>
+      <link>http://localhost:1313/publication/bouaziz2012ships/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/bouaziz2012ships/</guid>
+      <guid>http://localhost:1313/publication/bouaziz2012ships/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Sparsity by Worst-Case Penalties </title>
-      <link>https://gethugothemes.com/publication/grandvalet2012sparsity/</link>
+      <link>http://localhost:1313/publication/grandvalet2012sparsity/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/grandvalet2012sparsity/</guid>
+      <guid>http://localhost:1313/publication/grandvalet2012sparsity/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Variational Bayesian inference and complexity control for stochastic block models </title>
-      <link>https://gethugothemes.com/publication/latouche2012variational/</link>
+      <link>http://localhost:1313/publication/latouche2012variational/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/latouche2012variational/</guid>
+      <guid>http://localhost:1313/publication/latouche2012variational/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Accounting for population stratification in practice: a comparison of the main strategies dedicated to genome-wide association studies </title>
-      <link>https://gethugothemes.com/publication/bouaziz2011accounting/</link>
+      <link>http://localhost:1313/publication/bouaziz2011accounting/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/bouaziz2011accounting/</guid>
+      <guid>http://localhost:1313/publication/bouaziz2011accounting/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Defining a robust biological prior from pathway analysis to drive network inference </title>
-      <link>https://gethugothemes.com/publication/jeanmougin2011defining/</link>
+      <link>http://localhost:1313/publication/jeanmougin2011defining/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/jeanmougin2011defining/</guid>
+      <guid>http://localhost:1313/publication/jeanmougin2011defining/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Inferring multiple graphical structures </title>
-      <link>https://gethugothemes.com/publication/chiquet2011inferring/</link>
+      <link>http://localhost:1313/publication/chiquet2011inferring/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/chiquet2011inferring/</guid>
+      <guid>http://localhost:1313/publication/chiquet2011inferring/</guid>
       <description></description>
     </item>
     
     <item>
       <title> New consistent and asymptotically normal parameter estimates for random-graph mixture models </title>
-      <link>https://gethugothemes.com/publication/ambroise2011new/</link>
+      <link>http://localhost:1313/publication/ambroise2011new/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2011new/</guid>
+      <guid>http://localhost:1313/publication/ambroise2011new/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Overlapping stochastic block models with application to the french political blogosphere </title>
-      <link>https://gethugothemes.com/publication/latouche2011overlapping/</link>
+      <link>http://localhost:1313/publication/latouche2011overlapping/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/latouche2011overlapping/</guid>
+      <guid>http://localhost:1313/publication/latouche2011overlapping/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering based on random graph model embedding vertex features </title>
-      <link>https://gethugothemes.com/publication/zanghi2010clustering/</link>
+      <link>http://localhost:1313/publication/zanghi2010clustering/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/zanghi2010clustering/</guid>
+      <guid>http://localhost:1313/publication/zanghi2010clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> New consistent and asymptotically normal estimators for random graph mixture models </title>
-      <link>https://gethugothemes.com/publication/ambroise2010new/</link>
+      <link>http://localhost:1313/publication/ambroise2010new/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2010new/</guid>
+      <guid>http://localhost:1313/publication/ambroise2010new/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Strategies for online inference of model-based clustering in large and growing networks </title>
-      <link>https://gethugothemes.com/publication/zanghi2010strategies/</link>
+      <link>http://localhost:1313/publication/zanghi2010strategies/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/zanghi2010strategies/</guid>
+      <guid>http://localhost:1313/publication/zanghi2010strategies/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Weighted-LASSO for structured network inference from time course data </title>
-      <link>https://gethugothemes.com/publication/charbonnier2010weighted/</link>
+      <link>http://localhost:1313/publication/charbonnier2010weighted/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/charbonnier2010weighted/</guid>
+      <guid>http://localhost:1313/publication/charbonnier2010weighted/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Bayesian methods for graph clustering </title>
-      <link>https://gethugothemes.com/publication/latouche2009bayesian/</link>
+      <link>http://localhost:1313/publication/latouche2009bayesian/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/latouche2009bayesian/</guid>
+      <guid>http://localhost:1313/publication/latouche2009bayesian/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Inferring sparse Gaussian graphical models with latent structure </title>
-      <link>https://gethugothemes.com/publication/ambroise2009inferring/</link>
+      <link>http://localhost:1313/publication/ambroise2009inferring/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2009inferring/</guid>
+      <guid>http://localhost:1313/publication/ambroise2009inferring/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Overlapping stochastic block models </title>
-      <link>https://gethugothemes.com/publication/latouche2009overlapping/</link>
+      <link>http://localhost:1313/publication/latouche2009overlapping/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/latouche2009overlapping/</guid>
+      <guid>http://localhost:1313/publication/latouche2009overlapping/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Simone: Statistical inference for modular networks </title>
-      <link>https://gethugothemes.com/publication/chiquet2009simone/</link>
+      <link>http://localhost:1313/publication/chiquet2009simone/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/chiquet2009simone/</guid>
+      <guid>http://localhost:1313/publication/chiquet2009simone/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Spatial Data Clustering </title>
-      <link>https://gethugothemes.com/publication/ambroise2009spatial/</link>
+      <link>http://localhost:1313/publication/ambroise2009spatial/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2009spatial/</guid>
+      <guid>http://localhost:1313/publication/ambroise2009spatial/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Fast online graph clustering via Erdos--R{e}nyi mixture </title>
-      <link>https://gethugothemes.com/publication/zanghi2008fast/</link>
+      <link>http://localhost:1313/publication/zanghi2008fast/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/zanghi2008fast/</guid>
+      <guid>http://localhost:1313/publication/zanghi2008fast/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Identification of functional modules based on transcriptional regulation structure </title>
-      <link>https://gethugothemes.com/publication/birmele2008identification/</link>
+      <link>http://localhost:1313/publication/birmele2008identification/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/birmele2008identification/</guid>
+      <guid>http://localhost:1313/publication/birmele2008identification/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Strategies for online inference of network mixture </title>
-      <link>https://gethugothemes.com/publication/zanghi2008strategies/</link>
+      <link>http://localhost:1313/publication/zanghi2008strategies/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/zanghi2008strategies/</guid>
+      <guid>http://localhost:1313/publication/zanghi2008strategies/</guid>
       <description></description>
     </item>
     
     <item>
       <title> An online classification EM algorithm based on the mixture model </title>
-      <link>https://gethugothemes.com/publication/same2007online/</link>
+      <link>http://localhost:1313/publication/same2007online/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/same2007online/</guid>
+      <guid>http://localhost:1313/publication/same2007online/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Parsimonious additive models </title>
-      <link>https://gethugothemes.com/publication/avalos2007parsimonious/</link>
+      <link>http://localhost:1313/publication/avalos2007parsimonious/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2007parsimonious/</guid>
+      <guid>http://localhost:1313/publication/avalos2007parsimonious/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A classification EM algorithm for binned data </title>
-      <link>https://gethugothemes.com/publication/same2006classification/</link>
+      <link>http://localhost:1313/publication/same2006classification/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/same2006classification/</guid>
+      <guid>http://localhost:1313/publication/same2006classification/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A Content-Based Image Retrieval System for Osteo-Articular Applications </title>
-      <link>https://gethugothemes.com/publication/najjar2006content/</link>
+      <link>http://localhost:1313/publication/najjar2006content/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/najjar2006content/</guid>
+      <guid>http://localhost:1313/publication/najjar2006content/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Driving Hierarchy Construction via Supervised Learning: Application to Osteo-Articular Medical Images Database </title>
-      <link>https://gethugothemes.com/publication/yousfi2006driving/</link>
+      <link>http://localhost:1313/publication/yousfi2006driving/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/yousfi2006driving/</guid>
+      <guid>http://localhost:1313/publication/yousfi2006driving/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Feature selection in robust clustering based on Laplace mixture </title>
-      <link>https://gethugothemes.com/publication/cord2006feature/</link>
+      <link>http://localhost:1313/publication/cord2006feature/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/cord2006feature/</guid>
+      <guid>http://localhost:1313/publication/cord2006feature/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Selection bias in working with the top genes in supervised classification of tissue samples </title>
-      <link>https://gethugothemes.com/publication/zhu2006selection/</link>
+      <link>http://localhost:1313/publication/zhu2006selection/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/zhu2006selection/</guid>
+      <guid>http://localhost:1313/publication/zhu2006selection/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Supervised learning for guiding hierarchy construction: Application to osteo-articular medical images database </title>
-      <link>https://gethugothemes.com/publication/yousfi2006supervised/</link>
+      <link>http://localhost:1313/publication/yousfi2006supervised/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/yousfi2006supervised/</guid>
+      <guid>http://localhost:1313/publication/yousfi2006supervised/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A decision tree classifier for vehicle failure isolation </title>
-      <link>https://gethugothemes.com/publication/charkaoui2005decision/</link>
+      <link>http://localhost:1313/publication/charkaoui2005decision/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/charkaoui2005decision/</guid>
+      <guid>http://localhost:1313/publication/charkaoui2005decision/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A mixture model-based on-line CEM algorithm </title>
-      <link>https://gethugothemes.com/publication/same2005mixture/</link>
+      <link>http://localhost:1313/publication/same2005mixture/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/same2005mixture/</guid>
+      <guid>http://localhost:1313/publication/same2005mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Analyse de Donn{e}es et Data Mining </title>
-      <link>https://gethugothemes.com/publication/govaert2005analyse/</link>
+      <link>http://localhost:1313/publication/govaert2005analyse/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/govaert2005analyse/</guid>
+      <guid>http://localhost:1313/publication/govaert2005analyse/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Analyzing microarray gene expression data </title>
-      <link>https://gethugothemes.com/publication/mclachlan2005analyzing/</link>
+      <link>http://localhost:1313/publication/mclachlan2005analyzing/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/mclachlan2005analyzing/</guid>
+      <guid>http://localhost:1313/publication/mclachlan2005analyzing/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Books for review If you would like to review a book, and thereby to retain it for your collection, please contact the Book Reviews Editor, whose details can be found by clicking on &lt;U&#43;2018&gt;books currently available&lt;U&#43;2019&gt;in the information on the Royal Statistical Society&lt;U&#43;2019&gt;s Web site </title>
-      <link>https://gethugothemes.com/publication/chaumont2005books/</link>
+      <link>http://localhost:1313/publication/chaumont2005books/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/chaumont2005books/</guid>
+      <guid>http://localhost:1313/publication/chaumont2005books/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Discrimination par mod{e}les additifs parcimonieux </title>
-      <link>https://gethugothemes.com/publication/avalos2005discrimination/</link>
+      <link>http://localhost:1313/publication/avalos2005discrimination/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2005discrimination/</guid>
+      <guid>http://localhost:1313/publication/avalos2005discrimination/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Model selection via penalization in the additive Cox model </title>
-      <link>https://gethugothemes.com/publication/avalos2005model/</link>
+      <link>http://localhost:1313/publication/avalos2005model/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2005model/</guid>
+      <guid>http://localhost:1313/publication/avalos2005model/</guid>
       <description></description>
     </item>
     
     <item>
       <title> P{e}nalisation l1 pour les MAG </title>
-      <link>https://gethugothemes.com/publication/avalos2005penalisation/</link>
+      <link>http://localhost:1313/publication/avalos2005penalisation/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2005penalisation/</guid>
+      <guid>http://localhost:1313/publication/avalos2005penalisation/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Pattern recognition method for off-board automotive vehicle failure isolation </title>
-      <link>https://gethugothemes.com/publication/charkaoui2005pattern/</link>
+      <link>http://localhost:1313/publication/charkaoui2005pattern/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/charkaoui2005pattern/</guid>
+      <guid>http://localhost:1313/publication/charkaoui2005pattern/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Use of Micro Array Data via Model-based Classification in the Study and Prediction of Survival from Lung Cancer </title>
-      <link>https://gethugothemes.com/publication/jones2005use/</link>
+      <link>http://localhost:1313/publication/jones2005use/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/jones2005use/</guid>
+      <guid>http://localhost:1313/publication/jones2005use/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A mixture model approach for on-line clustering </title>
-      <link>https://gethugothemes.com/publication/same2004mixture/</link>
+      <link>http://localhost:1313/publication/same2004mixture/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/same2004mixture/</guid>
+      <guid>http://localhost:1313/publication/same2004mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> G{e}n{e}ralisation du lasso aux modeles additifs </title>
-      <link>https://gethugothemes.com/publication/avalos2004generalisation/</link>
+      <link>http://localhost:1313/publication/avalos2004generalisation/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2004generalisation/</guid>
+      <guid>http://localhost:1313/publication/avalos2004generalisation/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Microarrays in gene expression studies </title>
-      <link>https://gethugothemes.com/publication/mclachlan2004microarrays/</link>
+      <link>http://localhost:1313/publication/mclachlan2004microarrays/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/mclachlan2004microarrays/</guid>
+      <guid>http://localhost:1313/publication/mclachlan2004microarrays/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Mixture model approach for acoustic emission control of pressure equipment </title>
-      <link>https://gethugothemes.com/publication/hamdan2004mixture/</link>
+      <link>http://localhost:1313/publication/hamdan2004mixture/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/hamdan2004mixture/</guid>
+      <guid>http://localhost:1313/publication/hamdan2004mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> On the simultaneous use of clinical and microarray expression data in the cluster analysis of tissue samples </title>
-      <link>https://gethugothemes.com/publication/mclachlan2004simultaneous/</link>
+      <link>http://localhost:1313/publication/mclachlan2004simultaneous/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/mclachlan2004simultaneous/</guid>
+      <guid>http://localhost:1313/publication/mclachlan2004simultaneous/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Penalized additive logistic regression for cardiovascular risk prediction </title>
-      <link>https://gethugothemes.com/publication/avalos2004penalized/</link>
+      <link>http://localhost:1313/publication/avalos2004penalized/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2004penalized/</guid>
+      <guid>http://localhost:1313/publication/avalos2004penalized/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A mixture model approach for binned data clustering </title>
-      <link>https://gethugothemes.com/publication/same2003mixture/</link>
+      <link>http://localhost:1313/publication/same2003mixture/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/same2003mixture/</guid>
+      <guid>http://localhost:1313/publication/same2003mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Feature selection for semisupervised learning applied to image retrieval </title>
-      <link>https://gethugothemes.com/publication/najjar2003feature/</link>
+      <link>http://localhost:1313/publication/najjar2003feature/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/najjar2003feature/</guid>
+      <guid>http://localhost:1313/publication/najjar2003feature/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Image retrieval using mixture models and em algorithm </title>
-      <link>https://gethugothemes.com/publication/najjar2003image/</link>
+      <link>http://localhost:1313/publication/najjar2003image/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/najjar2003image/</guid>
+      <guid>http://localhost:1313/publication/najjar2003image/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Regularization methods for additive models </title>
-      <link>https://gethugothemes.com/publication/avalos2003regularization/</link>
+      <link>http://localhost:1313/publication/avalos2003regularization/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2003regularization/</guid>
+      <guid>http://localhost:1313/publication/avalos2003regularization/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A Semi-supervised Learning Approach to Image Retrieval </title>
-      <link>https://gethugothemes.com/publication/najjar2002semi/</link>
+      <link>http://localhost:1313/publication/najjar2002semi/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/najjar2002semi/</guid>
+      <guid>http://localhost:1313/publication/najjar2002semi/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering and Models </title>
-      <link>https://gethugothemes.com/publication/ambroise2002clustering/</link>
+      <link>http://localhost:1313/publication/ambroise2002clustering/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2002clustering/</guid>
+      <guid>http://localhost:1313/publication/ambroise2002clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Selection bias in gene extraction on the basis of microarray gene-expression data </title>
-      <link>https://gethugothemes.com/publication/ambroise2002selection/</link>
+      <link>http://localhost:1313/publication/ambroise2002selection/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2002selection/</guid>
+      <guid>http://localhost:1313/publication/ambroise2002selection/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Boosting mixture models for semi-supervised learning </title>
-      <link>https://gethugothemes.com/publication/grandvalet2001boosting/</link>
+      <link>http://localhost:1313/publication/grandvalet2001boosting/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/grandvalet2001boosting/</guid>
+      <guid>http://localhost:1313/publication/grandvalet2001boosting/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Learning from an imprecise teacher: probabilistic and evidential approaches </title>
-      <link>https://gethugothemes.com/publication/ambroise2001learning/</link>
+      <link>http://localhost:1313/publication/ambroise2001learning/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2001learning/</guid>
+      <guid>http://localhost:1313/publication/ambroise2001learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Prediction of ozone peaks by mixture models </title>
-      <link>https://gethugothemes.com/publication/ambroise2001prediction/</link>
+      <link>http://localhost:1313/publication/ambroise2001prediction/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2001prediction/</guid>
+      <guid>http://localhost:1313/publication/ambroise2001prediction/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Semi-supervised marginboost </title>
-      <link>https://gethugothemes.com/publication/d2001semi/</link>
+      <link>http://localhost:1313/publication/d2001semi/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/d2001semi/</guid>
+      <guid>http://localhost:1313/publication/d2001semi/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Semi-supervised marginboost </title>
-      <link>https://gethugothemes.com/publication/grandvalet2001semi/</link>
+      <link>http://localhost:1313/publication/grandvalet2001semi/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/grandvalet2001semi/</guid>
+      <guid>http://localhost:1313/publication/grandvalet2001semi/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering by maximizing a fuzzy classification maximum likelihood criterion </title>
-      <link>https://gethugothemes.com/publication/ambroise2000clustering/</link>
+      <link>http://localhost:1313/publication/ambroise2000clustering/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2000clustering/</guid>
+      <guid>http://localhost:1313/publication/ambroise2000clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> EM algorithm for partially known labels </title>
-      <link>https://gethugothemes.com/publication/ambroise2000algorithm/</link>
+      <link>http://localhost:1313/publication/ambroise2000algorithm/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2000algorithm/</guid>
+      <guid>http://localhost:1313/publication/ambroise2000algorithm/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Hierarchical clustering of self-organizing maps for cloud classification </title>
-      <link>https://gethugothemes.com/publication/ambroise2000hierarchical/</link>
+      <link>http://localhost:1313/publication/ambroise2000hierarchical/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2000hierarchical/</guid>
+      <guid>http://localhost:1313/publication/ambroise2000hierarchical/</guid>
       <description></description>
     </item>
     
     <item>
       <title> An iterative algorithm for spatial clustering </title>
-      <link>https://gethugothemes.com/publication/ambroise1998iterative/</link>
+      <link>http://localhost:1313/publication/ambroise1998iterative/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise1998iterative/</guid>
+      <guid>http://localhost:1313/publication/ambroise1998iterative/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Convergence of an EM-type algorithm for spatial clustering </title>
-      <link>https://gethugothemes.com/publication/ambroise1998convergence/</link>
+      <link>http://localhost:1313/publication/ambroise1998convergence/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise1998convergence/</guid>
+      <guid>http://localhost:1313/publication/ambroise1998convergence/</guid>
       <description></description>
     </item>
     
     <item>
       <title> The EM Algorithm and Extensions, by GM McLachlan and T. Krishnan </title>
-      <link>https://gethugothemes.com/publication/ambroise1998algorithm/</link>
+      <link>http://localhost:1313/publication/ambroise1998algorithm/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise1998algorithm/</guid>
+      <guid>http://localhost:1313/publication/ambroise1998algorithm/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering of spatial data by the EM algorithm </title>
-      <link>https://gethugothemes.com/publication/ambroise1997clustering/</link>
+      <link>http://localhost:1313/publication/ambroise1997clustering/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise1997clustering/</guid>
+      <guid>http://localhost:1313/publication/ambroise1997clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Analyzing dissimilarity matrices via Kohonen maps </title>
-      <link>https://gethugothemes.com/publication/ambroise1996analyzing/</link>
+      <link>http://localhost:1313/publication/ambroise1996analyzing/</link>
       <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise1996analyzing/</guid>
+      <guid>http://localhost:1313/publication/ambroise1996analyzing/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Approche probabiliste en classification automatique et contraintes de voisinage </title>
-      <link>https://gethugothemes.com/publication/ambroise1996approche/</link>
+      <link>http://localhost:1313/publication/ambroise1996approche/</link>
       <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise1996approche/</guid>
+      <guid>http://localhost:1313/publication/ambroise1996approche/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Constrained clustering and Kohonen self-organizing maps </title>
-      <link>https://gethugothemes.com/publication/ambroise1996constrained/</link>
+      <link>http://localhost:1313/publication/ambroise1996constrained/</link>
       <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise1996constrained/</guid>
+      <guid>http://localhost:1313/publication/ambroise1996constrained/</guid>
       <description></description>
     </item>
     

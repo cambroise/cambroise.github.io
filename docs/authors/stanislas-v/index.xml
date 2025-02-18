@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stanislas V on Christophe Ambroise</title>
-    <link>https://gethugothemes.com/authors/stanislas-v/</link>
+    <link>http://localhost:1313/authors/stanislas-v/</link>
     <description>Recent content in Stanislas V on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://gethugothemes.com/authors/stanislas-v/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/authors/stanislas-v/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Eigen-epistasis for detecting gene-gene interactions </title>
-      <link>https://gethugothemes.com/publication/stanislas2017eigen/</link>
+      <link>http://localhost:1313/publication/stanislas2017eigen/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/stanislas2017eigen/</guid>
+      <guid>http://localhost:1313/publication/stanislas2017eigen/</guid>
       <description></description>
     </item>
     

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Delaunay A on Christophe Ambroise</title>
-    <link>https://gethugothemes.com/authors/delaunay-a/</link>
+    <link>http://localhost:1313/authors/delaunay-a/</link>
     <description>Recent content in Delaunay A on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://gethugothemes.com/authors/delaunay-a/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/authors/delaunay-a/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Epigenetic Variation in Tree Evolution: a case study in black poplar (Populus nigra) </title>
-      <link>https://gethugothemes.com/publication/sow2023epigenetic/</link>
+      <link>http://localhost:1313/publication/sow2023epigenetic/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/sow2023epigenetic/</guid>
+      <guid>http://localhost:1313/publication/sow2023epigenetic/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clarifying the role of DNA methylation in tree phenotypic plasticity </title>
-      <link>https://gethugothemes.com/publication/sow2018clarifying/</link>
+      <link>http://localhost:1313/publication/sow2018clarifying/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/sow2018clarifying/</guid>
+      <guid>http://localhost:1313/publication/sow2018clarifying/</guid>
       <description></description>
     </item>
     

@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deleuze J on Christophe Ambroise</title>
-    <link>https://gethugothemes.com/authors/deleuze-j/</link>
+    <link>http://localhost:1313/authors/deleuze-j/</link>
     <description>Recent content in Deleuze J on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://gethugothemes.com/authors/deleuze-j/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/authors/deleuze-j/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Exploring the link between additive heritability and prediction accuracy from a ridge regression perspective </title>
-      <link>https://gethugothemes.com/publication/frouin2020exploring/</link>
+      <link>http://localhost:1313/publication/frouin2020exploring/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/frouin2020exploring/</guid>
+      <guid>http://localhost:1313/publication/frouin2020exploring/</guid>
       <description></description>
     </item>
     
     <item>
       <title> High heritability does not imply accurate prediction under the small additive effects hypothesis </title>
-      <link>https://gethugothemes.com/publication/frouin2020high/</link>
+      <link>http://localhost:1313/publication/frouin2020high/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/frouin2020high/</guid>
+      <guid>http://localhost:1313/publication/frouin2020high/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Systematic analysis of TruSeq, SMARTer and SMARTer Ultra-Low RNA-seq kits for standard, low and ultra-low quantity samples </title>
-      <link>https://gethugothemes.com/publication/palomares2019systematic/</link>
+      <link>http://localhost:1313/publication/palomares2019systematic/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/palomares2019systematic/</guid>
+      <guid>http://localhost:1313/publication/palomares2019systematic/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Estimating Narrow-Sense Heritability with Ridge Regression </title>
-      <link>https://gethugothemes.com/publication/frouin2017estimating/</link>
+      <link>http://localhost:1313/publication/frouin2017estimating/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/frouin2017estimating/</guid>
+      <guid>http://localhost:1313/publication/frouin2017estimating/</guid>
       <description></description>
     </item>
     
     <item>
       <title> AB0004 Characterization of Putative Pre-RA Signatures by Transcriptome Analysis </title>
-      <link>https://gethugothemes.com/publication/petit2015ab0004/</link>
+      <link>http://localhost:1313/publication/petit2015ab0004/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/petit2015ab0004/</guid>
+      <guid>http://localhost:1313/publication/petit2015ab0004/</guid>
       <description></description>
     </item>
     

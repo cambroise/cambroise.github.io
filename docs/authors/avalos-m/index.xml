@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Avalos M on Christophe Ambroise</title>
-    <link>https://gethugothemes.com/authors/avalos-m/</link>
+    <link>http://localhost:1313/authors/avalos-m/</link>
     <description>Recent content in Avalos M on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Mon, 01 Jan 2007 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://gethugothemes.com/authors/avalos-m/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/authors/avalos-m/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Parsimonious additive models </title>
-      <link>https://gethugothemes.com/publication/avalos2007parsimonious/</link>
+      <link>http://localhost:1313/publication/avalos2007parsimonious/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2007parsimonious/</guid>
+      <guid>http://localhost:1313/publication/avalos2007parsimonious/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Discrimination par mod{e}les additifs parcimonieux </title>
-      <link>https://gethugothemes.com/publication/avalos2005discrimination/</link>
+      <link>http://localhost:1313/publication/avalos2005discrimination/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2005discrimination/</guid>
+      <guid>http://localhost:1313/publication/avalos2005discrimination/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Model selection via penalization in the additive Cox model </title>
-      <link>https://gethugothemes.com/publication/avalos2005model/</link>
+      <link>http://localhost:1313/publication/avalos2005model/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2005model/</guid>
+      <guid>http://localhost:1313/publication/avalos2005model/</guid>
       <description></description>
     </item>
     
     <item>
       <title> P{e}nalisation l1 pour les MAG </title>
-      <link>https://gethugothemes.com/publication/avalos2005penalisation/</link>
+      <link>http://localhost:1313/publication/avalos2005penalisation/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2005penalisation/</guid>
+      <guid>http://localhost:1313/publication/avalos2005penalisation/</guid>
       <description></description>
     </item>
     
     <item>
       <title> G{e}n{e}ralisation du lasso aux modeles additifs </title>
-      <link>https://gethugothemes.com/publication/avalos2004generalisation/</link>
+      <link>http://localhost:1313/publication/avalos2004generalisation/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2004generalisation/</guid>
+      <guid>http://localhost:1313/publication/avalos2004generalisation/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Penalized additive logistic regression for cardiovascular risk prediction </title>
-      <link>https://gethugothemes.com/publication/avalos2004penalized/</link>
+      <link>http://localhost:1313/publication/avalos2004penalized/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2004penalized/</guid>
+      <guid>http://localhost:1313/publication/avalos2004penalized/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Regularization methods for additive models </title>
-      <link>https://gethugothemes.com/publication/avalos2003regularization/</link>
+      <link>http://localhost:1313/publication/avalos2003regularization/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2003regularization/</guid>
+      <guid>http://localhost:1313/publication/avalos2003regularization/</guid>
       <description></description>
     </item>
     

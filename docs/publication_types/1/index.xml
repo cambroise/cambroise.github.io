@@ -2,283 +2,283 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Christophe Ambroise</title>
-    <link>https://gethugothemes.com/publication_types/1/</link>
+    <link>http://localhost:1313/publication_types/1/</link>
     <description>Recent content in 1 on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://gethugothemes.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Clarifying the role of DNA methylation in tree phenotypic plasticity </title>
-      <link>https://gethugothemes.com/publication/sow2018clarifying/</link>
+      <link>http://localhost:1313/publication/sow2018clarifying/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/sow2018clarifying/</guid>
+      <guid>http://localhost:1313/publication/sow2018clarifying/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Estimation of mixing ability for variety mixtures: Statistical models and experimental results </title>
-      <link>https://gethugothemes.com/publication/forst2018estimation/</link>
+      <link>http://localhost:1313/publication/forst2018estimation/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/forst2018estimation/</guid>
+      <guid>http://localhost:1313/publication/forst2018estimation/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Quantify Genomic Heritability Through a Prediction Measure </title>
-      <link>https://gethugothemes.com/publication/frouin2018quantify/</link>
+      <link>http://localhost:1313/publication/frouin2018quantify/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/frouin2018quantify/</guid>
+      <guid>http://localhost:1313/publication/frouin2018quantify/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Estimating Narrow-Sense Heritability with Ridge Regression </title>
-      <link>https://gethugothemes.com/publication/frouin2017estimating/</link>
+      <link>http://localhost:1313/publication/frouin2017estimating/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/frouin2017estimating/</guid>
+      <guid>http://localhost:1313/publication/frouin2017estimating/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Quantify Genomic Heritability Through a Prediction Measure </title>
-      <link>https://gethugothemes.com/publication/frouin2017quantify/</link>
+      <link>http://localhost:1313/publication/frouin2017quantify/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/frouin2017quantify/</guid>
+      <guid>http://localhost:1313/publication/frouin2017quantify/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A greedy great approach to learn with complementary structured datasets </title>
-      <link>https://gethugothemes.com/publication/chiquet2015greedy/</link>
+      <link>http://localhost:1313/publication/chiquet2015greedy/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/chiquet2015greedy/</guid>
+      <guid>http://localhost:1313/publication/chiquet2015greedy/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Significance testing for variable selection in high-dimension </title>
-      <link>https://gethugothemes.com/publication/becu2015significance/</link>
+      <link>http://localhost:1313/publication/becu2015significance/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/becu2015significance/</guid>
+      <guid>http://localhost:1313/publication/becu2015significance/</guid>
       <description></description>
     </item>
     
     <item>
       <title> BP 529 F-60205 Compi{e}gne cedea-France </title>
-      <link>https://gethugothemes.com/publication/ambroise2013bp/</link>
+      <link>http://localhost:1313/publication/ambroise2013bp/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2013bp/</guid>
+      <guid>http://localhost:1313/publication/ambroise2013bp/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering by maximizing a fuzzy </title>
-      <link>https://gethugothemes.com/publication/ambroise2012clustering/</link>
+      <link>http://localhost:1313/publication/ambroise2012clustering/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2012clustering/</guid>
+      <guid>http://localhost:1313/publication/ambroise2012clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Identification of functional modules based on transcriptional regulation structure </title>
-      <link>https://gethugothemes.com/publication/birmele2008identification/</link>
+      <link>http://localhost:1313/publication/birmele2008identification/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/birmele2008identification/</guid>
+      <guid>http://localhost:1313/publication/birmele2008identification/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A Content-Based Image Retrieval System for Osteo-Articular Applications </title>
-      <link>https://gethugothemes.com/publication/najjar2006content/</link>
+      <link>http://localhost:1313/publication/najjar2006content/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/najjar2006content/</guid>
+      <guid>http://localhost:1313/publication/najjar2006content/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Driving Hierarchy Construction via Supervised Learning: Application to Osteo-Articular Medical Images Database </title>
-      <link>https://gethugothemes.com/publication/yousfi2006driving/</link>
+      <link>http://localhost:1313/publication/yousfi2006driving/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/yousfi2006driving/</guid>
+      <guid>http://localhost:1313/publication/yousfi2006driving/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Supervised learning for guiding hierarchy construction: Application to osteo-articular medical images database </title>
-      <link>https://gethugothemes.com/publication/yousfi2006supervised/</link>
+      <link>http://localhost:1313/publication/yousfi2006supervised/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/yousfi2006supervised/</guid>
+      <guid>http://localhost:1313/publication/yousfi2006supervised/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A mixture model-based on-line CEM algorithm </title>
-      <link>https://gethugothemes.com/publication/same2005mixture/</link>
+      <link>http://localhost:1313/publication/same2005mixture/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/same2005mixture/</guid>
+      <guid>http://localhost:1313/publication/same2005mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Model selection via penalization in the additive Cox model </title>
-      <link>https://gethugothemes.com/publication/avalos2005model/</link>
+      <link>http://localhost:1313/publication/avalos2005model/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2005model/</guid>
+      <guid>http://localhost:1313/publication/avalos2005model/</guid>
       <description></description>
     </item>
     
     <item>
       <title> P{e}nalisation l1 pour les MAG </title>
-      <link>https://gethugothemes.com/publication/avalos2005penalisation/</link>
+      <link>http://localhost:1313/publication/avalos2005penalisation/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2005penalisation/</guid>
+      <guid>http://localhost:1313/publication/avalos2005penalisation/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A mixture model approach for on-line clustering </title>
-      <link>https://gethugothemes.com/publication/same2004mixture/</link>
+      <link>http://localhost:1313/publication/same2004mixture/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/same2004mixture/</guid>
+      <guid>http://localhost:1313/publication/same2004mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> G{e}n{e}ralisation du lasso aux modeles additifs </title>
-      <link>https://gethugothemes.com/publication/avalos2004generalisation/</link>
+      <link>http://localhost:1313/publication/avalos2004generalisation/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2004generalisation/</guid>
+      <guid>http://localhost:1313/publication/avalos2004generalisation/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Mixture model approach for acoustic emission control of pressure equipment </title>
-      <link>https://gethugothemes.com/publication/hamdan2004mixture/</link>
+      <link>http://localhost:1313/publication/hamdan2004mixture/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/hamdan2004mixture/</guid>
+      <guid>http://localhost:1313/publication/hamdan2004mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> On the simultaneous use of clinical and microarray expression data in the cluster analysis of tissue samples </title>
-      <link>https://gethugothemes.com/publication/mclachlan2004simultaneous/</link>
+      <link>http://localhost:1313/publication/mclachlan2004simultaneous/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/mclachlan2004simultaneous/</guid>
+      <guid>http://localhost:1313/publication/mclachlan2004simultaneous/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Penalized additive logistic regression for cardiovascular risk prediction </title>
-      <link>https://gethugothemes.com/publication/avalos2004penalized/</link>
+      <link>http://localhost:1313/publication/avalos2004penalized/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2004penalized/</guid>
+      <guid>http://localhost:1313/publication/avalos2004penalized/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A mixture model approach for binned data clustering </title>
-      <link>https://gethugothemes.com/publication/same2003mixture/</link>
+      <link>http://localhost:1313/publication/same2003mixture/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/same2003mixture/</guid>
+      <guid>http://localhost:1313/publication/same2003mixture/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Feature selection for semisupervised learning applied to image retrieval </title>
-      <link>https://gethugothemes.com/publication/najjar2003feature/</link>
+      <link>http://localhost:1313/publication/najjar2003feature/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/najjar2003feature/</guid>
+      <guid>http://localhost:1313/publication/najjar2003feature/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Image retrieval using mixture models and em algorithm </title>
-      <link>https://gethugothemes.com/publication/najjar2003image/</link>
+      <link>http://localhost:1313/publication/najjar2003image/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/najjar2003image/</guid>
+      <guid>http://localhost:1313/publication/najjar2003image/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Regularization methods for additive models </title>
-      <link>https://gethugothemes.com/publication/avalos2003regularization/</link>
+      <link>http://localhost:1313/publication/avalos2003regularization/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/avalos2003regularization/</guid>
+      <guid>http://localhost:1313/publication/avalos2003regularization/</guid>
       <description></description>
     </item>
     
     <item>
       <title> A Semi-supervised Learning Approach to Image Retrieval </title>
-      <link>https://gethugothemes.com/publication/najjar2002semi/</link>
+      <link>http://localhost:1313/publication/najjar2002semi/</link>
       <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/najjar2002semi/</guid>
+      <guid>http://localhost:1313/publication/najjar2002semi/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Boosting mixture models for semi-supervised learning </title>
-      <link>https://gethugothemes.com/publication/grandvalet2001boosting/</link>
+      <link>http://localhost:1313/publication/grandvalet2001boosting/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/grandvalet2001boosting/</guid>
+      <guid>http://localhost:1313/publication/grandvalet2001boosting/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Semi-supervised marginboost </title>
-      <link>https://gethugothemes.com/publication/grandvalet2001semi/</link>
+      <link>http://localhost:1313/publication/grandvalet2001semi/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/grandvalet2001semi/</guid>
+      <guid>http://localhost:1313/publication/grandvalet2001semi/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering by maximizing a fuzzy classification maximum likelihood criterion </title>
-      <link>https://gethugothemes.com/publication/ambroise2000clustering/</link>
+      <link>http://localhost:1313/publication/ambroise2000clustering/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise2000clustering/</guid>
+      <guid>http://localhost:1313/publication/ambroise2000clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Analyzing dissimilarity matrices via Kohonen maps </title>
-      <link>https://gethugothemes.com/publication/ambroise1996analyzing/</link>
+      <link>http://localhost:1313/publication/ambroise1996analyzing/</link>
       <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/ambroise1996analyzing/</guid>
+      <guid>http://localhost:1313/publication/ambroise1996analyzing/</guid>
       <description></description>
     </item>
     

@@ -38,6 +38,7 @@ menu:
 ## Links 
 
  - [Lecture notes](media/Lecture-Dimension-Reduction.pdf)
+ - [Slides](media/slides-dimension-reduction.pdf)
  -  Projet 2025: [html](project), [pdf](media/project2025.pdf)
 
 
