@@ -31,7 +31,8 @@ menu:
 
  - [Notes pdf au 14/03/2025](./media/Statistiques-Des-R-booklet.pdf)
  - [Livret de Travaux dirigés au 14/03/2025](./media/Statistiques-Descriptives-avec-R-TD.pdf)
-
+ - [Partiel 2024](./media/Partiel-StatDes-Math-2024.pdf)
+ 
 
 ##  Documents de référence
 
