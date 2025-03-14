@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zanghi H on Christophe Ambroise</title>
-    <link>https://gethugothemes.com/authors/zanghi-h/</link>
+    <link>http://localhost:1313/authors/zanghi-h/</link>
     <description>Recent content in Zanghi H on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Fri, 01 Jan 2010 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://gethugothemes.com/authors/zanghi-h/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/authors/zanghi-h/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Clustering based on random graph model embedding vertex features </title>
-      <link>https://gethugothemes.com/publication/zanghi2010clustering/</link>
+      <link>http://localhost:1313/publication/zanghi2010clustering/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/zanghi2010clustering/</guid>
+      <guid>http://localhost:1313/publication/zanghi2010clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Strategies for online inference of model-based clustering in large and growing networks </title>
-      <link>https://gethugothemes.com/publication/zanghi2010strategies/</link>
+      <link>http://localhost:1313/publication/zanghi2010strategies/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/zanghi2010strategies/</guid>
+      <guid>http://localhost:1313/publication/zanghi2010strategies/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Fast online graph clustering via Erdos--R{e}nyi mixture </title>
-      <link>https://gethugothemes.com/publication/zanghi2008fast/</link>
+      <link>http://localhost:1313/publication/zanghi2008fast/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/zanghi2008fast/</guid>
+      <guid>http://localhost:1313/publication/zanghi2008fast/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Strategies for online inference of network mixture </title>
-      <link>https://gethugothemes.com/publication/zanghi2008strategies/</link>
+      <link>http://localhost:1313/publication/zanghi2008strategies/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/zanghi2008strategies/</guid>
+      <guid>http://localhost:1313/publication/zanghi2008strategies/</guid>
       <description></description>
     </item>
     

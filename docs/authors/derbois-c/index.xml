@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Derbois C on Christophe Ambroise</title>
-    <link>https://gethugothemes.com/authors/derbois-c/</link>
+    <link>http://localhost:1313/authors/derbois-c/</link>
     <description>Recent content in Derbois C on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://gethugothemes.com/authors/derbois-c/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/authors/derbois-c/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Systematic analysis of TruSeq, SMARTer and SMARTer Ultra-Low RNA-seq kits for standard, low and ultra-low quantity samples </title>
-      <link>https://gethugothemes.com/publication/palomares2019systematic/</link>
+      <link>http://localhost:1313/publication/palomares2019systematic/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/palomares2019systematic/</guid>
+      <guid>http://localhost:1313/publication/palomares2019systematic/</guid>
       <description></description>
     </item>
     
     <item>
       <title> AB0004 Characterization of Putative Pre-RA Signatures by Transcriptome Analysis </title>
-      <link>https://gethugothemes.com/publication/petit2015ab0004/</link>
+      <link>http://localhost:1313/publication/petit2015ab0004/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/petit2015ab0004/</guid>
+      <guid>http://localhost:1313/publication/petit2015ab0004/</guid>
       <description></description>
     </item>
     

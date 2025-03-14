@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sugier K on Christophe Ambroise</title>
-    <link>https://gethugothemes.com/authors/sugier-k/</link>
+    <link>http://localhost:1313/authors/sugier-k/</link>
     <description>Recent content in Sugier K on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://gethugothemes.com/authors/sugier-k/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/authors/sugier-k/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Investigating population-scale allelic differential expression in wild populations of Oithona similis (Cyclopoida, Claus, 1866) </title>
-      <link>https://gethugothemes.com/publication/laso2020investigating/</link>
+      <link>http://localhost:1313/publication/laso2020investigating/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/laso2020investigating/</guid>
+      <guid>http://localhost:1313/publication/laso2020investigating/</guid>
       <description></description>
     </item>
     
