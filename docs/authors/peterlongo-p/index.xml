@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Peterlongo P on Christophe Ambroise</title>
-    <link>https://gethugothemes.com/authors/peterlongo-p/</link>
+    <link>http://localhost:1313/authors/peterlongo-p/</link>
     <description>Recent content in Peterlongo P on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://gethugothemes.com/authors/peterlongo-p/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/authors/peterlongo-p/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Investigating population-scale allelic differential expression in wild populations of Oithona similis (Cyclopoida, Claus, 1866) </title>
-      <link>https://gethugothemes.com/publication/laso2020investigating/</link>
+      <link>http://localhost:1313/publication/laso2020investigating/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/laso2020investigating/</guid>
+      <guid>http://localhost:1313/publication/laso2020investigating/</guid>
       <description></description>
     </item>
     
     <item>
       <title> metaVaR: introducing metavariant species models for reference-free metagenomic-based population genomics </title>
-      <link>https://gethugothemes.com/publication/laso2020metavar/</link>
+      <link>http://localhost:1313/publication/laso2020metavar/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/laso2020metavar/</guid>
+      <guid>http://localhost:1313/publication/laso2020metavar/</guid>
       <description></description>
     </item>
     

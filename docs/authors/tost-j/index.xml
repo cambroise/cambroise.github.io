@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tost J on Christophe Ambroise</title>
-    <link>https://gethugothemes.com/authors/tost-j/</link>
+    <link>http://localhost:1313/authors/tost-j/</link>
     <description>Recent content in Tost J on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://gethugothemes.com/authors/tost-j/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/authors/tost-j/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Clarifying the role of DNA methylation in tree phenotypic plasticity </title>
-      <link>https://gethugothemes.com/publication/sow2018clarifying/</link>
+      <link>http://localhost:1313/publication/sow2018clarifying/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gethugothemes.com/publication/sow2018clarifying/</guid>
+      <guid>http://localhost:1313/publication/sow2018clarifying/</guid>
       <description></description>
     </item>
     
