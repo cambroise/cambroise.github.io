@@ -4,7 +4,9 @@
       "a",
       "article",
       "aside",
+      "blockquote",
       "body",
+      "br",
       "button",
       "code",
       "div",
@@ -366,6 +368,7 @@
       "top",
       "updating",
       "useful-links",
+      "utiliser-un-chatbot-comme-tuteur",
       "welcome-to-slides"
     ]
   }

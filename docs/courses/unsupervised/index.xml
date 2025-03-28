@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Visualisation and Dimension reduction on Christophe Ambroise</title>
-    <link>http://localhost:1313/courses/unsupervised/</link>
+    <link>https://gethugothemes.com/courses/unsupervised/</link>
     <description>Recent content in Visualisation and Dimension reduction on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/courses/unsupervised/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://gethugothemes.com/courses/unsupervised/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sentiment Analysis via MoE and representation of IMDb Movie Reviews</title>
-      <link>http://localhost:1313/courses/unsupervised/project/</link>
+      <link>https://gethugothemes.com/courses/unsupervised/project/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/courses/unsupervised/project/</guid>
+      <guid>https://gethugothemes.com/courses/unsupervised/project/</guid>
       <description>&lt;p&gt;The project will be sent by email (to &lt;a href=&#34;mailto:christophe.ambroise@univ-evry.fr&#34;&gt;christophe.ambroise@univ-evry.fr&lt;/a&gt;) as a &lt;strong&gt;PDF&lt;/strong&gt; file with the corresponding notebook (&lt;strong&gt;Python&lt;/strong&gt; or &lt;strong&gt;Rmd&lt;/strong&gt;). Briefly describe the problem, write the calculations you are programming. The project can be done in pairs or alone.&lt;/p&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Sentiment analysis is a fundamental task in Natural Language Processing (NLP), aiming to determine the sentiment expressed in a piece of text. This project explores sentiment classification of movie reviews using the &lt;a href=&#34;https://ai.stanford.edu/~amaas/data/sentiment/&#34;&gt;IMDb dataset&lt;/a&gt; and implements a &lt;strong&gt;Mixture of Experts (MoE)&lt;/strong&gt; model to improve classification performance.&lt;/p&gt;

@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DANG M on Christophe Ambroise</title>
-    <link>http://localhost:1313/authors/dang-m/</link>
+    <link>https://gethugothemes.com/authors/dang-m/</link>
     <description>Recent content in DANG M on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/authors/dang-m/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://gethugothemes.com/authors/dang-m/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> BP 529 F-60205 Compi{e}gne cedea-France </title>
-      <link>http://localhost:1313/publication/ambroise2013bp/</link>
+      <link>https://gethugothemes.com/publication/ambroise2013bp/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/ambroise2013bp/</guid>
+      <guid>https://gethugothemes.com/publication/ambroise2013bp/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Spatial Data Clustering </title>
-      <link>http://localhost:1313/publication/ambroise2009spatial/</link>
+      <link>https://gethugothemes.com/publication/ambroise2009spatial/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/ambroise2009spatial/</guid>
+      <guid>https://gethugothemes.com/publication/ambroise2009spatial/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Clustering of spatial data by the EM algorithm </title>
-      <link>http://localhost:1313/publication/ambroise1997clustering/</link>
+      <link>https://gethugothemes.com/publication/ambroise1997clustering/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/ambroise1997clustering/</guid>
+      <guid>https://gethugothemes.com/publication/ambroise1997clustering/</guid>
       <description></description>
     </item>
     

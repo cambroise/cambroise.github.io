@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Samson F on Christophe Ambroise</title>
-    <link>http://localhost:1313/authors/samson-f/</link>
+    <link>https://gethugothemes.com/authors/samson-f/</link>
     <description>Recent content in Samson F on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/authors/samson-f/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://gethugothemes.com/authors/samson-f/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> AI-based mobile application for antibiotic resistance testing </title>
-      <link>http://localhost:1313/publication/pascucci2021/</link>
+      <link>https://gethugothemes.com/publication/pascucci2021/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/pascucci2021/</guid>
+      <guid>https://gethugothemes.com/publication/pascucci2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Learning the optimal scale for GWAS through hierarchical SNP aggregation </title>
-      <link>http://localhost:1313/publication/guinot2018learning/</link>
+      <link>https://gethugothemes.com/publication/guinot2018learning/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/guinot2018learning/</guid>
+      <guid>https://gethugothemes.com/publication/guinot2018learning/</guid>
       <description></description>
     </item>
     
