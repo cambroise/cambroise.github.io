@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yousfi K on Christophe Ambroise</title>
-    <link>http://localhost:1313/authors/yousfi-k/</link>
+    <link>https://gethugothemes.com/authors/yousfi-k/</link>
     <description>Recent content in Yousfi K on Christophe Ambroise</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sun, 01 Jan 2006 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/authors/yousfi-k/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://gethugothemes.com/authors/yousfi-k/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> Driving Hierarchy Construction via Supervised Learning: Application to Osteo-Articular Medical Images Database </title>
-      <link>http://localhost:1313/publication/yousfi2006driving/</link>
+      <link>https://gethugothemes.com/publication/yousfi2006driving/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/yousfi2006driving/</guid>
+      <guid>https://gethugothemes.com/publication/yousfi2006driving/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Supervised learning for guiding hierarchy construction: Application to osteo-articular medical images database </title>
-      <link>http://localhost:1313/publication/yousfi2006supervised/</link>
+      <link>https://gethugothemes.com/publication/yousfi2006supervised/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/yousfi2006supervised/</guid>
+      <guid>https://gethugothemes.com/publication/yousfi2006supervised/</guid>
       <description></description>
     </item>
     
