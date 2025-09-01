@@ -96,5 +96,96 @@ Kevin P. Murphy.&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>Graphical Models</title>
+      <link>https://gethugothemes.com/courses/graphical-models/</link>
+      <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://gethugothemes.com/courses/graphical-models/</guid>
+      <description>&lt;h2 id=&#34;outline-of-the-course&#34;&gt;Outline of the course&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is a graphical model?&lt;/li&gt;
+&lt;li&gt;Directed vs. undirected models&lt;/li&gt;
+&lt;li&gt;Uses: parameter reduction, causal exploration&lt;/li&gt;
+&lt;li&gt;Challenges: learning parameters and structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Directed Graphical Models (DGMs)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chain rule, conditional independence&lt;/li&gt;
+&lt;li&gt;Examples: Naive Bayes, Markov Chains, Hidden Markov Models&lt;/li&gt;
+&lt;li&gt;Gaussian Bayesian Networks&lt;/li&gt;
+&lt;li&gt;Properties: d-separation, Markov blanket&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Learning in DGMs&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Parameter learning from complete data&lt;/li&gt;
+&lt;li&gt;Structure learning
+&lt;ul&gt;
+&lt;li&gt;Chow–Liu algorithm&lt;/li&gt;
+&lt;li&gt;Tree-augmented and mixture models&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Causal DAGs, interventions, do-calculus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Undirected Graphical Models (UGMs / Markov Random Fields)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conditional independence via graph separation&lt;/li&gt;
+&lt;li&gt;Hammersley–Clifford theorem&lt;/li&gt;
+&lt;li&gt;Examples: Ising model, Hopfield networks, Boltzmann Machines, RBMs&lt;/li&gt;
+&lt;li&gt;Inference methods: Gibbs sampling, variational approximations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gaussian Graphical Models (GGMs)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Covariance and precision matrices&lt;/li&gt;
+&lt;li&gt;Conditional independence structure&lt;/li&gt;
+&lt;li&gt;Estimation: covariance selection, Graphical Lasso&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Advanced Topics&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inference and Markov properties&lt;/li&gt;
+&lt;li&gt;Relation to exponential family distributions&lt;/li&gt;
+&lt;li&gt;Applications: density estimation, knowledge discovery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Exercises &amp;amp; Projects&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Directed/Undirected/Gaussian GM exercises&lt;/li&gt;
+&lt;li&gt;Example projects:
+&lt;ul&gt;
+&lt;li&gt;MRF simulation&lt;/li&gt;
+&lt;li&gt;Graphical Lasso&lt;/li&gt;
+&lt;li&gt;RBMs on MNIST&lt;/li&gt;
+&lt;li&gt;Structure learning with NoTears or DAG-GNN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gethugothemes.com/courses/graphical-models/media/Lecture-graphical-models.pdf&#34;&gt;Lecture notes (pdf)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reference-document&#34;&gt;Reference document&lt;/h2&gt;
+&lt;p&gt;The lecture closely follows and borrows material from&lt;br&gt;
+&lt;strong&gt;Kevin P. Murphy&lt;/strong&gt;, &lt;em&gt;Machine Learning: A Probabilistic Perspective&lt;/em&gt; (MLAPP), chapters 10, 19, 20, and 26.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

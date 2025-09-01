@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,10 +29,10 @@
   
     
   
-  <meta name="description" content="Professor of Statistics">
+  <meta name="description" content="Probabilistic frameworks using graphs to represent variables and their conditional dependencies">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/authors/ziegel-e/">
+  <link rel="alternate" hreflang="en-us" href="https://gethugothemes.com/courses/graphical-models/">
 
   
 
@@ -100,17 +100,20 @@
   
 
   
+  
+  
+  
 
   
-  <link rel="alternate" href="/authors/ziegel-e/index.xml" type="application/rss+xml" title="Christophe Ambroise">
-  <link rel="feed" href="/authors/ziegel-e/index.xml" type="application/rss+xml" title="Christophe Ambroise">
+  <link rel="alternate" href="/courses/graphical-models/index.xml" type="application/rss+xml" title="Christophe Ambroise">
+  <link rel="feed" href="/courses/graphical-models/index.xml" type="application/rss+xml" title="Christophe Ambroise">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://localhost:1313/authors/ziegel-e/">
+  <link rel="canonical" href="https://gethugothemes.com/courses/graphical-models/">
 
   
   
@@ -122,24 +125,24 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Christophe Ambroise">
-  <meta property="og:url" content="http://localhost:1313/authors/ziegel-e/">
-  <meta property="og:title" content="Ziegel E | Christophe Ambroise">
-  <meta property="og:description" content="Professor of Statistics"><meta property="og:image" content="http://localhost:1313/img/icon-192.png">
-  <meta property="twitter:image" content="http://localhost:1313/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://gethugothemes.com/courses/graphical-models/">
+  <meta property="og:title" content="Graphical Models | Christophe Ambroise">
+  <meta property="og:description" content="Probabilistic frameworks using graphs to represent variables and their conditional dependencies"><meta property="og:image" content="https://gethugothemes.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://gethugothemes.com/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2005-01-01T00:00:00&#43;00:00">
+  <meta property="og:updated_time" content="2024-12-16T00:00:00&#43;00:00">
   
-
-  
-
 
   
 
 
+  
 
 
 
-  <title>Ziegel E | Christophe Ambroise</title>
+
+
+  <title>Graphical Models | Christophe Ambroise</title>
 
 </head>
 
@@ -290,7 +293,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Teaching</span></a>
+          <a class="nav-link  active" href="/courses/"><span>Teaching</span></a>
         </li>
 
         
@@ -347,33 +350,192 @@
 
   
 
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Ziegel E</h1>
-</div>
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
-    
-    
 
-    
-    
-    
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/ziegel2005data/"> Data Analysis Tools for DNA Microarrays/Analyzing Microarray Gene Expression Data </a>
-        </li>
-        
-      </ul>
-    </div>
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item active">
+    <a class="docs-toc-link" href="/courses/graphical-models/">Outline</a>
+
   </div>
   
-</section>
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#outline-of-the-course">Outline of the course</a></li>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#reference-document">Reference document</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Graphical Models</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            <h2 id="outline-of-the-course">Outline of the course</h2>
+<ol>
+<li>
+<p><strong>Introduction</strong></p>
+<ul>
+<li>What is a graphical model?</li>
+<li>Directed vs. undirected models</li>
+<li>Uses: parameter reduction, causal exploration</li>
+<li>Challenges: learning parameters and structure</li>
+</ul>
+</li>
+<li>
+<p><strong>Directed Graphical Models (DGMs)</strong></p>
+<ul>
+<li>Chain rule, conditional independence</li>
+<li>Examples: Naive Bayes, Markov Chains, Hidden Markov Models</li>
+<li>Gaussian Bayesian Networks</li>
+<li>Properties: d-separation, Markov blanket</li>
+</ul>
+</li>
+<li>
+<p><strong>Learning in DGMs</strong></p>
+<ul>
+<li>Parameter learning from complete data</li>
+<li>Structure learning
+<ul>
+<li>Chow–Liu algorithm</li>
+<li>Tree-augmented and mixture models</li>
+</ul>
+</li>
+<li>Causal DAGs, interventions, do-calculus</li>
+</ul>
+</li>
+<li>
+<p><strong>Undirected Graphical Models (UGMs / Markov Random Fields)</strong></p>
+<ul>
+<li>Conditional independence via graph separation</li>
+<li>Hammersley–Clifford theorem</li>
+<li>Examples: Ising model, Hopfield networks, Boltzmann Machines, RBMs</li>
+<li>Inference methods: Gibbs sampling, variational approximations</li>
+</ul>
+</li>
+<li>
+<p><strong>Gaussian Graphical Models (GGMs)</strong></p>
+<ul>
+<li>Covariance and precision matrices</li>
+<li>Conditional independence structure</li>
+<li>Estimation: covariance selection, Graphical Lasso</li>
+</ul>
+</li>
+<li>
+<p><strong>Advanced Topics</strong></p>
+<ul>
+<li>Inference and Markov properties</li>
+<li>Relation to exponential family distributions</li>
+<li>Applications: density estimation, knowledge discovery</li>
+</ul>
+</li>
+<li>
+<p><strong>Exercises &amp; Projects</strong></p>
+<ul>
+<li>Directed/Undirected/Gaussian GM exercises</li>
+<li>Example projects:
+<ul>
+<li>MRF simulation</li>
+<li>Graphical Lasso</li>
+<li>RBMs on MNIST</li>
+<li>Structure learning with NoTears or DAG-GNN</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="/courses/graphical-models/media/Lecture-graphical-models.pdf">Lecture notes (pdf)</a></li>
+</ul>
+<hr>
+<h2 id="reference-document">Reference document</h2>
+<p>The lecture closely follows and borrows material from<br>
+<strong>Kevin P. Murphy</strong>, <em>Machine Learning: A Probabilistic Perspective</em> (MLAPP), chapters 10, 19, 20, and 26.</p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          Last updated on Sep 1, 2025
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        
+       </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right mb-0">
+          
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </main>
+  </div>
+</div>
+
 
       
 
@@ -420,6 +582,11 @@
 
     
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
 
     
 
@@ -450,24 +617,6 @@
 
 
 
-  
-  <div class="container">
-    <footer class="site-footer">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 mb-4 mb-md-0">
-        
-       </div>
-      <div class="col-md-6">
-        <ul class="list-inline network-icon text-right mb-0">
-          
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
-  </div>
   
 
   
